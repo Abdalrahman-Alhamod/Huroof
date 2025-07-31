@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "alif",
+    "letter": "ا",
+    "name": "ألف",
+    "pronunciation": "أَلِف",
+    "description": "الألف (ا) هو الحرف الأول في الأبجدية العربية. يُكتب كخط رأسي مستقيم بدون نقاط أو انحناءات. شكله بسيط ومجرد ويُعد من أسهل الحروف كتابةً.",
+    "makhraj_image": "assets/images/makhraj/alif.png",
+    "makhraj_description": "يُخرج الألف من أقصى الحلق دون تدخل اللسان أو الشفتين، ويُلفظ بفتح الفم بالكامل، ويكون ممدودًا إذا جاء بعده ألف مد.",
+    "draw_video": "assets/lottie/alif_draw.json",
+    "main_audio": "assets/audio/alif/main.mp3",
+    "forms": {
+      "isolated": "ا",
+      "initial": null,
+      "medial": null,
+      "final": null
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "أَ",
+        "audio": "assets/audio/alif/alif_fatha.mp3",
+        "recording_hint": "ابدأ بهمزة مفتوحة وافتح الفم للنطق."
+      },
+      {
+        "type": "ضمة",
+        "text": "أُ",
+        "audio": "assets/audio/alif/alif_damma.mp3",
+        "recording_hint": "ابدأ بهمزة مضمومة وضم الشفتين."
+      },
+      {
+        "type": "كسرة",
+        "text": "أِ",
+        "audio": "assets/audio/alif/alif_kasra.mp3",
+        "recording_hint": "ابدأ بهمزة مكسورة بخفض الفك."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "ءَا",
+        "audio": "assets/audio/alif/alif_long_fatha.mp3",
+        "recording_hint": "ابدأ بهمزة ثم مد بالألف."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "ءُو",
+        "audio": "assets/audio/alif/alif_long_damma.mp3",
+        "recording_hint": "ابدأ بهمزة مضمومة ثم مد بالواو."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "ءِى",
+        "audio": "assets/audio/alif/alif_long_kasra.mp3",
+        "recording_hint": "ابدأ بهمزة مكسورة ثم مد بالياء."
+      }
+    ]
+  },
+  {
+    "id": "ba",
+    "letter": "ب",
+    "name": "باء",
+    "pronunciation": "بَاء",
+    "description": "الباء (ب) هو الحرف الثاني. يُكتب بخط أفقي منخفض ينحني قليلاً للأعلى من الجهة اليمنى، وتحته نقطة واحدة في المنتصف. يشبه شكل الابتسامة أو الوعاء المفتوح.",
+    "makhraj_image": "assets/images/makhraj/ba.png",
+    "makhraj_description": "يُنطق الباء بإطباق الشفتين تمامًا، ثم يُفرج عنهما مع صوت مجهور، ويُراعى عدم خروج النفس أو الغنة.",
+    "draw_video": "assets/lottie/ba_draw.json",
+    "main_audio": "assets/audio/ba/main.mp3",
+    "forms": {
+      "isolated": "ب",
+      "initial": "بـ",
+      "medial": "ـبـ",
+      "final": "ـب"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "بَ",
+        "audio": "assets/audio/ba/ba_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "بُ",
+        "audio": "assets/audio/ba/ba_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "بِ",
+        "audio": "assets/audio/ba/ba_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "با",
+        "audio": "assets/audio/ba/ba_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "بو",
+        "audio": "assets/audio/ba/ba_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "بي",
+        "audio": "assets/audio/ba/ba_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِبْ",
+        "audio": "assets/audio/ba/ba_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أبّ",
+        "audio": "assets/audio/ba/ba_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُبّ",
+        "audio": "assets/audio/ba/ba_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِبّ",
+        "audio": "assets/audio/ba/ba_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "ta",
+    "letter": "ت",
+    "name": "تاء",
+    "pronunciation": "تَاء",
+    "description": "التاء (ت) هو الحرف الثالث. له نفس شكل الباء لكن يُضاف إليه نقطتان فوق الخط، موضوعتان بشكل أفقي متساوٍ.",
+    "makhraj_image": "assets/images/makhraj/ta.png",
+    "makhraj_description": "التاء تخرج من طرف اللسان مع أصول الثنايا العليا، ويُلفظ بهمسة خفيفة دون غنة، ويجب قطع الصوت بسرعة.",
+    "draw_video": "assets/lottie/ta_draw.json",
+    "main_audio": "assets/audio/ta/main.mp3",
+    "forms": {
+      "isolated": "ت",
+      "initial": "تـ",
+      "medial": "ـتـ",
+      "final": "ـت"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "تَ",
+        "audio": "assets/audio/ta/ta_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "تُ",
+        "audio": "assets/audio/ta/ta_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "تِ",
+        "audio": "assets/audio/ta/ta_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "تا",
+        "audio": "assets/audio/ta/ta_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "تو",
+        "audio": "assets/audio/ta/ta_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "تي",
+        "audio": "assets/audio/ta/ta_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِتْ",
+        "audio": "assets/audio/ta/ta_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أتّ",
+        "audio": "assets/audio/ta/ta_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُتّ",
+        "audio": "assets/audio/ta/ta_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِتّ",
+        "audio": "assets/audio/ta/ta_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "tha",
+    "letter": "ث",
+    "name": "ثاء",
+    "pronunciation": "ثَاء",
+    "description": "الثاء (ث) هو الحرف الرابع. يشارك التاء نفس القاعدة، لكنه يحتوي على ثلاث نقاط موضوعة فوقه بتناسق أفقي.",
+    "makhraj_image": "assets/images/makhraj/tha.png",
+    "makhraj_description": "الثاء يخرج من وضع طرف اللسان بين الأسنان العلوية والسفلية، مع همس لطيف وجريان للنفس.",
+    "draw_video": "assets/lottie/tha_draw.json",
+    "main_audio": "assets/audio/tha/main.mp3",
+    "forms": {
+      "isolated": "ث",
+      "initial": "ثـ",
+      "medial": "ـثـ",
+      "final": "ـث"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "ثَ",
+        "audio": "assets/audio/tha/tha_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "ثُ",
+        "audio": "assets/audio/tha/tha_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "ثِ",
+        "audio": "assets/audio/tha/tha_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "ثا",
+        "audio": "assets/audio/tha/tha_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "ثو",
+        "audio": "assets/audio/tha/tha_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "ثي",
+        "audio": "assets/audio/tha/tha_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِثْ",
+        "audio": "assets/audio/tha/tha_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أثّ",
+        "audio": "assets/audio/tha/tha_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُثّ",
+        "audio": "assets/audio/tha/tha_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِثّ",
+        "audio": "assets/audio/tha/tha_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "jeem",
+    "letter": "ج",
+    "name": "جيم",
+    "pronunciation": "جِيم",
+    "description": "الجيم (ج) هو الحرف الخامس. له جسم مقوس يلتف للأسفل بخط يمتد تحت السطر، وتُوضع نقطة واحدة تحته قرب بدايته.",
+    "makhraj_image": "assets/images/makhraj/jeem.png",
+    "makhraj_description": "الجيم تخرج من وسط اللسان مع الحنك الأعلى، وتُلفظ بصوت مجهور، متوسط الجريان، ويُراعى وضوح النبرة.",
+    "draw_video": "assets/lottie/jeem_draw.json",
+    "main_audio": "assets/audio/jeem/main.mp3",
+    "forms": {
+      "isolated": "ج",
+      "initial": "جـ",
+      "medial": "ـجـ",
+      "final": "ـج"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "جَ",
+        "audio": "assets/audio/jeem/jeem_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "جُ",
+        "audio": "assets/audio/jeem/jeem_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "جِ",
+        "audio": "assets/audio/jeem/jeem_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "جا",
+        "audio": "assets/audio/jeem/jeem_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "جو",
+        "audio": "assets/audio/jeem/jeem_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "جي",
+        "audio": "assets/audio/jeem/jeem_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِجْ",
+        "audio": "assets/audio/jeem/jeem_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أجّ",
+        "audio": "assets/audio/jeem/jeem_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُجّ",
+        "audio": "assets/audio/jeem/jeem_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِجّ",
+        "audio": "assets/audio/jeem/jeem_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "ha",
+    "letter": "ح",
+    "name": "حاء",
+    "pronunciation": "حَاء",
+    "description": "الحاء (ح) هو الحرف السادس. له نفس شكل الجيم لكن بدون نقطة. يتميز بجسم مقوس مفتوح من الأعلى مع امتداد بسيط للأسفل.",
+    "makhraj_image": "assets/images/makhraj/ha.png",
+    "makhraj_description": "الحاء تُنطق من وسط الحلق، بصوت مهموس رخو، ويجب إتمام خروج النفس دون اهتزاز أو تفخيم.",
+    "draw_video": "assets/lottie/ha_draw.json",
+    "main_audio": "assets/audio/ha/main.mp3",
+    "forms": {
+      "isolated": "ح",
+      "initial": "حـ",
+      "medial": "ـحـ",
+      "final": "ـح"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "حَ",
+        "audio": "assets/audio/ha/ha_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "حُ",
+        "audio": "assets/audio/ha/ha_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "حِ",
+        "audio": "assets/audio/ha/ha_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "حا",
+        "audio": "assets/audio/ha/ha_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "حو",
+        "audio": "assets/audio/ha/ha_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "حي",
+        "audio": "assets/audio/ha/ha_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِحْ",
+        "audio": "assets/audio/ha/ha_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أحّ",
+        "audio": "assets/audio/ha/ha_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُحّ",
+        "audio": "assets/audio/ha/ha_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِحّ",
+        "audio": "assets/audio/ha/ha_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "kha",
+    "letter": "خ",
+    "name": "خاء",
+    "pronunciation": "خَاء",
+    "description": "الخاء (خ) هو الحرف السابع. نفس شكل الحاء ولكن مع نقطة واحدة فوق مركز الانحناء.",
+    "makhraj_image": "assets/images/makhraj/kha.png",
+    "makhraj_description": "الخاء تخرج من أدنى الحلق، وتُلفظ بصوت مجهور خشن، ويُراعى التفخيم وجريان النفس بوضوح.",
+    "draw_video": "assets/lottie/kha_draw.json",
+    "main_audio": "assets/audio/kha/main.mp3",
+    "forms": {
+      "isolated": "خ",
+      "initial": "خـ",
+      "medial": "ـخـ",
+      "final": "ـخ"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "خَ",
+        "audio": "assets/audio/kha/kha_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "خُ",
+        "audio": "assets/audio/kha/kha_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "خِ",
+        "audio": "assets/audio/kha/kha_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "خا",
+        "audio": "assets/audio/kha/kha_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "خو",
+        "audio": "assets/audio/kha/kha_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "خي",
+        "audio": "assets/audio/kha/kha_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِخْ",
+        "audio": "assets/audio/kha/kha_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أخّ",
+        "audio": "assets/audio/kha/kha_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُخّ",
+        "audio": "assets/audio/kha/kha_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِخّ",
+        "audio": "assets/audio/kha/kha_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "dal",
+    "letter": "د",
+    "name": "دال",
+    "pronunciation": "دَال",
+    "description": "الدال (د) هو الحرف الثامن. يُكتب بانحناء يبدأ من الأعلى ثم ينزل بزاوية، يشبه نصف دائرة، ولا يحتوي على نقاط.",
+    "makhraj_image": "assets/images/makhraj/dal.png",
+    "makhraj_description": "الدال تخرج من طرف اللسان مع أصول الثنايا العليا، ويُلفظ بصوت مجهور شديد يُقطع بسرعة.",
+    "draw_video": "assets/lottie/dal_draw.json",
+    "main_audio": "assets/audio/dal/main.mp3",
+    "forms": {
+      "isolated": "د",
+      "initial": null,
+      "medial": null,
+      "final": "ـد"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "دَ",
+        "audio": "assets/audio/dal/dal_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "دُ",
+        "audio": "assets/audio/dal/dal_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "دِ",
+        "audio": "assets/audio/dal/dal_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "دا",
+        "audio": "assets/audio/dal/dal_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "دو",
+        "audio": "assets/audio/dal/dal_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "دي",
+        "audio": "assets/audio/dal/dal_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِدْ",
+        "audio": "assets/audio/dal/dal_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أدّ",
+        "audio": "assets/audio/dal/dal_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُدّ",
+        "audio": "assets/audio/dal/dal_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِدّ",
+        "audio": "assets/audio/dal/dal_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "thal",
+    "letter": "ذ",
+    "name": "ذال",
+    "pronunciation": "ذَال",
+    "description": "الذال (ذ) هو الحرف التاسع. له نفس شكل الدال لكن مع نقطة واحدة توضع فوق الانحناء.",
+    "makhraj_image": "assets/images/makhraj/thal.png",
+    "makhraj_description": "الذال يُنطق بوضع طرف اللسان عند أطراف الثنايا العليا، ويُلفظ بصوت مجهور، ويُراعى عدم التفخيم.",
+    "draw_video": "assets/lottie/thal_draw.json",
+    "main_audio": "assets/audio/thal/main.mp3",
+    "forms": {
+      "isolated": "ذ",
+      "initial": null,
+      "medial": null,
+      "final": "ـذ"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "ذَ",
+        "audio": "assets/audio/thal/thal_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "ذُ",
+        "audio": "assets/audio/thal/thal_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "ذِ",
+        "audio": "assets/audio/thal/thal_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "ذا",
+        "audio": "assets/audio/thal/thal_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "ذو",
+        "audio": "assets/audio/thal/thal_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "ذي",
+        "audio": "assets/audio/thal/thal_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِذْ",
+        "audio": "assets/audio/thal/thal_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أذّ",
+        "audio": "assets/audio/thal/thal_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُذّ",
+        "audio": "assets/audio/thal/thal_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِذّ",
+        "audio": "assets/audio/thal/thal_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "ra",
+    "letter": "ر",
+    "name": "راء",
+    "pronunciation": "رَاء",
+    "description": "الراء (ر) هو الحرف العاشر. شكله يشبه الدال لكنه أقصر وأكثر انحناءً في نهايته، ويخلو من النقاط.",
+    "makhraj_image": "assets/images/makhraj/ra.png",
+    "makhraj_description": "الراء تخرج من طرف اللسان مع لثة الثنايا العليا، ويُلفظ بصوت مجهور مائل للتكرار، ويفخم أو يرقق حسب السياق.",
+    "draw_video": "assets/lottie/ra_draw.json",
+    "main_audio": "assets/audio/ra/main.mp3",
+    "forms": {
+      "isolated": "ر",
+      "initial": null,
+      "medial": null,
+      "final": "ـر"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "رَ",
+        "audio": "assets/audio/ra/ra_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "رُ",
+        "audio": "assets/audio/ra/ra_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "رِ",
+        "audio": "assets/audio/ra/ra_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "را",
+        "audio": "assets/audio/ra/ra_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "رو",
+        "audio": "assets/audio/ra/ra_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "ري",
+        "audio": "assets/audio/ra/ra_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِرْ",
+        "audio": "assets/audio/ra/ra_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أرّ",
+        "audio": "assets/audio/ra/ra_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُرّ",
+        "audio": "assets/audio/ra/ra_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِرّ",
+        "audio": "assets/audio/ra/ra_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "zay",
+    "letter": "ز",
+    "name": "زاي",
+    "pronunciation": "زَاي",
+    "description": "الزاي (ز) هو الحرف الحادي عشر. نفس شكل الراء مع إضافة نقطة واحدة توضع فوق الرأس.",
+    "makhraj_image": "assets/images/makhraj/zay.png",
+    "makhraj_description": "الزاي تُنطق من طرف اللسان مع ما يُقابلها من اللثة، ويُصاحبها صفير بسيط وصوت مجهور رخو.",
+    "draw_video": "assets/lottie/zay_draw.json",
+    "main_audio": "assets/audio/zay/main.mp3",
+    "forms": {
+      "isolated": "ز",
+      "initial": null,
+      "medial": null,
+      "final": "ـز"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "زَ",
+        "audio": "assets/audio/zay/zay_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "زُ",
+        "audio": "assets/audio/zay/zay_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "زِ",
+        "audio": "assets/audio/zay/zay_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "زا",
+        "audio": "assets/audio/zay/zay_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "زو",
+        "audio": "assets/audio/zay/zay_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "زي",
+        "audio": "assets/audio/zay/zay_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِزْ",
+        "audio": "assets/audio/zay/zay_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أزّ",
+        "audio": "assets/audio/zay/zay_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُزّ",
+        "audio": "assets/audio/zay/zay_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِزّ",
+        "audio": "assets/audio/zay/zay_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "seen",
+    "letter": "س",
+    "name": "سين",
+    "pronunciation": "سِين",
+    "description": "السين (س) هو الحرف الثاني عشر. يتكون من ثلاث سنن صغيرة متصلة في خط مائل، بدون نقاط.",
+    "makhraj_image": "assets/images/makhraj/seen.png",
+    "makhraj_description": "السين تخرج من طرف اللسان مع ما يقابلها من اللثة، وتُلفظ بهمسة وصفير، ويجب إتمام جريان النفس.",
+    "draw_video": "assets/lottie/seen_draw.json",
+    "main_audio": "assets/audio/seen/main.mp3",
+    "forms": {
+      "isolated": "س",
+      "initial": "سـ",
+      "medial": "ـسـ",
+      "final": "ـس"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "سَ",
+        "audio": "assets/audio/seen/seen_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "سُ",
+        "audio": "assets/audio/seen/seen_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "سِ",
+        "audio": "assets/audio/seen/seen_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "سا",
+        "audio": "assets/audio/seen/seen_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "سو",
+        "audio": "assets/audio/seen/seen_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "سي",
+        "audio": "assets/audio/seen/seen_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِسْ",
+        "audio": "assets/audio/seen/seen_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أسّ",
+        "audio": "assets/audio/seen/seen_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُسّ",
+        "audio": "assets/audio/seen/seen_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِسّ",
+        "audio": "assets/audio/seen/seen_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "sheen",
+    "letter": "ش",
+    "name": "شين",
+    "pronunciation": "شِين",
+    "description": "الشين (ش) هو الحرف الثالث عشر. يشبه السين لكن يُضاف إليه ثلاث نقاط فوق رؤوس السّنن.",
+    "makhraj_image": "assets/images/makhraj/sheen.png",
+    "makhraj_description": "الشين تخرج من وسط اللسان مع الحنك الأعلى، وتُرافقها همسة خفيفة وتوسط في الجريان.",
+    "draw_video": "assets/lottie/sheen_draw.json",
+    "main_audio": "assets/audio/sheen/main.mp3",
+    "forms": {
+      "isolated": "ش",
+      "initial": "شـ",
+      "medial": "ـشـ",
+      "final": "ـش"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "شَ",
+        "audio": "assets/audio/sheen/sheen_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "شُ",
+        "audio": "assets/audio/sheen/sheen_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "شِ",
+        "audio": "assets/audio/sheen/sheen_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "شا",
+        "audio": "assets/audio/sheen/sheen_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "شو",
+        "audio": "assets/audio/sheen/sheen_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "شي",
+        "audio": "assets/audio/sheen/sheen_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِشْ",
+        "audio": "assets/audio/sheen/sheen_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أشّ",
+        "audio": "assets/audio/sheen/sheen_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُشّ",
+        "audio": "assets/audio/sheen/sheen_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِشّ",
+        "audio": "assets/audio/sheen/sheen_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "sad",
+    "letter": "ص",
+    "name": "صاد",
+    "pronunciation": "صَاد",
+    "description": "الصاد (ص) هو الحرف الرابع عشر. له انحناء قوي من اليمين للأسفل وجسم ممتد يشبه شكل القوس العريض، دون نقاط.",
+    "makhraj_image": "assets/images/makhraj/sad.png",
+    "makhraj_description": "الصاد تخرج من طرف اللسان مع اللثة، وتُلفظ بهمسة مفخمة وصفير قوي، ويُراعى شدّة التفخيم.",
+    "draw_video": "assets/lottie/sad_draw.json",
+    "main_audio": "assets/audio/sad/main.mp3",
+    "forms": {
+      "isolated": "ص",
+      "initial": "صـ",
+      "medial": "ـصـ",
+      "final": "ـص"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "صَ",
+        "audio": "assets/audio/sad/sad_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "صُ",
+        "audio": "assets/audio/sad/sad_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "صِ",
+        "audio": "assets/audio/sad/sad_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "صا",
+        "audio": "assets/audio/sad/sad_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "صو",
+        "audio": "assets/audio/sad/sad_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "صي",
+        "audio": "assets/audio/sad/sad_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِصْ",
+        "audio": "assets/audio/sad/sad_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أصّ",
+        "audio": "assets/audio/sad/sad_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُصّ",
+        "audio": "assets/audio/sad/sad_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِصّ",
+        "audio": "assets/audio/sad/sad_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "dad",
+    "letter": "ض",
+    "name": "ضاد",
+    "pronunciation": "ضَاد",
+    "description": "الضاد (ض) هو الحرف الخامس عشر. نفس شكل الصاد مع نقطة واحدة توضع داخل الانحناء أو أعلاه.",
+    "makhraj_image": "assets/images/makhraj/dad.png",
+    "makhraj_description": "الضاد تخرج من أحد حافتي اللسان وما يقابلها من الأضراس العليا، وتُلفظ بتفخيم وصوت مجهور قوي.",
+    "draw_video": "assets/lottie/dad_draw.json",
+    "main_audio": "assets/audio/dad/main.mp3",
+    "forms": {
+      "isolated": "ض",
+      "initial": "ضـ",
+      "medial": "ـضـ",
+      "final": "ـض"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "ضَ",
+        "audio": "assets/audio/dad/dad_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "ضُ",
+        "audio": "assets/audio/dad/dad_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "ضِ",
+        "audio": "assets/audio/dad/dad_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "ضا",
+        "audio": "assets/audio/dad/dad_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "ضو",
+        "audio": "assets/audio/dad/dad_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "ضي",
+        "audio": "assets/audio/dad/dad_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِضْ",
+        "audio": "assets/audio/dad/dad_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أضّ",
+        "audio": "assets/audio/dad/dad_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُضّ",
+        "audio": "assets/audio/dad/dad_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِضّ",
+        "audio": "assets/audio/dad/dad_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "taa",
+    "letter": "ط",
+    "name": "طاء",
+    "pronunciation": "طَاء",
+    "description": "الطاء (ط) هو الحرف السادس عشر. له شكل منحني من الأعلى بجسم ممتد أفقيًا وتحته ساق، ويوضع فوقه نقطة واحدة.",
+    "makhraj_image": "assets/images/makhraj/taa.png",
+    "makhraj_description": "الطاء تخرج من طرف اللسان مع أصول الثنايا العليا، وتُلفظ بتفخيم شديد وانغلاق تام.",
+    "draw_video": "assets/lottie/taa_draw.json",
+    "main_audio": "assets/audio/taa/main.mp3",
+    "forms": {
+      "isolated": "ط",
+      "initial": "طـ",
+      "medial": "ـطـ",
+      "final": "ـط"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "طَ",
+        "audio": "assets/audio/taa/taa_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "طُ",
+        "audio": "assets/audio/taa/taa_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "طِ",
+        "audio": "assets/audio/taa/taa_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "طا",
+        "audio": "assets/audio/taa/taa_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "طو",
+        "audio": "assets/audio/taa/taa_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "طي",
+        "audio": "assets/audio/taa/taa_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِطْ",
+        "audio": "assets/audio/taa/taa_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أطّ",
+        "audio": "assets/audio/taa/taa_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُطّ",
+        "audio": "assets/audio/taa/taa_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِطّ",
+        "audio": "assets/audio/taa/taa_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "zaa",
+    "letter": "ظ",
+    "name": "ظاء",
+    "pronunciation": "ظَاء",
+    "description": "الظاء (ظ) هو الحرف السابع عشر. مشابه تمامًا للطاء لكن مع إضافة نقطة فوق الرأس.",
+    "makhraj_image": "assets/images/makhraj/zaa.png",
+    "makhraj_description": "الظاء تخرج من طرف اللسان عند أطراف الثنايا العليا، وتُفخم بوضوح مع صوت مجهور رخو.",
+    "draw_video": "assets/lottie/zaa_draw.json",
+    "main_audio": "assets/audio/zaa/main.mp3",
+    "forms": {
+      "isolated": "ظ",
+      "initial": "ظـ",
+      "medial": "ـظـ",
+      "final": "ـظ"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "ظَ",
+        "audio": "assets/audio/zaa/zaa_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "ظُ",
+        "audio": "assets/audio/zaa/zaa_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "ظِ",
+        "audio": "assets/audio/zaa/zaa_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "ظا",
+        "audio": "assets/audio/zaa/zaa_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "ظو",
+        "audio": "assets/audio/zaa/zaa_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "ظي",
+        "audio": "assets/audio/zaa/zaa_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِظْ",
+        "audio": "assets/audio/zaa/zaa_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أظّ",
+        "audio": "assets/audio/zaa/zaa_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُظّ",
+        "audio": "assets/audio/zaa/zaa_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِظّ",
+        "audio": "assets/audio/zaa/zaa_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "ain",
+    "letter": "ع",
+    "name": "عين",
+    "pronunciation": "عَيْن",
+    "description": "العين (ع) هو الحرف الثامن عشر. له شكل مفتوح من الأعلى وأشبه بالقوس المقلوب، مع انحناء ناعم يمتد تحت السطر.",
+    "makhraj_image": "assets/images/makhraj/ain.png",
+    "makhraj_description": "العين تُنطق من وسط الحلق، ويُصاحبها صوت مجهور مائل للرخاوة، ويُراعى عدم تفخيمها.",
+    "draw_video": "assets/lottie/ain_draw.json",
+    "main_audio": "assets/audio/ain/main.mp3",
+    "forms": {
+      "isolated": "ع",
+      "initial": "عـ",
+      "medial": "ـعـ",
+      "final": "ـع"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "عَ",
+        "audio": "assets/audio/ain/ain_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "عُ",
+        "audio": "assets/audio/ain/ain_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "عِ",
+        "audio": "assets/audio/ain/ain_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "عا",
+        "audio": "assets/audio/ain/ain_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "عو",
+        "audio": "assets/audio/ain/ain_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "عي",
+        "audio": "assets/audio/ain/ain_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِعْ",
+        "audio": "assets/audio/ain/ain_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أعّ",
+        "audio": "assets/audio/ain/ain_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُعّ",
+        "audio": "assets/audio/ain/ain_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِعّ",
+        "audio": "assets/audio/ain/ain_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "ghain",
+    "letter": "غ",
+    "name": "غين",
+    "pronunciation": "غَيْن",
+    "description": "الغين (غ) هو الحرف التاسع عشر. شكله كالعين تمامًا مع إضافة نقطة فوق الرأس.",
+    "makhraj_image": "assets/images/makhraj/ghain.png",
+    "makhraj_description": "الغين تخرج من أدنى الحلق، وتُلفظ بصوت مجهور خشن، ويُراعى التفخيم وجودة الصوت.",
+    "draw_video": "assets/lottie/ghain_draw.json",
+    "main_audio": "assets/audio/ghain/main.mp3",
+    "forms": {
+      "isolated": "غ",
+      "initial": "غـ",
+      "medial": "ـغـ",
+      "final": "ـغ"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "غَ",
+        "audio": "assets/audio/ghain/ghain_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "غُ",
+        "audio": "assets/audio/ghain/ghain_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "غِ",
+        "audio": "assets/audio/ghain/ghain_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "غا",
+        "audio": "assets/audio/ghain/ghain_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "غو",
+        "audio": "assets/audio/ghain/ghain_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "غي",
+        "audio": "assets/audio/ghain/ghain_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِغْ",
+        "audio": "assets/audio/ghain/ghain_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أغّ",
+        "audio": "assets/audio/ghain/ghain_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُغّ",
+        "audio": "assets/audio/ghain/ghain_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِغّ",
+        "audio": "assets/audio/ghain/ghain_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "fa",
+    "letter": "ف",
+    "name": "فاء",
+    "pronunciation": "فَاء",
+    "description": "الفاء (ف) هو الحرف العشرون. يُكتب كقوس مفتوح للأعلى مع نقطة واحدة توضع فوق الجسم.",
+    "makhraj_image": "assets/images/makhraj/fa.png",
+    "makhraj_description": "الفاء تُنطق بوضع باطن الأسنان العليا على الشفة السفلى، مع خروج النفس وهمس واضح.",
+    "draw_video": "assets/lottie/fa_draw.json",
+    "main_audio": "assets/audio/fa/main.mp3",
+    "forms": {
+      "isolated": "ف",
+      "initial": "فـ",
+      "medial": "ـفـ",
+      "final": "ـف"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "فَ",
+        "audio": "assets/audio/fa/fa_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "فُ",
+        "audio": "assets/audio/fa/fa_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "فِ",
+        "audio": "assets/audio/fa/fa_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "فا",
+        "audio": "assets/audio/fa/fa_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "فو",
+        "audio": "assets/audio/fa/fa_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "في",
+        "audio": "assets/audio/fa/fa_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِفْ",
+        "audio": "assets/audio/fa/fa_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أفّ",
+        "audio": "assets/audio/fa/fa_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُفّ",
+        "audio": "assets/audio/fa/fa_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِفّ",
+        "audio": "assets/audio/fa/fa_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "qaf",
+    "letter": "ق",
+    "name": "قاف",
+    "pronunciation": "قَاف",
+    "description": "القاف (ق) هو الحرف الحادي والعشرون. له شكل دائري بداخله نقطة أو نقطتان فوق الجسم، حسب الخط، ويكون مائلًا قليلاً.",
+    "makhraj_image": "assets/images/makhraj/qaf.png",
+    "makhraj_description": "القاف تخرج من أقصى اللسان مع ما يقابله من الحنك الأعلى، وتُفخم بشدة وتُلفظ بصوت مجهور.",
+    "draw_video": "assets/lottie/qaf_draw.json",
+    "main_audio": "assets/audio/qaf/main.mp3",
+    "forms": {
+      "isolated": "ق",
+      "initial": "قـ",
+      "medial": "ـقـ",
+      "final": "ـق"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "قَ",
+        "audio": "assets/audio/qaf/qaf_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "قُ",
+        "audio": "assets/audio/qaf/qaf_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "قِ",
+        "audio": "assets/audio/qaf/qaf_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "قا",
+        "audio": "assets/audio/qaf/qaf_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "قو",
+        "audio": "assets/audio/qaf/qaf_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "قي",
+        "audio": "assets/audio/qaf/qaf_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِقْ",
+        "audio": "assets/audio/qaf/qaf_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أقّ",
+        "audio": "assets/audio/qaf/qaf_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُقّ",
+        "audio": "assets/audio/qaf/qaf_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِقّ",
+        "audio": "assets/audio/qaf/qaf_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "kaf",
+    "letter": "ك",
+    "name": "كاف",
+    "pronunciation": "كَاف",
+    "description": "الكاف (ك) هو الحرف الثاني والعشرون. يُكتب بساق مائل مع انحناء خفيف ونهاية كالعقد المفتوح، ويُضاف له أحيانًا جزء صغير يشبه السن.",
+    "makhraj_image": "assets/images/makhraj/kaf.png",
+    "makhraj_description": "الكاف تخرج من أقصى اللسان مع الحنك الأعلى، وتُلفظ بهمسة خفيفة دون تفخيم.",
+    "draw_video": "assets/lottie/kaf_draw.json",
+    "main_audio": "assets/audio/kaf/main.mp3",
+    "forms": {
+      "isolated": "ك",
+      "initial": "كـ",
+      "medial": "ـكـ",
+      "final": "ـك"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "كَ",
+        "audio": "assets/audio/kaf/kaf_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "كُ",
+        "audio": "assets/audio/kaf/kaf_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "كِ",
+        "audio": "assets/audio/kaf/kaf_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "كا",
+        "audio": "assets/audio/kaf/kaf_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "كو",
+        "audio": "assets/audio/kaf/kaf_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "كي",
+        "audio": "assets/audio/kaf/kaf_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِكْ",
+        "audio": "assets/audio/kaf/kaf_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أكّ",
+        "audio": "assets/audio/kaf/kaf_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُكّ",
+        "audio": "assets/audio/kaf/kaf_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِكّ",
+        "audio": "assets/audio/kaf/kaf_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "lam",
+    "letter": "ل",
+    "name": "لام",
+    "pronunciation": "لَام",
+    "description": "اللام (ل) هو الحرف الثالث والعشرون. يبدأ بخط نازل ثم ينحني للأعلى على شكل قوس طويل بدون نقاط.",
+    "makhraj_image": "assets/images/makhraj/lam.png",
+    "makhraj_description": "اللام تُنطق من أدنى حافة اللسان مع ما يقابلها من اللثة، ويُلفظ بصوت مجهور متوسط.",
+    "draw_video": "assets/lottie/lam_draw.json",
+    "main_audio": "assets/audio/lam/main.mp3",
+    "forms": {
+      "isolated": "ل",
+      "initial": "لـ",
+      "medial": "ـلـ",
+      "final": "ـل"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "لَ",
+        "audio": "assets/audio/lam/lam_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "لُ",
+        "audio": "assets/audio/lam/lam_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "لِ",
+        "audio": "assets/audio/lam/lam_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "لا",
+        "audio": "assets/audio/lam/lam_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "لو",
+        "audio": "assets/audio/lam/lam_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "لي",
+        "audio": "assets/audio/lam/lam_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِلْ",
+        "audio": "assets/audio/lam/lam_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "ألّ",
+        "audio": "assets/audio/lam/lam_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُلّ",
+        "audio": "assets/audio/lam/lam_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِلّ",
+        "audio": "assets/audio/lam/lam_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "meem",
+    "letter": "م",
+    "name": "ميم",
+    "pronunciation": "مِيم",
+    "description": "الميم (م) هو الحرف الرابع والعشرون. له شكل دائري شبه مغلق، وتختلف نهايته حسب موقعه في الكلمة.",
+    "makhraj_image": "assets/images/makhraj/meem.png",
+    "makhraj_description": "الميم تخرج بضم الشفتين، ويصاحبها غنة ظاهرة وصوت مجهور واضح.",
+    "draw_video": "assets/lottie/meem_draw.json",
+    "main_audio": "assets/audio/meem/main.mp3",
+    "forms": {
+      "isolated": "م",
+      "initial": "مـ",
+      "medial": "ـمـ",
+      "final": "ـم"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "مَ",
+        "audio": "assets/audio/meem/meem_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "مُ",
+        "audio": "assets/audio/meem/meem_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "مِ",
+        "audio": "assets/audio/meem/meem_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "ما",
+        "audio": "assets/audio/meem/meem_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "مو",
+        "audio": "assets/audio/meem/meem_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "مي",
+        "audio": "assets/audio/meem/meem_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِمْ",
+        "audio": "assets/audio/meem/meem_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أمّ",
+        "audio": "assets/audio/meem/meem_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُمّ",
+        "audio": "assets/audio/meem/meem_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِمّ",
+        "audio": "assets/audio/meem/meem_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "noon",
+    "letter": "ن",
+    "name": "نون",
+    "pronunciation": "نُون",
+    "description": "النون (ن) هو الحرف الخامس والعشرون. يُكتب كقوس مفتوح للأسفل مع نقطة واحدة فوقه.",
+    "makhraj_image": "assets/images/makhraj/noon.png",
+    "makhraj_description": "النون تُنطق من طرف اللسان مع ما يقابله من اللثة، ويصاحبها غنة من الخيشوم.",
+    "draw_video": "assets/lottie/noon_draw.json",
+    "main_audio": "assets/audio/noon/main.mp3",
+    "forms": {
+      "isolated": "ن",
+      "initial": "نـ",
+      "medial": "ـنـ",
+      "final": "ـن"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "نَ",
+        "audio": "assets/audio/noon/noon_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "نُ",
+        "audio": "assets/audio/noon/noon_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "نِ",
+        "audio": "assets/audio/noon/noon_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "نا",
+        "audio": "assets/audio/noon/noon_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "نو",
+        "audio": "assets/audio/noon/noon_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "ني",
+        "audio": "assets/audio/noon/noon_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِنْ",
+        "audio": "assets/audio/noon/noon_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أنّ",
+        "audio": "assets/audio/noon/noon_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُنّ",
+        "audio": "assets/audio/noon/noon_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِنّ",
+        "audio": "assets/audio/noon/noon_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "ha2",
+    "letter": "ه",
+    "name": "هاء",
+    "pronunciation": "هَاء",
+    "description": "الهاء (ه) هو الحرف السادس والعشرون. له شكل دائري غالبًا، يتغير حسب موقعه، ويُكتب غالبًا بخطين منفصلين في الوضع المنفصل.",
+    "makhraj_image": "assets/images/makhraj/ha2.png",
+    "makhraj_description": "الهاء تُنطق من أقصى الحلق، ويُصاحبها همس خفيف وجريان للنفس دون صوت.",
+    "draw_video": "assets/lottie/ha2_draw.json",
+    "main_audio": "assets/audio/ha2/main.mp3",
+    "forms": {
+      "isolated": "ه",
+      "initial": "هـ",
+      "medial": "ـهـ",
+      "final": "ـه"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "هَ",
+        "audio": "assets/audio/ha2/ha2_fatha.mp3",
+        "recording_hint": "نطق واضح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "هُ",
+        "audio": "assets/audio/ha2/ha2_damma.mp3",
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+      },
+      {
+        "type": "كسرة",
+        "text": "هِ",
+        "audio": "assets/audio/ha2/ha2_kasra.mp3",
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+      },
+      {
+        "type": "مد بالألف",
+        "text": "ها",
+        "audio": "assets/audio/ha2/ha2_long_fatha.mp3",
+        "recording_hint": "مد بالألف بصوت مفتوح."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "هو",
+        "audio": "assets/audio/ha2/ha2_long_damma.mp3",
+        "recording_hint": "مد بالواو مع ضم."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "هي",
+        "audio": "assets/audio/ha2/ha2_long_kasra.mp3",
+        "recording_hint": "مد بالياء مع كسر خفيف."
+      },
+      {
+        "type": "سكون",
+        "text": "اِهْ",
+        "audio": "assets/audio/ha2/ha2_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "أهّ",
+        "audio": "assets/audio/ha2/ha2_shaddah_fatha.mp3",
+        "recording_hint": "شدد الحرف مع فتحة واضحة."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُهّ",
+        "audio": "assets/audio/ha2/ha2_shaddah_damma.mp3",
+        "recording_hint": "شدد الحرف مع ضمة كاملة."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِهّ",
+        "audio": "assets/audio/ha2/ha2_shaddah_kasra.mp3",
+        "recording_hint": "شدد الحرف مع كسر ناعم."
+      }
+    ]
+  },
+  {
+    "id": "waw",
+    "letter": "و",
+    "name": "واو",
+    "pronunciation": "وَاو",
+    "description": "الواو (و) هو الحرف السابع والعشرون. شكله شبه دائري مع خط صغير صاعد في البداية، يشبه الرقم 9.",
+    "makhraj_image": "assets/images/makhraj/waw.png",
+    "makhraj_description": "الواو تخرج بضم الشفتين مع تقريب أقصى اللسان من الحنك الأعلى، ويُلفظ بصوت مجهور مرقق.",
+    "draw_video": "assets/lottie/waw_draw.json",
+    "main_audio": "assets/audio/waw/main.mp3",
+    "forms": {
+      "isolated": "و",
+      "initial": null,
+      "medial": null,
+      "final": null
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "وَ",
+        "audio": "assets/audio/waw/waw_fatha.mp3",
+        "recording_hint": "انطق وَ بوضوح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "وُ",
+        "audio": "assets/audio/waw/waw_damma.mp3",
+        "recording_hint": "ضم الشفتين عند النطق بوُ."
+      },
+      {
+        "type": "كسرة",
+        "text": "وِ",
+        "audio": "assets/audio/waw/waw_kasra.mp3",
+        "recording_hint": "نطق خفيف لوِ مع كسرة."
+      },
+      {
+        "type": "مد بالواو",
+        "text": "وُو",
+        "audio": "assets/audio/waw/waw_long_damma.mp3",
+        "recording_hint": "مد الواو بصوت واضح وطويل."
+      },
+      {
+        "type": "سكون",
+        "text": "اَوْ",
+        "audio": "assets/audio/waw/waw_sukun.mp3",
+        "recording_hint": "ابدأ بألف وصل، ثم انطق وْ ساكنة."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "اَوَّ",
+        "audio": "assets/audio/waw/waw_shaddah_fatha.mp3",
+        "recording_hint": "انطق وّ بفتح قوي."
+      },
+      {
+        "type": "شدة بالضمة",
+        "text": "أُوُّ",
+        "audio": "assets/audio/waw/waw_shaddah_damma.mp3",
+        "recording_hint": "ضم واضح ومكرر في وّ."
+      },
+      {
+        "type": "لينه",
+        "text": "أَوْ",
+        "audio": "assets/audio/waw/waw_lainah1.mp3",
+        "recording_hint": "ابدأ بألف وهمزة، ثم و ساكنة."
+      },
+      {
+        "type": "لينه",
+        "text": "بَوْ",
+        "audio": "assets/audio/waw/waw_lainah2.mp3",
+        "recording_hint": "انطق بَوْ بهدوء ونعومة."
+      }
+    ]
+  },
+  {
+    "id": "ya",
+    "letter": "ي",
+    "name": "ياء",
+    "pronunciation": "يَاء",
+    "description": "الياء (ي) هو الحرف الثامن والعشرون. يُكتب بخط منحني للأسفل وتحته نقطتان متوازيتان.",
+    "makhraj_image": "assets/images/makhraj/ya.png",
+    "makhraj_description": "الياء تُنطق من وسط اللسان مع الحنك الأعلى، ويُصاحبها صوت مجهور رخو بدون غنة.",
+    "draw_video": "assets/lottie/ya_draw.json",
+    "main_audio": "assets/audio/ya/main.mp3",
+    "forms": {
+      "isolated": "ي",
+      "initial": "يـ",
+      "medial": "ـيـ",
+      "final": "ـي"
+    },
+    "variants": [
+      {
+        "type": "فتحة",
+        "text": "يَ",
+        "audio": "assets/audio/ya/ya_fatha.mp3",
+        "recording_hint": "انطق يَ بوضوح مع فتح الفم."
+      },
+      {
+        "type": "ضمة",
+        "text": "يُ",
+        "audio": "assets/audio/ya/ya_damma.mp3",
+        "recording_hint": "ضم الشفتين أثناء نطق يُ."
+      },
+      {
+        "type": "كسرة",
+        "text": "يِ",
+        "audio": "assets/audio/ya/ya_kasra.mp3",
+        "recording_hint": "نطق خفيف ليِ."
+      },
+      {
+        "type": "مد بالياء",
+        "text": "يِي",
+        "audio": "assets/audio/ya/ya_long_kasra.mp3",
+        "recording_hint": "مد الياء بصوت مكسور واضح."
+      },
+      {
+        "type": "سكون",
+        "text": "اَيْ",
+        "audio": "assets/audio/ya/ya_sukun.mp3",
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق يْ ساكنة."
+      },
+      {
+        "type": "شدة بالفتحة",
+        "text": "اَيَّ",
+        "audio": "assets/audio/ya/ya_shaddah_fatha.mp3",
+        "recording_hint": "نطق يّ مشدد بفتح واضح."
+      },
+      {
+        "type": "شدة بالكسرة",
+        "text": "اِيِّ",
+        "audio": "assets/audio/ya/ya_shaddah_kasra.mp3",
+        "recording_hint": "نطق يّ مشدد مع كسر خفيف."
+      },
+      {
+        "type": "لينه",
+        "text": "أَيْ",
+        "audio": "assets/audio/ya/ya_lainah1.mp3",
+        "recording_hint": "ابدأ بهمزة، ثم ي ساكنة ناعمة."
+      },
+      {
+        "type": "لينه",
+        "text": "بَيْ",
+        "audio": "assets/audio/ya/ya_lainah2.mp3",
+        "recording_hint": "انطق بَيْ بصوت خفيف ومرن."
+      }
+    ]
+  }
+]

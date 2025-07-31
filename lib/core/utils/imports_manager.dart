@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 
 // Assets
+part '../assets/app_data.dart';
 part '../assets/app_fonts.dart';
 part '../assets/app_images.dart';
 part '../assets/app_lottie.dart';
@@ -15,3 +17,4 @@ part '../styles/app_font_weight.dart';
 part '../styles/app_text_styles.dart';
 part '../theme/app_colors.dart';
 part '../theme/app_theme.dart';
+part './extensions.dart';

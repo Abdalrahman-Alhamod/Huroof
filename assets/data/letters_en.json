@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "alif",
+    "letter": "ا",
+    "name": "Alif",
+    "pronunciation": "'a-lif",
+    "description": "Alif (ا) is the 1st letter of the Arabic alphabet. It is written as a simple vertical stroke with no dots or curves, giving it a clean and elegant appearance.",
+    "makhraj_image": "assets/images/makhraj/alif.png",
+    "makhraj_description": "The letter Alif is produced from the deepest part of the throat. It flows out naturally without using the tongue or lips and often appears as a long vowel sound when elongated.",
+    "draw_video": "assets/lottie/alif_draw.json",
+    "main_audio": "assets/audio/alif/main.mp3",
+    "forms": {
+      "isolated": "ا",
+      "initial": null,
+      "medial": null,
+      "final": null
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Start with a glottal onset and open your mouth clearly.",
+        "text": "أَ",
+        "audio": "assets/audio/alif/alif_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Start with a glottal sound while rounding the lips.",
+        "text": "أُ",
+        "audio": "assets/audio/alif/alif_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Start with a glottal sound while slightly lowering your jaw.",
+        "text": "أِ",
+        "audio": "assets/audio/alif/alif_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Start with a glottal onset followed by an extended 'aa' sound.",
+        "text": "ءَا",
+        "audio": "assets/audio/alif/alif_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Start with a rounded glottal sound and extend with 'oo'.",
+        "text": "ءُو",
+        "audio": "assets/audio/alif/alif_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Start with a sharp glottal sound and extend with 'ee'.",
+        "text": "ءِى",
+        "audio": "assets/audio/alif/alif_long_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ba",
+    "letter": "ب",
+    "name": "Ba",
+    "pronunciation": "ba",
+    "description": "Bāʼ (ب) is the 2nd letter. It features a flat base with a gentle right-side curve and a single centered dot below, resembling a small bowl or a smile.",
+    "makhraj_image": "assets/images/makhraj/ba.png",
+    "makhraj_description": "The letter Bāʼ is pronounced by pressing both lips together completely and then releasing them with a clear voiced sound. It is crisp and doesn’t involve nasal airflow.",
+    "draw_video": "assets/lottie/ba_draw.json",
+    "main_audio": "assets/audio/ba/main.mp3",
+    "forms": {
+      "isolated": "ب",
+      "initial": "بـ",
+      "medial": "ـبـ",
+      "final": "ـب"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "بَ",
+        "audio": "assets/audio/ba/ba_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "بُ",
+        "audio": "assets/audio/ba/ba_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "بِ",
+        "audio": "assets/audio/ba/ba_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "با",
+        "audio": "assets/audio/ba/ba_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "بو",
+        "audio": "assets/audio/ba/ba_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "بي",
+        "audio": "assets/audio/ba/ba_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِبْ",
+        "audio": "assets/audio/ba/ba_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أبّ",
+        "audio": "assets/audio/ba/ba_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُبّ",
+        "audio": "assets/audio/ba/ba_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِبّ",
+        "audio": "assets/audio/ba/ba_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ta",
+    "letter": "ت",
+    "name": "Ta",
+    "pronunciation": "ta",
+    "description": "Tāʼ (ت), the 3rd letter, shares the shape of Bāʼ but with two evenly spaced dots above the curve, giving it a more expressive look.",
+    "makhraj_image": "assets/images/makhraj/ta.png",
+    "makhraj_description": "Tāʼ is articulated by placing the tongue just behind the upper front teeth. The sound is sharp and voiceless with a clean, quick release.",
+    "draw_video": "assets/lottie/ta_draw.json",
+    "main_audio": "assets/audio/ta/main.mp3",
+    "forms": {
+      "isolated": "ت",
+      "initial": "تـ",
+      "medial": "ـتـ",
+      "final": "ـت"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "تَ",
+        "audio": "assets/audio/ta/ta_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "تُ",
+        "audio": "assets/audio/ta/ta_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "تِ",
+        "audio": "assets/audio/ta/ta_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "تا",
+        "audio": "assets/audio/ta/ta_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "تو",
+        "audio": "assets/audio/ta/ta_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "تي",
+        "audio": "assets/audio/ta/ta_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِتْ",
+        "audio": "assets/audio/ta/ta_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أتّ",
+        "audio": "assets/audio/ta/ta_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُتّ",
+        "audio": "assets/audio/ta/ta_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِتّ",
+        "audio": "assets/audio/ta/ta_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "tha",
+    "letter": "ث",
+    "name": "Tha",
+    "pronunciation": "tha",
+    "description": "Thāʼ (ث) is the 4th letter. Its base mirrors that of Bāʼ and Tāʼ, but it's topped with three dots, forming a balanced and decorative trio.",
+    "makhraj_image": "assets/images/makhraj/tha.png",
+    "makhraj_description": "Thāʼ is formed by positioning the tongue lightly between the upper and lower front teeth. The sound is breathy, similar to the 'th' in 'think'.",
+    "draw_video": "assets/lottie/tha_draw.json",
+    "main_audio": "assets/audio/tha/main.mp3",
+    "forms": {
+      "isolated": "ث",
+      "initial": "ثـ",
+      "medial": "ـثـ",
+      "final": "ـث"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "ثَ",
+        "audio": "assets/audio/tha/tha_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "ثُ",
+        "audio": "assets/audio/tha/tha_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "ثِ",
+        "audio": "assets/audio/tha/tha_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "ثا",
+        "audio": "assets/audio/tha/tha_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "ثو",
+        "audio": "assets/audio/tha/tha_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "ثي",
+        "audio": "assets/audio/tha/tha_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِثْ",
+        "audio": "assets/audio/tha/tha_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أثّ",
+        "audio": "assets/audio/tha/tha_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُثّ",
+        "audio": "assets/audio/tha/tha_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِثّ",
+        "audio": "assets/audio/tha/tha_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "jeem",
+    "letter": "ج",
+    "name": "Jeem",
+    "pronunciation": "jim",
+    "description": "Jīm (ج) is the 5th letter. It forms a curved bowl that dips below the writing line, ending in a tail, with a single dot beneath the body.",
+    "makhraj_image": "assets/images/makhraj/jeem.png",
+    "makhraj_description": "Jīm comes from the middle of the tongue pressing against the roof of the mouth. It's voiced and pronounced with a moderate flow, like the English 'j'.",
+    "draw_video": "assets/lottie/jeem_draw.json",
+    "main_audio": "assets/audio/jeem/main.mp3",
+    "forms": {
+      "isolated": "ج",
+      "initial": "جـ",
+      "medial": "ـجـ",
+      "final": "ـج"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "جَ",
+        "audio": "assets/audio/jeem/jeem_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "جُ",
+        "audio": "assets/audio/jeem/jeem_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "جِ",
+        "audio": "assets/audio/jeem/jeem_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "جا",
+        "audio": "assets/audio/jeem/jeem_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "جو",
+        "audio": "assets/audio/jeem/jeem_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "جي",
+        "audio": "assets/audio/jeem/jeem_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِجْ",
+        "audio": "assets/audio/jeem/jeem_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أجّ",
+        "audio": "assets/audio/jeem/jeem_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُجّ",
+        "audio": "assets/audio/jeem/jeem_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِجّ",
+        "audio": "assets/audio/jeem/jeem_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ha",
+    "letter": "ح",
+    "name": "Ha",
+    "pronunciation": "ha",
+    "description": "Ḥāʼ (ح) is the 6th letter. It has a broad curved shape similar to Jīm but lacks any dots, giving it a more minimal form.",
+    "makhraj_image": "assets/images/makhraj/ha.png",
+    "makhraj_description": "Ḥāʼ is produced from the middle of the throat with a soft, breathy tone. It has no vocal cord vibration and requires a gentle open flow.",
+    "draw_video": "assets/lottie/ha_draw.json",
+    "main_audio": "assets/audio/ha/main.mp3",
+    "forms": {
+      "isolated": "ح",
+      "initial": "حـ",
+      "medial": "ـحـ",
+      "final": "ـح"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "حَ",
+        "audio": "assets/audio/ha/ha_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "حُ",
+        "audio": "assets/audio/ha/ha_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "حِ",
+        "audio": "assets/audio/ha/ha_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "حا",
+        "audio": "assets/audio/ha/ha_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "حو",
+        "audio": "assets/audio/ha/ha_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "حي",
+        "audio": "assets/audio/ha/ha_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِحْ",
+        "audio": "assets/audio/ha/ha_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أحّ",
+        "audio": "assets/audio/ha/ha_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُحّ",
+        "audio": "assets/audio/ha/ha_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِحّ",
+        "audio": "assets/audio/ha/ha_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "kha",
+    "letter": "خ",
+    "name": "Kha",
+    "pronunciation": "kha",
+    "description": "Khāʼ (خ), the 7th letter, is shaped like Ḥāʼ but distinguished by a single dot above its curve.",
+    "makhraj_image": "assets/images/makhraj/kha.png",
+    "makhraj_description": "Khāʼ originates from the upper throat near the uvula. It is voiced, strong, and has a coarse sound, similar to the German 'ch' in 'Bach'.",
+    "draw_video": "assets/lottie/kha_draw.json",
+    "main_audio": "assets/audio/kha/main.mp3",
+    "forms": {
+      "isolated": "خ",
+      "initial": "خـ",
+      "medial": "ـخـ",
+      "final": "ـخ"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "خَ",
+        "audio": "assets/audio/kha/kha_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "خُ",
+        "audio": "assets/audio/kha/kha_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "خِ",
+        "audio": "assets/audio/kha/kha_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "خا",
+        "audio": "assets/audio/kha/kha_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "خو",
+        "audio": "assets/audio/kha/kha_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "خي",
+        "audio": "assets/audio/kha/kha_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِخْ",
+        "audio": "assets/audio/kha/kha_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أخّ",
+        "audio": "assets/audio/kha/kha_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُخّ",
+        "audio": "assets/audio/kha/kha_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِخّ",
+        "audio": "assets/audio/kha/kha_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dal",
+    "letter": "د",
+    "name": "Dal",
+    "pronunciation": "dal",
+    "description": "Dāl (د) is the 8th letter. It features a short, curved stroke resembling a backwards comma or a hook. It has no dots and is visually light.",
+    "makhraj_image": "assets/images/makhraj/dal.png",
+    "makhraj_description": "Dāl is pronounced by pressing the tip of the tongue against the base of the upper front teeth. It is voiced and released with a short, clear sound.",
+    "draw_video": "assets/lottie/dal_draw.json",
+    "main_audio": "assets/audio/dal/main.mp3",
+    "forms": {
+      "isolated": "د",
+      "initial": null,
+      "medial": null,
+      "final": "ـد"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "دَ",
+        "audio": "assets/audio/dal/dal_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "دُ",
+        "audio": "assets/audio/dal/dal_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "دِ",
+        "audio": "assets/audio/dal/dal_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "دا",
+        "audio": "assets/audio/dal/dal_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "دو",
+        "audio": "assets/audio/dal/dal_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "دي",
+        "audio": "assets/audio/dal/dal_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِدْ",
+        "audio": "assets/audio/dal/dal_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أدّ",
+        "audio": "assets/audio/dal/dal_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُدّ",
+        "audio": "assets/audio/dal/dal_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِدّ",
+        "audio": "assets/audio/dal/dal_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "thal",
+    "letter": "ذ",
+    "name": "Dhal",
+    "pronunciation": "dhal",
+    "description": "Dhāl (ذ) is the 9th letter. Its form matches Dāl but with a small dot placed above, creating a slightly heavier top.",
+    "makhraj_image": "assets/images/makhraj/thal.png",
+    "makhraj_description": "Dhāl is articulated like the English 'th' in 'this', by placing the tongue lightly between the front teeth and using vocal cord vibration.",
+    "draw_video": "assets/lottie/thal_draw.json",
+    "main_audio": "assets/audio/thal/main.mp3",
+    "forms": {
+      "isolated": "ذ",
+      "initial": null,
+      "medial": null,
+      "final": "ـذ"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "ذَ",
+        "audio": "assets/audio/thal/thal_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "ذُ",
+        "audio": "assets/audio/thal/thal_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "ذِ",
+        "audio": "assets/audio/thal/thal_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "ذا",
+        "audio": "assets/audio/thal/thal_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "ذو",
+        "audio": "assets/audio/thal/thal_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "ذي",
+        "audio": "assets/audio/thal/thal_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِذْ",
+        "audio": "assets/audio/thal/thal_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أذّ",
+        "audio": "assets/audio/thal/thal_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُذّ",
+        "audio": "assets/audio/thal/thal_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِذّ",
+        "audio": "assets/audio/thal/thal_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ra",
+    "letter": "ر",
+    "name": "Ra",
+    "pronunciation": "ra",
+    "description": "Rāʼ (ر) is the 10th letter. Its shape flows like a hooked curve descending from the right and contains no dots.",
+    "makhraj_image": "assets/images/makhraj/ra.png",
+    "makhraj_description": "Rāʼ is pronounced by tapping the tip of the tongue against the roof of the mouth. It creates a vibrant, trilled or quick flicking sound.",
+    "draw_video": "assets/lottie/ra_draw.json",
+    "main_audio": "assets/audio/ra/main.mp3",
+    "forms": {
+      "isolated": "ر",
+      "initial": null,
+      "medial": null,
+      "final": "ـر"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "رَ",
+        "audio": "assets/audio/ra/ra_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "رُ",
+        "audio": "assets/audio/ra/ra_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "رِ",
+        "audio": "assets/audio/ra/ra_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "را",
+        "audio": "assets/audio/ra/ra_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "رو",
+        "audio": "assets/audio/ra/ra_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "ري",
+        "audio": "assets/audio/ra/ra_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِرْ",
+        "audio": "assets/audio/ra/ra_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أرّ",
+        "audio": "assets/audio/ra/ra_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُرّ",
+        "audio": "assets/audio/ra/ra_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِرّ",
+        "audio": "assets/audio/ra/ra_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "zay",
+    "letter": "ز",
+    "name": "Zay",
+    "pronunciation": "zay",
+    "description": "Zāy (ز) is the 11th letter. It mirrors Rāʼ in form but includes a single dot above, adding a sleek contrast.",
+    "makhraj_image": "assets/images/makhraj/zay.png",
+    "makhraj_description": "Zāy is formed by placing the tongue close to the upper teeth, with the vocal cords vibrating to produce a buzzing 'z' sound.",
+    "draw_video": "assets/lottie/zay_draw.json",
+    "main_audio": "assets/audio/zay/main.mp3",
+    "forms": {
+      "isolated": "ز",
+      "initial": null,
+      "medial": null,
+      "final": "ـز"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "زَ",
+        "audio": "assets/audio/zay/zay_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "زُ",
+        "audio": "assets/audio/zay/zay_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "زِ",
+        "audio": "assets/audio/zay/zay_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "زا",
+        "audio": "assets/audio/zay/zay_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "زو",
+        "audio": "assets/audio/zay/zay_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "زي",
+        "audio": "assets/audio/zay/zay_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِزْ",
+        "audio": "assets/audio/zay/zay_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أزّ",
+        "audio": "assets/audio/zay/zay_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُزّ",
+        "audio": "assets/audio/zay/zay_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِزّ",
+        "audio": "assets/audio/zay/zay_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "seen",
+    "letter": "س",
+    "name": "Seen",
+    "pronunciation": "sin",
+    "description": "Sīn (س) is the 12th letter. It consists of three connected peaks that flow smoothly across the baseline like waves.",
+    "makhraj_image": "assets/images/makhraj/seen.png",
+    "makhraj_description": "Sīn is pronounced with the tongue near the upper front teeth, allowing air to pass through and create a hissing 's' sound.",
+    "draw_video": "assets/lottie/seen_draw.json",
+    "main_audio": "assets/audio/seen/main.mp3",
+    "forms": {
+      "isolated": "س",
+      "initial": "سـ",
+      "medial": "ـسـ",
+      "final": "ـس"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "سَ",
+        "audio": "assets/audio/seen/seen_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "سُ",
+        "audio": "assets/audio/seen/seen_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "سِ",
+        "audio": "assets/audio/seen/seen_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "سا",
+        "audio": "assets/audio/seen/seen_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "سو",
+        "audio": "assets/audio/seen/seen_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "سي",
+        "audio": "assets/audio/seen/seen_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِسْ",
+        "audio": "assets/audio/seen/seen_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أسّ",
+        "audio": "assets/audio/seen/seen_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُسّ",
+        "audio": "assets/audio/seen/seen_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِسّ",
+        "audio": "assets/audio/seen/seen_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "sheen",
+    "letter": "ش",
+    "name": "Sheen",
+    "pronunciation": "shin",
+    "description": "Shīn (ش) is the 13th letter. Identical to Sīn but topped with three distinct dots aligned above the peaks.",
+    "makhraj_image": "assets/images/makhraj/sheen.png",
+    "makhraj_description": "Shīn is produced by raising the middle of the tongue toward the roof of the mouth and releasing air with a soft, breathy 'sh' sound.",
+    "draw_video": "assets/lottie/sheen_draw.json",
+    "main_audio": "assets/audio/sheen/main.mp3",
+    "forms": {
+      "isolated": "ش",
+      "initial": "شـ",
+      "medial": "ـشـ",
+      "final": "ـش"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "شَ",
+        "audio": "assets/audio/sheen/sheen_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "شُ",
+        "audio": "assets/audio/sheen/sheen_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "شِ",
+        "audio": "assets/audio/sheen/sheen_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "شا",
+        "audio": "assets/audio/sheen/sheen_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "شو",
+        "audio": "assets/audio/sheen/sheen_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "شي",
+        "audio": "assets/audio/sheen/sheen_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِشْ",
+        "audio": "assets/audio/sheen/sheen_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أشّ",
+        "audio": "assets/audio/sheen/sheen_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُشّ",
+        "audio": "assets/audio/sheen/sheen_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِشّ",
+        "audio": "assets/audio/sheen/sheen_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "sad",
+    "letter": "ص",
+    "name": "Sad",
+    "pronunciation": "sad",
+    "description": "Ṣād (ص) is the 14th letter. It begins with a tall curved arch and extends into a bold stroke. It carries no dots and is visually prominent.",
+    "makhraj_image": "assets/images/makhraj/sad.png",
+    "makhraj_description": "Ṣād is a strong, emphatic version of 's', produced with the tongue touching the upper palate and vocal tract constriction.",
+    "draw_video": "assets/lottie/sad_draw.json",
+    "main_audio": "assets/audio/sad/main.mp3",
+    "forms": {
+      "isolated": "ص",
+      "initial": "صـ",
+      "medial": "ـصـ",
+      "final": "ـص"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "صَ",
+        "audio": "assets/audio/sad/sad_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "صُ",
+        "audio": "assets/audio/sad/sad_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "صِ",
+        "audio": "assets/audio/sad/sad_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "صا",
+        "audio": "assets/audio/sad/sad_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "صو",
+        "audio": "assets/audio/sad/sad_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "صي",
+        "audio": "assets/audio/sad/sad_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِصْ",
+        "audio": "assets/audio/sad/sad_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أصّ",
+        "audio": "assets/audio/sad/sad_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُصّ",
+        "audio": "assets/audio/sad/sad_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِصّ",
+        "audio": "assets/audio/sad/sad_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "dad",
+    "letter": "ض",
+    "name": "Dad",
+    "pronunciation": "dad",
+    "description": "Ḍād (ض) is the 15th letter. Its structure resembles Ṣād but with an added dot inside or above the curve.",
+    "makhraj_image": "assets/images/makhraj/dad.png",
+    "makhraj_description": "Ḍād is unique to Arabic. It's made by pressing one side of the tongue against the upper molars and releasing a deep, heavy voiced sound.",
+    "draw_video": "assets/lottie/dad_draw.json",
+    "main_audio": "assets/audio/dad/main.mp3",
+    "forms": {
+      "isolated": "ض",
+      "initial": "ضـ",
+      "medial": "ـضـ",
+      "final": "ـض"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "ضَ",
+        "audio": "assets/audio/dad/dad_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "ضُ",
+        "audio": "assets/audio/dad/dad_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "ضِ",
+        "audio": "assets/audio/dad/dad_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "ضا",
+        "audio": "assets/audio/dad/dad_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "ضو",
+        "audio": "assets/audio/dad/dad_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "ضي",
+        "audio": "assets/audio/dad/dad_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِضْ",
+        "audio": "assets/audio/dad/dad_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أضّ",
+        "audio": "assets/audio/dad/dad_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُضّ",
+        "audio": "assets/audio/dad/dad_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِضّ",
+        "audio": "assets/audio/dad/dad_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "taa",
+    "letter": "ط",
+    "name": "Ta'",
+    "pronunciation": "ta'",
+    "description": "Ṭāʼ (ط) is the 16th letter. It combines a pronounced arch and a straight leg, with a centered dot above.",
+    "makhraj_image": "assets/images/makhraj/taa.png",
+    "makhraj_description": "Ṭāʼ is a heavy, emphatic 't' sound formed by pressing the tongue to the upper palate and releasing it with strength.",
+    "draw_video": "assets/lottie/taa_draw.json",
+    "main_audio": "assets/audio/taa/main.mp3",
+    "forms": {
+      "isolated": "ط",
+      "initial": "طـ",
+      "medial": "ـطـ",
+      "final": "ـط"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "طَ",
+        "audio": "assets/audio/taa/taa_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "طُ",
+        "audio": "assets/audio/taa/taa_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "طِ",
+        "audio": "assets/audio/taa/taa_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "طا",
+        "audio": "assets/audio/taa/taa_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "طو",
+        "audio": "assets/audio/taa/taa_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "طي",
+        "audio": "assets/audio/taa/taa_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِطْ",
+        "audio": "assets/audio/taa/taa_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أطّ",
+        "audio": "assets/audio/taa/taa_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُطّ",
+        "audio": "assets/audio/taa/taa_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِطّ",
+        "audio": "assets/audio/taa/taa_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "zaa",
+    "letter": "ظ",
+    "name": "Za'",
+    "pronunciation": "za'",
+    "description": "Ẓāʼ (ظ) is the 17th letter. It mirrors Ṭāʼ with the same structure and one dot above, but used for deeper, emphatic sounds.",
+    "makhraj_image": "assets/images/makhraj/zaa.png",
+    "makhraj_description": "Ẓāʼ is an emphatic version of 'th', made by placing the tongue between the teeth and adding vocal heaviness.",
+    "draw_video": "assets/lottie/zaa_draw.json",
+    "main_audio": "assets/audio/zaa/main.mp3",
+    "forms": {
+      "isolated": "ظ",
+      "initial": "ظـ",
+      "medial": "ـظـ",
+      "final": "ـظ"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "ظَ",
+        "audio": "assets/audio/zaa/zaa_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "ظُ",
+        "audio": "assets/audio/zaa/zaa_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "ظِ",
+        "audio": "assets/audio/zaa/zaa_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "ظا",
+        "audio": "assets/audio/zaa/zaa_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "ظو",
+        "audio": "assets/audio/zaa/zaa_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "ظي",
+        "audio": "assets/audio/zaa/zaa_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِظْ",
+        "audio": "assets/audio/zaa/zaa_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أظّ",
+        "audio": "assets/audio/zaa/zaa_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُظّ",
+        "audio": "assets/audio/zaa/zaa_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِظّ",
+        "audio": "assets/audio/zaa/zaa_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ain",
+    "letter": "ع",
+    "name": "Ayn",
+    "pronunciation": "`ayn",
+    "description": "ʿAyn (ع) is the 18th letter. It has a unique open-loop shape like a backwards 'c' with a tail curving below.",
+    "makhraj_image": "assets/images/makhraj/ain.png",
+    "makhraj_description": "ʿAyn is pronounced from the middle of the throat with a strong, voiced release that feels deep and guttural.",
+    "draw_video": "assets/lottie/ain_draw.json",
+    "main_audio": "assets/audio/ain/main.mp3",
+    "forms": {
+      "isolated": "ع",
+      "initial": "عـ",
+      "medial": "ـعـ",
+      "final": "ـع"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "عَ",
+        "audio": "assets/audio/ain/ain_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "عُ",
+        "audio": "assets/audio/ain/ain_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "عِ",
+        "audio": "assets/audio/ain/ain_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "عا",
+        "audio": "assets/audio/ain/ain_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "عو",
+        "audio": "assets/audio/ain/ain_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "عي",
+        "audio": "assets/audio/ain/ain_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِعْ",
+        "audio": "assets/audio/ain/ain_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أعّ",
+        "audio": "assets/audio/ain/ain_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُعّ",
+        "audio": "assets/audio/ain/ain_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِعّ",
+        "audio": "assets/audio/ain/ain_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ghain",
+    "letter": "غ",
+    "name": "Ghayn",
+    "pronunciation": "ghayn",
+    "description": "Ghayn (غ) is the 19th letter. It has the same body as ʿAyn but includes a single dot above the upper arc.",
+    "makhraj_image": "assets/images/makhraj/ghain.png",
+    "makhraj_description": "Ghayn is made from the upper throat, with a coarse, vibrating sound similar to the French 'r' in 'Paris'.",
+    "draw_video": "assets/lottie/ghain_draw.json",
+    "main_audio": "assets/audio/ghain/main.mp3",
+    "forms": {
+      "isolated": "غ",
+      "initial": "غـ",
+      "medial": "ـغـ",
+      "final": "ـغ"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "غَ",
+        "audio": "assets/audio/ghain/ghain_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "غُ",
+        "audio": "assets/audio/ghain/ghain_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "غِ",
+        "audio": "assets/audio/ghain/ghain_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "غا",
+        "audio": "assets/audio/ghain/ghain_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "غو",
+        "audio": "assets/audio/ghain/ghain_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "غي",
+        "audio": "assets/audio/ghain/ghain_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِغْ",
+        "audio": "assets/audio/ghain/ghain_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أغّ",
+        "audio": "assets/audio/ghain/ghain_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُغّ",
+        "audio": "assets/audio/ghain/ghain_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِغّ",
+        "audio": "assets/audio/ghain/ghain_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "fa",
+    "letter": "ف",
+    "name": "Fa",
+    "pronunciation": "fa",
+    "description": "Fāʼ (ف) is the 20th letter. It starts with a small curve or loop and rises into a sweeping stroke, with a dot above.",
+    "makhraj_image": "assets/images/makhraj/fa.png",
+    "makhraj_description": "Fāʼ is formed by placing the bottom lip against the upper front teeth and pushing air through softly, like the English 'f'.",
+    "draw_video": "assets/lottie/fa_draw.json",
+    "main_audio": "assets/audio/fa/main.mp3",
+    "forms": {
+      "isolated": "ف",
+      "initial": "فـ",
+      "medial": "ـفـ",
+      "final": "ـف"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "فَ",
+        "audio": "assets/audio/fa/fa_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "فُ",
+        "audio": "assets/audio/fa/fa_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "فِ",
+        "audio": "assets/audio/fa/fa_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "فا",
+        "audio": "assets/audio/fa/fa_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "فو",
+        "audio": "assets/audio/fa/fa_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "في",
+        "audio": "assets/audio/fa/fa_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِفْ",
+        "audio": "assets/audio/fa/fa_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أفّ",
+        "audio": "assets/audio/fa/fa_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُفّ",
+        "audio": "assets/audio/fa/fa_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِفّ",
+        "audio": "assets/audio/fa/fa_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "qaf",
+    "letter": "ق",
+    "name": "Qaf",
+    "pronunciation": "qaf",
+    "description": "Qāf (ق) is the 21st letter. It features a bold looped structure and usually carries two dots above, forming a strong visual impact.",
+    "makhraj_image": "assets/images/makhraj/qaf.png",
+    "makhraj_description": "Qāf is pronounced from the deepest part of the tongue pressing upward against the soft palate, with a strong, heavy sound.",
+    "draw_video": "assets/lottie/qaf_draw.json",
+    "main_audio": "assets/audio/qaf/main.mp3",
+    "forms": {
+      "isolated": "ق",
+      "initial": "قـ",
+      "medial": "ـقـ",
+      "final": "ـق"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "قَ",
+        "audio": "assets/audio/qaf/qaf_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "قُ",
+        "audio": "assets/audio/qaf/qaf_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "قِ",
+        "audio": "assets/audio/qaf/qaf_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "قا",
+        "audio": "assets/audio/qaf/qaf_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "قو",
+        "audio": "assets/audio/qaf/qaf_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "قي",
+        "audio": "assets/audio/qaf/qaf_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِقْ",
+        "audio": "assets/audio/qaf/qaf_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أقّ",
+        "audio": "assets/audio/qaf/qaf_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُقّ",
+        "audio": "assets/audio/qaf/qaf_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِقّ",
+        "audio": "assets/audio/qaf/qaf_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "kaf",
+    "letter": "ك",
+    "name": "Kaf",
+    "pronunciation": "kaf",
+    "description": "Kāf (ك) is the 22nd letter. It is angular with a rightward tail and often includes a small arm-like flourish in some scripts.",
+    "makhraj_image": "assets/images/makhraj/kaf.png",
+    "makhraj_description": "Kāf is similar to the English 'k', formed by pressing the back of the tongue against the soft palate and releasing it.",
+    "draw_video": "assets/lottie/kaf_draw.json",
+    "main_audio": "assets/audio/kaf/main.mp3",
+    "forms": {
+      "isolated": "ك",
+      "initial": "كـ",
+      "medial": "ـكـ",
+      "final": "ـك"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "كَ",
+        "audio": "assets/audio/kaf/kaf_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "كُ",
+        "audio": "assets/audio/kaf/kaf_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "كِ",
+        "audio": "assets/audio/kaf/kaf_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "كا",
+        "audio": "assets/audio/kaf/kaf_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "كو",
+        "audio": "assets/audio/kaf/kaf_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "كي",
+        "audio": "assets/audio/kaf/kaf_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِكْ",
+        "audio": "assets/audio/kaf/kaf_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أكّ",
+        "audio": "assets/audio/kaf/kaf_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُكّ",
+        "audio": "assets/audio/kaf/kaf_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِكّ",
+        "audio": "assets/audio/kaf/kaf_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "lam",
+    "letter": "ل",
+    "name": "Lam",
+    "pronunciation": "lam",
+    "description": "Lām (ل) is the 23rd letter. Its form begins with a gentle upward curve that rises before sharply descending, resembling a slanted 'l'.",
+    "makhraj_image": "assets/images/makhraj/lam.png",
+    "makhraj_description": "Lām is pronounced by touching the tip of the tongue to the gums of the upper front teeth. It's soft and clear like English 'l'.",
+    "draw_video": "assets/lottie/lam_draw.json",
+    "main_audio": "assets/audio/lam/main.mp3",
+    "forms": {
+      "isolated": "ل",
+      "initial": "لـ",
+      "medial": "ـلـ",
+      "final": "ـل"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "لَ",
+        "audio": "assets/audio/lam/lam_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "لُ",
+        "audio": "assets/audio/lam/lam_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "لِ",
+        "audio": "assets/audio/lam/lam_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "لا",
+        "audio": "assets/audio/lam/lam_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "لو",
+        "audio": "assets/audio/lam/lam_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "لي",
+        "audio": "assets/audio/lam/lam_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِلْ",
+        "audio": "assets/audio/lam/lam_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "ألّ",
+        "audio": "assets/audio/lam/lam_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُلّ",
+        "audio": "assets/audio/lam/lam_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِلّ",
+        "audio": "assets/audio/lam/lam_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "meem",
+    "letter": "م",
+    "name": "Meem",
+    "pronunciation": "mim",
+    "description": "Mīm (م) is the 24th letter. It has a rounded body like a closed loop or a teardrop, often drawn slightly below the baseline.",
+    "makhraj_image": "assets/images/makhraj/meem.png",
+    "makhraj_description": "Mīm is made by pressing both lips together and allowing the sound to pass through the nose, producing a clear 'm'.",
+    "draw_video": "assets/lottie/meem_draw.json",
+    "main_audio": "assets/audio/meem/main.mp3",
+    "forms": {
+      "isolated": "م",
+      "initial": "مـ",
+      "medial": "ـمـ",
+      "final": "ـم"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "مَ",
+        "audio": "assets/audio/meem/meem_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "مُ",
+        "audio": "assets/audio/meem/meem_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "مِ",
+        "audio": "assets/audio/meem/meem_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "ما",
+        "audio": "assets/audio/meem/meem_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "مو",
+        "audio": "assets/audio/meem/meem_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "مي",
+        "audio": "assets/audio/meem/meem_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِمْ",
+        "audio": "assets/audio/meem/meem_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أمّ",
+        "audio": "assets/audio/meem/meem_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُمّ",
+        "audio": "assets/audio/meem/meem_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِمّ",
+        "audio": "assets/audio/meem/meem_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "noon",
+    "letter": "ن",
+    "name": "Noon",
+    "pronunciation": "nun",
+    "description": "Nūn (ن) is the 25th letter. It has a short stroke or loop with a single dot placed above, making it compact and light.",
+    "makhraj_image": "assets/images/makhraj/noon.png",
+    "makhraj_description": "Nūn is formed by pressing the tongue to the upper gums and allowing nasal sound to flow, creating an 'n' sound.",
+    "draw_video": "assets/lottie/noon_draw.json",
+    "main_audio": "assets/audio/noon/main.mp3",
+    "forms": {
+      "isolated": "ن",
+      "initial": "نـ",
+      "medial": "ـنـ",
+      "final": "ـن"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "نَ",
+        "audio": "assets/audio/noon/noon_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "نُ",
+        "audio": "assets/audio/noon/noon_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "نِ",
+        "audio": "assets/audio/noon/noon_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "نا",
+        "audio": "assets/audio/noon/noon_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "نو",
+        "audio": "assets/audio/noon/noon_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "ني",
+        "audio": "assets/audio/noon/noon_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِنْ",
+        "audio": "assets/audio/noon/noon_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أنّ",
+        "audio": "assets/audio/noon/noon_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُنّ",
+        "audio": "assets/audio/noon/noon_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِنّ",
+        "audio": "assets/audio/noon/noon_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ha2",
+    "letter": "ه",
+    "name": "Ha'",
+    "pronunciation": "ha'",
+    "description": "Hāʼ (ه) is the 26th letter. Its isolated shape is circular or looped and varies slightly depending on its position in the word.",
+    "makhraj_image": "assets/images/makhraj/ha2.png",
+    "makhraj_description": "Hāʼ is a soft, breathy sound that comes from the lower throat, similar to a gentle sigh or whisper.",
+    "draw_video": "assets/lottie/ha2_draw.json",
+    "main_audio": "assets/audio/ha2/main.mp3",
+    "forms": {
+      "isolated": "ه",
+      "initial": "هـ",
+      "medial": "ـهـ",
+      "final": "ـه"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce clearly with the mouth open.",
+        "text": "هَ",
+        "audio": "assets/audio/ha2/ha2_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Firmly round the lips while pronouncing.",
+        "text": "هُ",
+        "audio": "assets/audio/ha2/ha2_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Lower the jaw slightly when pronouncing.",
+        "text": "هِ",
+        "audio": "assets/audio/ha2/ha2_kasra.mp3"
+      },
+      {
+        "type": "Madd with Alif",
+        "recording_hint": "Extend the 'aa' sound with an open voice.",
+        "text": "ها",
+        "audio": "assets/audio/ha2/ha2_long_fatha.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend the 'oo' sound with rounded lips.",
+        "text": "هو",
+        "audio": "assets/audio/ha2/ha2_long_damma.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ee' sound with a sharp tone.",
+        "text": "هي",
+        "audio": "assets/audio/ha2/ha2_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
+        "text": "اِهْ",
+        "audio": "assets/audio/ha2/ha2_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Emphasize the letter with a clear 'a' sound.",
+        "text": "أهّ",
+        "audio": "assets/audio/ha2/ha2_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Emphasize the letter with a full 'u' sound.",
+        "text": "أُهّ",
+        "audio": "assets/audio/ha2/ha2_shaddah_damma.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Emphasize the letter with a soft 'i' sound.",
+        "text": "اِهّ",
+        "audio": "assets/audio/ha2/ha2_shaddah_kasra.mp3"
+      }
+    ]
+  },
+  {
+    "id": "waw",
+    "letter": "و",
+    "name": "Waw",
+    "pronunciation": "waw",
+    "description": "Wāw (و) is the 27th letter. It is rounded and curves downward, similar in shape to the number 9 in many styles.",
+    "makhraj_image": "assets/images/makhraj/waw.png",
+    "makhraj_description": "Wāw is pronounced by rounding the lips and allowing voiced sound to flow, similar to the English 'w'.",
+    "draw_video": "assets/lottie/waw_draw.json",
+    "main_audio": "assets/audio/waw/main.mp3",
+    "forms": {
+      "isolated": "و",
+      "initial": null,
+      "medial": null,
+      "final": null
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Pronounce 'wa' clearly with an open mouth.",
+        "text": "وَ",
+        "audio": "assets/audio/waw/waw_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Round the lips when saying 'wu'.",
+        "text": "وُ",
+        "audio": "assets/audio/waw/waw_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Say 'wi' gently with a broken vowel.",
+        "text": "وِ",
+        "audio": "assets/audio/waw/waw_kasra.mp3"
+      },
+      {
+        "type": "Madd with Waw",
+        "recording_hint": "Extend 'waw' with a clear, long sound.",
+        "text": "وُو",
+        "audio": "assets/audio/waw/waw_long_damma.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Start with a connecting 'alif' then say a still 'w'.",
+        "text": "اَوْ",
+        "audio": "assets/audio/waw/waw_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Say 'w' with strong emphasis and an open sound.",
+        "text": "اَوَّ",
+        "audio": "assets/audio/waw/waw_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Damma",
+        "recording_hint": "Repeat 'w' with clear rounding.",
+        "text": "أُوُّ",
+        "audio": "assets/audio/waw/waw_shaddah_damma.mp3"
+      },
+      {
+        "type": "Softened (Layyinah)",
+        "recording_hint": "Start with Alif and Hamzah, followed by a still 'w'.",
+        "text": "بَوْ",
+        "audio": "assets/audio/waw/waw_lainah2.mp3"
+      },
+      {
+        "type": "Softened (Layyinah)",
+        "recording_hint": "Pronounce 'baw' softly and smoothly.",
+        "text": "بَوْ",
+        "audio": "assets/audio/waw/waw_lainah2.mp3"
+      }
+    ]
+  },
+  {
+    "id": "ya",
+    "letter": "ي",
+    "name": "Ya",
+    "pronunciation": "ya",
+    "description": "Yāʼ (ي) is the 28th letter. It has a tail that flows downward and two small dots underneath, giving it a symmetrical appearance.",
+    "makhraj_image": "assets/images/makhraj/ya.png",
+    "makhraj_description": "Yāʼ is formed by raising the middle of the tongue close to the roof of the mouth, producing a 'y' sound like in 'yes'.",
+    "draw_video": "assets/lottie/ya_draw.json",
+    "main_audio": "assets/audio/ya/main.mp3",
+    "forms": {
+      "isolated": "ي",
+      "initial": "يـ",
+      "medial": "ـيـ",
+      "final": "ـي"
+    },
+    "variants": [
+      {
+        "type": "Fatha",
+        "recording_hint": "Say 'ya' clearly with an open mouth.",
+        "text": "يَ",
+        "audio": "assets/audio/ya/ya_fatha.mp3"
+      },
+      {
+        "type": "Damma",
+        "recording_hint": "Round the lips while pronouncing 'yu'.",
+        "text": "يُ",
+        "audio": "assets/audio/ya/ya_damma.mp3"
+      },
+      {
+        "type": "Kasra",
+        "recording_hint": "Say 'yi' gently.",
+        "text": "يِ",
+        "audio": "assets/audio/ya/ya_kasra.mp3"
+      },
+      {
+        "type": "Madd with Ya",
+        "recording_hint": "Extend the 'ya' sound with a clear 'i' tone.",
+        "text": "يِي",
+        "audio": "assets/audio/ya/ya_long_kasra.mp3"
+      },
+      {
+        "type": "Sukūn",
+        "recording_hint": "Begin with Hamzah wasl then pronounce still 'ya'.",
+        "text": "اَيْ",
+        "audio": "assets/audio/ya/ya_sukun.mp3"
+      },
+      {
+        "type": "Shadda with Fatha",
+        "recording_hint": "Pronounce a stressed 'ya' with an open 'a' sound.",
+        "text": "اَيَّ",
+        "audio": "assets/audio/ya/ya_shaddah_fatha.mp3"
+      },
+      {
+        "type": "Shadda with Kasra",
+        "recording_hint": "Pronounce a stressed 'ya' with a soft 'i' sound.",
+        "text": "اِيِّ",
+        "audio": "assets/audio/ya/ya_shaddah_kasra.mp3"
+      },
+      {
+        "type": "Softened (Layyinah)",
+        "recording_hint": "Start with a glottal onset then a soft still 'ya'.",
+        "text": "بَيْ",
+        "audio": "assets/audio/ya/ya_lainah2.mp3"
+      },
+      {
+        "type": "Softened (Layyinah)",
+        "recording_hint": "Say 'bay' with a light, smooth tone.",
+        "text": "بَيْ",
+        "audio": "assets/audio/ya/ya_lainah2.mp3"
+      }
+    ]
+  }
+]

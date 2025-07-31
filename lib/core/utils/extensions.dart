@@ -1,6 +1,5 @@
+part of 'imports_manager.dart';
 
-import 'package:flutter/widgets.dart';
-import 'package:get/get.dart';
 extension LocaleExtensions on GetInterface {
   /// Checks if the current locale is English.
   bool get isEnglish {
