@@ -12,13 +12,20 @@ class AppTranslation {
 class LocaleKeys {
   LocaleKeys._();
   static const Hello = 'Hello';
+  static const letsLearnLetters = 'letsLearnLetters';
+  static const chooseLetterToStart = 'chooseLetterToStart';
 }
 
 class Locales {
   static const ar = {
     'Hello': 'مرحباً',
+    'letsLearnLetters': 'هيا بنا نتعلم الحروف!',
+    'chooseLetterToStart': 'اختر حرفاً و لنبدأ رحلة التعلم',
   };
   static const en = {
     'Hello': 'Hello',
+    'letsLearnLetters': 'Let\'s learn the letters!',
+    'chooseLetterToStart':
+        'Choose a letter and let\'s begin the learning journey',
   };
 }

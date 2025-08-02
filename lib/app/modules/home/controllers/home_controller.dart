@@ -1,22 +1,22 @@
 import 'package:get/get.dart';
+import 'package:huroof/app/services/letter_service.dart';
+import 'package:huroof/core/utils/imports_manager.dart';
+
+import '../../../data/model/letter.dart';
 
 class HomeController extends GetxController {
-
-  final count = 0.obs;
+  final letters = <Letter>[].obs;
   @override
   void onInit() {
     super.onInit();
+    loadLetters();
   }
 
-  @override
-  void onReady() {
-    super.onReady();
+  void loadLetters() async {
+    final data =
+        Get.isEnglish
+            ? await LetterService.getEnglishLetters()
+            : await LetterService.getArabicLetters();
+    letters.assignAll(data);
   }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
-
-  void increment() => count.value++;
 }
