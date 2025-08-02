@@ -6,4 +6,5 @@ abstract final class AppLottie {
   AppLottie._();
   static const _path = 'assets/lottie';
   static const error = "$_path/error.json";
+  static const alifDraw = "$_path/alif_draw.json";
 }

@@ -7,4 +7,5 @@ abstract final class AppImages {
   static const _path = 'assets/images';
   static const splash = '$_path/splash.png';
   static const emptyImage = '$_path/empty_image.png';
+  static const alif = '$_path/alif.jpg';
 }

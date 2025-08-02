@@ -9,5 +9,12 @@
   "overviewSubtitle": "Get to know the letter and its shape",
   "descriptionTitle": "Letter Description",
   "next": "Next",
-  "previous": "Previous"
+  "previous": "Previous",
+  "drawLetterTitle": "Draw the Letter",
+  "drawLetterSubtitle": "Watch how the letter is written in naskh script",
+  "drawLetterHintTitle": "Drawing Tip",
+  "drawLetterHint": "Focus on the stroke order from top to bottom and try to mimic the motion accurately.",
+  "makhrajTitle": "Letter Makhraj",
+  "makhrajSubtitle": "Understand how the letter is articulated",
+  "makhrajDescriptionTitle": "Makhraj Explanation"
 }

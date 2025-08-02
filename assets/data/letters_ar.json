@@ -6,14 +6,14 @@
     "pronunciation": "أَلِف",
     "description": "الألف (ا) هو الحرف الأول في الأبجدية العربية. يُكتب كخط رأسي مستقيم بدون نقاط أو انحناءات. شكله بسيط ومجرد ويُعد من أسهل الحروف كتابةً.",
     "makhraj_image": "assets/images/makhraj/alif.png",
-    "makhraj_description": "يُخرج الألف من أقصى الحلق دون تدخل اللسان أو الشفتين، ويُلفظ بفتح الفم بالكامل، ويكون ممدودًا إذا جاء بعده ألف مد.",
+    "makhraj_description": "يُخرج حرف الألف من أقصى الحلق، ويُنطق عندما يكون ساكنًا بعد فتح، دون تدخل اللسان أو الشفتين. يكون الصوت ناتجًا عن تدفق الهواء بانسيابية مع فتح الفم بالكامل، ويُمد إذا سبقه حرف مفتوح.",
     "draw_video": "assets/lottie/alif_draw.json",
     "main_audio": "assets/audio/alif/main.mp3",
     "forms": {
       "isolated": "ا",
       "initial": null,
       "medial": null,
-      "final": null
+      "final": "ـا"
     },
     "variants": [
       {

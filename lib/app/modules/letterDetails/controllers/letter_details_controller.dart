@@ -25,7 +25,7 @@ class LetterDetailsController extends GetxController {
   }
 
   int get totalSteps {
-    int baseSteps = 1; // overview, draw, makhraj
+    int baseSteps = 3; // overview, draw, makhraj
 
     int formSteps =
         [

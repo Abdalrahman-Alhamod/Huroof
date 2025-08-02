@@ -22,6 +22,13 @@ class LocaleKeys {
   static const descriptionTitle = 'descriptionTitle';
   static const next = 'next';
   static const previous = 'previous';
+  static const drawLetterTitle = 'drawLetterTitle';
+  static const drawLetterSubtitle = 'drawLetterSubtitle';
+  static const drawLetterHintTitle = 'drawLetterHintTitle';
+  static const drawLetterHint = 'drawLetterHint';
+  static const makhrajTitle = 'makhrajTitle';
+  static const makhrajSubtitle = 'makhrajSubtitle';
+  static const makhrajDescriptionTitle = 'makhrajDescriptionTitle';
 }
 
 class Locales {
@@ -37,6 +44,14 @@ class Locales {
     'descriptionTitle': 'وصف الحرف',
     'next': 'التالي',
     'previous': 'السابق',
+    'drawLetterTitle': 'رسم الحرف',
+    'drawLetterSubtitle': 'شاهد كيف يُكتب الحرف بخط النسخ',
+    'drawLetterHintTitle': 'نصيحة للرسم',
+    'drawLetterHint':
+        'ركز على ترتيب الخطوات من الأعلى إلى الأسفل وحاول تقليد الحركة بدقة.',
+    'makhrajTitle': 'مخرج الحرف',
+    'makhrajSubtitle': 'تعرف على مصدر خروج الحرف من الفم',
+    'makhrajDescriptionTitle': 'شرح المخرج',
   };
   static const en = {
     'Hello': 'Hello',
@@ -51,5 +66,13 @@ class Locales {
     'descriptionTitle': 'Letter Description',
     'next': 'Next',
     'previous': 'Previous',
+    'drawLetterTitle': 'Draw the Letter',
+    'drawLetterSubtitle': 'Watch how the letter is written in naskh script',
+    'drawLetterHintTitle': 'Drawing Tip',
+    'drawLetterHint':
+        'Focus on the stroke order from top to bottom and try to mimic the motion accurately.',
+    'makhrajTitle': 'Letter Makhraj',
+    'makhrajSubtitle': 'Understand how the letter is articulated',
+    'makhrajDescriptionTitle': 'Makhraj Explanation',
   };
 }

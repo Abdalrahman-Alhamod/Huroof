@@ -9,5 +9,12 @@
   "overviewSubtitle": "تعرّف على الحرف وشكله",
   "descriptionTitle": "وصف الحرف",
   "next": "التالي",
-  "previous": "السابق"
+  "previous": "السابق",
+  "drawLetterTitle": "رسم الحرف",
+  "drawLetterSubtitle": "شاهد كيف يُكتب الحرف بخط النسخ",
+  "drawLetterHintTitle": "نصيحة للرسم",
+  "drawLetterHint": "ركز على ترتيب الخطوات من الأعلى إلى الأسفل وحاول تقليد الحركة بدقة.",
+  "makhrajTitle": "مخرج الحرف",
+  "makhrajSubtitle": "تعرف على مصدر خروج الحرف من الفم",
+  "makhrajDescriptionTitle": "شرح المخرج"
 }
