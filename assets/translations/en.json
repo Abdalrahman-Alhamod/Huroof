@@ -1,5 +1,13 @@
 {
   "Hello": "Hello",
   "letsLearnLetters": "Let's learn the letters!",
-  "chooseLetterToStart": "Choose a letter and let's begin the learning journey"
+  "chooseLetterToStart": "Choose a letter and let's begin the learning journey",
+  "letterLearningTitle": "Letter Learning",
+  "stepLabel": "Step",
+  "ofLabel": "of",
+  "overviewTitle": "Letter Overview",
+  "overviewSubtitle": "Get to know the letter and its shape",
+  "descriptionTitle": "Letter Description",
+  "next": "Next",
+  "previous": "Previous"
 }

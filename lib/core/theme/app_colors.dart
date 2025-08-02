@@ -20,7 +20,7 @@ abstract final class AppColors {
   ); // Alert, caution (“Try Again” feedback)
 
   ///--- Background & Surface
-  static const background = Color(0xFFFFF8E1); // Calm, clean (App background)
+  static const background = Color(0xFFF0FAF7); // Calm, clean (App background)
   static const surface = Color(0xFFFFFFFF); // Neutral, clean (Cards, dialogs)
 
   ///--- Text Colors

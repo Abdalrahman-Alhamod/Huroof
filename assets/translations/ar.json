@@ -1,5 +1,13 @@
 {
   "Hello": "مرحباً",
   "letsLearnLetters": "هيا بنا نتعلم الحروف!",
-  "chooseLetterToStart": "اختر حرفاً و لنبدأ رحلة التعلم"
+  "chooseLetterToStart": "اختر حرفاً و لنبدأ رحلة التعلم",
+  "letterLearningTitle": "تعلم الحرف",
+  "stepLabel": "الخطوة",
+  "ofLabel": "من",
+  "overviewTitle": "نظرة عامة عن الحرف",
+  "overviewSubtitle": "تعرّف على الحرف وشكله",
+  "descriptionTitle": "وصف الحرف",
+  "next": "التالي",
+  "previous": "السابق"
 }

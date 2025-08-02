@@ -152,6 +152,11 @@ abstract final class AppTextStyles {
   static final s64_semiBold = _style(AppFontSize.s64, AppFontWeight.semiBold);
   static final s64_medium = _style(AppFontSize.s64, AppFontWeight.medium);
   static final s64_regular = _style(AppFontSize.s64, AppFontWeight.regular);
+
+  static final s68_bold = _style(AppFontSize.s68, AppFontWeight.bold);
+  static final s68_semiBold = _style(AppFontSize.s68, AppFontWeight.semiBold);
+  static final s68_medium = _style(AppFontSize.s68, AppFontWeight.medium);
+  static final s68_regular = _style(AppFontSize.s68, AppFontWeight.regular);
 }
 
 extension TextStyleColorExtension on TextStyle {
@@ -162,4 +167,5 @@ extension TextStyleColorExtension on TextStyle {
   TextStyle get redColor => copyWith(color: AppColors.error);
   TextStyle get greenColor => copyWith(color: AppColors.success);
   TextStyle get greyColor => copyWith(color: AppColors.grey);
+  TextStyle get darkGreyColor => copyWith(color: AppColors.darkGrey);
 }

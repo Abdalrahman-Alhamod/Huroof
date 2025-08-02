@@ -14,6 +14,14 @@ class LocaleKeys {
   static const Hello = 'Hello';
   static const letsLearnLetters = 'letsLearnLetters';
   static const chooseLetterToStart = 'chooseLetterToStart';
+  static const letterLearningTitle = 'letterLearningTitle';
+  static const stepLabel = 'stepLabel';
+  static const ofLabel = 'ofLabel';
+  static const overviewTitle = 'overviewTitle';
+  static const overviewSubtitle = 'overviewSubtitle';
+  static const descriptionTitle = 'descriptionTitle';
+  static const next = 'next';
+  static const previous = 'previous';
 }
 
 class Locales {
@@ -21,11 +29,27 @@ class Locales {
     'Hello': 'مرحباً',
     'letsLearnLetters': 'هيا بنا نتعلم الحروف!',
     'chooseLetterToStart': 'اختر حرفاً و لنبدأ رحلة التعلم',
+    'letterLearningTitle': 'تعلم الحرف',
+    'stepLabel': 'الخطوة',
+    'ofLabel': 'من',
+    'overviewTitle': 'نظرة عامة عن الحرف',
+    'overviewSubtitle': 'تعرّف على الحرف وشكله',
+    'descriptionTitle': 'وصف الحرف',
+    'next': 'التالي',
+    'previous': 'السابق',
   };
   static const en = {
     'Hello': 'Hello',
     'letsLearnLetters': 'Let\'s learn the letters!',
     'chooseLetterToStart':
         'Choose a letter and let\'s begin the learning journey',
+    'letterLearningTitle': 'Letter Learning',
+    'stepLabel': 'Step',
+    'ofLabel': 'of',
+    'overviewTitle': 'Letter Overview',
+    'overviewSubtitle': 'Get to know the letter and its shape',
+    'descriptionTitle': 'Letter Description',
+    'next': 'Next',
+    'previous': 'Previous',
   };
 }

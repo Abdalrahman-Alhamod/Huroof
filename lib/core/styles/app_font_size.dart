@@ -31,4 +31,5 @@ abstract final class AppFontSize {
   static double get s60 => 60.0.sp;
   static double get s62 => 62.0.sp;
   static double get s64 => 64.0.sp;
+  static double get s68 => 68.0.sp;
 }

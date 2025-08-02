@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:huroof/app/modules/home/controllers/home_controller.dart';
+import 'package:huroof/app/routes/app_pages.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 
 import '../../../../data/model/letter.dart';
@@ -15,7 +16,7 @@ class LetterGrid extends GetView<HomeController> {
     return Obx(
       () => Skeletonizer(
         enabled: controller.letters.isEmpty,
-        
+
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
@@ -32,7 +33,15 @@ class LetterGrid extends GetView<HomeController> {
                     : controller.letters[index];
             return LetterTile(
               letter: letter,
-              onTap: controller.letters.isEmpty ? null : () {},
+              onTap:
+                  controller.letters.isEmpty
+                      ? null
+                      : () {
+                        Get.toNamed(
+                          Routes.LETTER_DETAILS,
+                          arguments: controller.letters[index],
+                        );
+                      },
             );
           },
         ),
