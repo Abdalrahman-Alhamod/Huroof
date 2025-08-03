@@ -16,5 +16,11 @@
   "drawLetterHint": "ركز على ترتيب الخطوات من الأعلى إلى الأسفل وحاول تقليد الحركة بدقة.",
   "makhrajTitle": "مخرج الحرف",
   "makhrajSubtitle": "تعرف على مصدر خروج الحرف من الفم",
-  "makhrajDescriptionTitle": "شرح المخرج"
+  "makhrajDescriptionTitle": "شرح المخرج",
+  "formsTitle": "أشكال الحرف",
+  "formsSubtitle": "تعرّف على شكل الحرف حسب موقعه في الكلمة",
+  "formIsolated": "منفصل",
+  "formInitial": "بداية الكلمة",
+  "formMedial": "وسط الكلمة",
+  "formFinal": "نهاية الكلمة"
 }

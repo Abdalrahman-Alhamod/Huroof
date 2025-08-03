@@ -25,18 +25,10 @@ class LetterDetailsController extends GetxController {
   }
 
   int get totalSteps {
-    int baseSteps = 3; // overview, draw, makhraj
-
-    int formSteps =
-        [
-          letter.forms!.isolated,
-          letter.forms!.initial,
-          letter.forms!.medial,
-          letter.forms!.finalProperty,
-        ].where((form) => form != null && form.toString().isNotEmpty).length;
+    int baseSteps = 4; // overview, draw, makhraj, forms
 
     int variantSteps = letter.variants!.length * 2; // 2 subpages per variant
 
-    return baseSteps + formSteps + variantSteps;
+    return baseSteps + variantSteps;
   }
 }

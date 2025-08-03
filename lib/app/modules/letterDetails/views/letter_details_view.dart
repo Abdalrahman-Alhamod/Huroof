@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:huroof/app/modules/letterDetails/views/subpages/draw_animation_step.dart';
+import 'package:huroof/app/modules/letterDetails/views/subpages/letter_forms_step.dart';
 import 'package:huroof/app/modules/letterDetails/views/subpages/makhraj_step.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
 
@@ -34,6 +35,7 @@ class LetterDetailsView extends GetView<LetterDetailsController> {
                       OverviewStep(letter: controller.letter),
                       DrawAnimationStep(letter: controller.letter),
                       MakhrajStep(letter: controller.letter),
+                      LetterFormsStep(letter: controller.letter),
                       // 📌 More steps will go here...
                     ],
                   ),

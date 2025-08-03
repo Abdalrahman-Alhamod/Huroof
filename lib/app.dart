@@ -23,7 +23,7 @@ class HuroofApp extends StatelessWidget {
           defaultTransition: Get.defaultTransition,
           theme: AppTheme.theme,
           themeMode: ThemeMode.light,
-          locale: AppLocales.ar,
+          locale: AppLocales.en,
           fallbackLocale: AppLocales.ar,
           translationsKeys: AppTranslation.translations,
           localizationsDelegates: const [

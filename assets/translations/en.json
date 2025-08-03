@@ -16,5 +16,11 @@
   "drawLetterHint": "Focus on the stroke order from top to bottom and try to mimic the motion accurately.",
   "makhrajTitle": "Letter Makhraj",
   "makhrajSubtitle": "Understand how the letter is articulated",
-  "makhrajDescriptionTitle": "Makhraj Explanation"
+  "makhrajDescriptionTitle": "Makhraj Explanation",
+  "formsTitle": "Letter Forms",
+  "formsSubtitle": "See how the letter appears in different positions",
+  "formIsolated": "Isolated",
+  "formInitial": "Beginning of the word",
+  "formMedial": "Middle of the word",
+  "formFinal": "End of the word"
 }

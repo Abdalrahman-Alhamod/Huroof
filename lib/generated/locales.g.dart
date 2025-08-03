@@ -29,6 +29,12 @@ class LocaleKeys {
   static const makhrajTitle = 'makhrajTitle';
   static const makhrajSubtitle = 'makhrajSubtitle';
   static const makhrajDescriptionTitle = 'makhrajDescriptionTitle';
+  static const formsTitle = 'formsTitle';
+  static const formsSubtitle = 'formsSubtitle';
+  static const formIsolated = 'formIsolated';
+  static const formInitial = 'formInitial';
+  static const formMedial = 'formMedial';
+  static const formFinal = 'formFinal';
 }
 
 class Locales {
@@ -52,6 +58,12 @@ class Locales {
     'makhrajTitle': 'مخرج الحرف',
     'makhrajSubtitle': 'تعرف على مصدر خروج الحرف من الفم',
     'makhrajDescriptionTitle': 'شرح المخرج',
+    'formsTitle': 'أشكال الحرف',
+    'formsSubtitle': 'تعرّف على شكل الحرف حسب موقعه في الكلمة',
+    'formIsolated': 'منفصل',
+    'formInitial': 'بداية الكلمة',
+    'formMedial': 'وسط الكلمة',
+    'formFinal': 'نهاية الكلمة',
   };
   static const en = {
     'Hello': 'Hello',
@@ -74,5 +86,11 @@ class Locales {
     'makhrajTitle': 'Letter Makhraj',
     'makhrajSubtitle': 'Understand how the letter is articulated',
     'makhrajDescriptionTitle': 'Makhraj Explanation',
+    'formsTitle': 'Letter Forms',
+    'formsSubtitle': 'See how the letter appears in different positions',
+    'formIsolated': 'Isolated',
+    'formInitial': 'Beginning of the word',
+    'formMedial': 'Middle of the word',
+    'formFinal': 'End of the word',
   };
 }
