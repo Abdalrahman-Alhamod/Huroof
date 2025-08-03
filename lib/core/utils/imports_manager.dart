@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 // Assets
+part '../assets/app_audio.dart';
 part '../assets/app_data.dart';
 part '../assets/app_fonts.dart';
 part '../assets/app_images.dart';

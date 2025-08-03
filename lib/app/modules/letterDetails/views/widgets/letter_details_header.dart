@@ -1,4 +1,3 @@
-
 // 📁 lib/app/modules/letter_details/widgets/letter_details_header.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -9,7 +8,6 @@ import 'package:huroof/generated/locales.g.dart';
 import '../../controllers/letter_details_controller.dart';
 
 class LetterDetailsHeader extends GetView<LetterDetailsController> {
-
   const LetterDetailsHeader({super.key});
 
   @override
@@ -59,8 +57,9 @@ class LetterDetailsHeader extends GetView<LetterDetailsController> {
                 const Spacer(),
                 IconButton(
                   icon: const Icon(
-                    Icons.more_vert,
-                    color: AppColors.darkGrey,
+                    Icons.info,
+                    color: AppColors.primary,
+                    size: 40,
                   ),
                   onPressed: () {},
                 ),

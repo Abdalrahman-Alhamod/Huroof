@@ -63,6 +63,7 @@ flutter:
     - assets/lottie/
     - assets/translations/
     - assets/data/
+    - assets/audio/
     - .env
   fonts:
     - family: Amiri

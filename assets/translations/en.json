@@ -22,5 +22,10 @@
   "formIsolated": "Isolated",
   "formInitial": "Beginning of the word",
   "formMedial": "Middle of the word",
-  "formFinal": "End of the word"
+  "formFinal": "End of the word",
+  "mainAudioTitle": "Listen to the Letter",
+  "mainAudioSubtitle": "Tap the play button to hear the correct pronunciation",
+  "audioPlayButton": "Play",
+  "mainAudioHintTitle": "Tip",
+  "mainAudioHint": "Listen carefully to the correct pronunciation before trying to repeat or record."
 }

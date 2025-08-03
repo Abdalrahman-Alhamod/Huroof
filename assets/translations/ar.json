@@ -22,5 +22,20 @@
   "formIsolated": "منفصل",
   "formInitial": "بداية الكلمة",
   "formMedial": "وسط الكلمة",
-  "formFinal": "نهاية الكلمة"
+  "formFinal": "نهاية الكلمة",
+  "mainAudioTitle": "الاستماع إلى الحرف",
+  "mainAudioSubtitle": "اضغط على زر التشغيل لسماع نطق الحرف بشكل صحيح",
+  "audioPlayButton": "تشفيل",
+  "mainAudioHintTitle": "نصيحة",
+  "mainAudioHint": "استمع جيداً للنطق الصحيح قبل أن تبدأ في التكرار أو التسجيل.",
+  "variantTitle": "أشكال الحرف مع الحركات",
+  "variantSubtitle": "استمع وجرّب نطق الحرف بالحركات",
+  "startRecording": "ابدأ التسجيل",
+  "stopRecording": "إيقاف",
+  "playRecording": "تشغيل",
+  "reRecord": "إعادة",
+  "validateRecording": "تحقق",
+  "validationSuccess": "أحسنت! تم النطق بشكل صحيح.",
+  "validationTryAgain": "حاول مرة أخرى.",
+  "waveformLabel": "التسجيل الصوتي"
 }

@@ -35,6 +35,21 @@ class LocaleKeys {
   static const formInitial = 'formInitial';
   static const formMedial = 'formMedial';
   static const formFinal = 'formFinal';
+  static const mainAudioTitle = 'mainAudioTitle';
+  static const mainAudioSubtitle = 'mainAudioSubtitle';
+  static const audioPlayButton = 'audioPlayButton';
+  static const mainAudioHintTitle = 'mainAudioHintTitle';
+  static const mainAudioHint = 'mainAudioHint';
+  static const variantTitle = 'variantTitle';
+  static const variantSubtitle = 'variantSubtitle';
+  static const startRecording = 'startRecording';
+  static const stopRecording = 'stopRecording';
+  static const playRecording = 'playRecording';
+  static const reRecord = 'reRecord';
+  static const validateRecording = 'validateRecording';
+  static const validationSuccess = 'validationSuccess';
+  static const validationTryAgain = 'validationTryAgain';
+  static const waveformLabel = 'waveformLabel';
 }
 
 class Locales {
@@ -64,6 +79,22 @@ class Locales {
     'formInitial': 'بداية الكلمة',
     'formMedial': 'وسط الكلمة',
     'formFinal': 'نهاية الكلمة',
+    'mainAudioTitle': 'الاستماع إلى الحرف',
+    'mainAudioSubtitle': 'اضغط على زر التشغيل لسماع نطق الحرف بشكل صحيح',
+    'audioPlayButton': 'تشفيل',
+    'mainAudioHintTitle': 'نصيحة',
+    'mainAudioHint':
+        'استمع جيداً للنطق الصحيح قبل أن تبدأ في التكرار أو التسجيل.',
+    'variantTitle': 'أشكال الحرف مع الحركات',
+    'variantSubtitle': 'استمع وجرّب نطق الحرف بالحركات',
+    'startRecording': 'ابدأ التسجيل',
+    'stopRecording': 'إيقاف',
+    'playRecording': 'تشغيل',
+    'reRecord': 'إعادة',
+    'validateRecording': 'تحقق',
+    'validationSuccess': 'أحسنت! تم النطق بشكل صحيح.',
+    'validationTryAgain': 'حاول مرة أخرى.',
+    'waveformLabel': 'التسجيل الصوتي',
   };
   static const en = {
     'Hello': 'Hello',
@@ -92,5 +123,12 @@ class Locales {
     'formInitial': 'Beginning of the word',
     'formMedial': 'Middle of the word',
     'formFinal': 'End of the word',
+    'mainAudioTitle': 'Listen to the Letter',
+    'mainAudioSubtitle':
+        'Tap the play button to hear the correct pronunciation',
+    'audioPlayButton': 'Play',
+    'mainAudioHintTitle': 'Tip',
+    'mainAudioHint':
+        'Listen carefully to the correct pronunciation before trying to repeat or record.',
   };
 }
