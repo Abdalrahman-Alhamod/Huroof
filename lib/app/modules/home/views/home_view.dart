@@ -43,11 +43,14 @@ class HomeView extends GetView<HomeController> {
 
         actions: [
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 14.w),
-            child: Icon(
-              Icons.menu_book_rounded,
-              color: AppColors.white,
-              size: 40.sp,
+            padding: EdgeInsets.symmetric(horizontal: 12.w),
+            child: IconButton(
+              onPressed: () {
+                final newLocale = Get.isEnglish ? AppLocales.ar : AppLocales.en;
+                Get.updateLocale(newLocale);
+                controller.loadLetters();
+              },
+              icon: Icon(Icons.language, color: AppColors.white, size: 40.sp),
             ),
           ),
         ],
