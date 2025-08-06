@@ -10,6 +10,7 @@
   "descriptionTitle": "Letter Description",
   "next": "Next",
   "previous": "Previous",
+  "finish": "Finish",
   "drawLetterTitle": "Draw the Letter",
   "drawLetterSubtitle": "Watch how the letter is written in naskh script",
   "drawLetterHintTitle": "Drawing Tip",
@@ -25,7 +26,16 @@
   "formFinal": "End of the word",
   "mainAudioTitle": "Listen to the Letter",
   "mainAudioSubtitle": "Tap the play button to hear the correct pronunciation",
-  "audioPlayButton": "Play",
-  "mainAudioHintTitle": "Tip",
-  "mainAudioHint": "Listen carefully to the correct pronunciation before trying to repeat or record."
+  "variantRecordingTitle": "Pronounce the Variant",
+  "variantRecordingSubtitle": "Listen to the example and record your own pronunciation",
+  "variantNoRecordingYet": "No recording yet. Tap the mic to start recording.",
+  "variantSubmitButton": "Submit",
+  "variantDeleteButton": "Delete",
+  "variantPronunciationHintTitle": "Pronunciation Hint",
+  "dialogSuccessTitle": "Great Job!",
+  "dialogSuccessSubtitle": "The letter was pronounced correctly. Keep going!",
+  "dialogSuccessButton": "Continue",
+  "dialogFailTitle": "Try Again",
+  "dialogFailSubtitle": "The pronunciation was incorrect. Please try again.",
+  "dialogFailButton": "Retry"
 }

@@ -24,23 +24,27 @@ class LetterDetailsNavigation extends GetView<LetterDetailsController> {
           ),
         ],
       ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          PrimaryNavigationButton(
-            onPressed: controller.previousStep,
-            label: LocaleKeys.previous.tr,
-            icon: Icons.arrow_back_ios,
-            isOutlined: true,
-          ),
-          PrimaryNavigationButton(
-            onPressed: controller.nextStep,
-            label: LocaleKeys.next.tr,
-            icon: Icons.arrow_forward_ios,
-            isOutlined: false,
-          ),
-        ],
-      ),
+      child: Obx(() {
+        return Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            controller.isFirstStep
+                ? Spacer()
+                : PrimaryNavigationButton(
+                  onPressed: controller.previousStep,
+                  label: LocaleKeys.previous.tr,
+                  icon: Icons.arrow_back_ios,
+                  isOutlined: true,
+                ),
+           PrimaryNavigationButton(
+              onPressed: controller.nextStep,
+              label: controller.isLastStep?LocaleKeys.finish.tr: LocaleKeys.next.tr,
+              icon: Icons.arrow_forward_ios,
+              isOutlined: false,
+            ),
+          ],
+        );
+      }),
     );
   }
 }

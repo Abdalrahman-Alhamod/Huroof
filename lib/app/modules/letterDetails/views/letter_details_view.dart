@@ -3,11 +3,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:huroof/app/modules/letterDetails/views/subpages/draw_animation_step.dart';
 import 'package:huroof/app/modules/letterDetails/views/subpages/letter_forms_step.dart';
+import 'package:huroof/app/modules/letterDetails/views/subpages/variant_record_step.dart';
 import 'package:huroof/app/modules/letterDetails/views/subpages/makhraj_step.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
 
 import '../controllers/letter_details_controller.dart';
-import 'subpages/main_audio_step.dart';
+import 'subpages/variant_audio_step.dart';
 import 'subpages/overview_step.dart';
 import 'widgets/letter_details_header.dart';
 import 'widgets/letter_details_navigation.dart';
@@ -37,8 +38,12 @@ class LetterDetailsView extends GetView<LetterDetailsController> {
                       DrawAnimationStep(letter: controller.letter),
                       MakhrajStep(letter: controller.letter),
                       LetterFormsStep(letter: controller.letter),
-                      MainAudioStep(letter: controller.letter),
-                      // 📌 More steps will go here...
+                      ...controller.letter.variants!.expand(
+                        (variant) => [
+                          VariantAudioStep(variant: variant),
+                          VariantRecordStep(variant: variant),
+                        ],
+                      ),
                     ],
                   ),
                 ),

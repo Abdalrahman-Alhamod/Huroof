@@ -5,7 +5,9 @@ import 'package:huroof/app/data/model/letter.dart';
 class LetterDetailsController extends GetxController {
   late final Letter letter;
   final currentStep = 0.obs;
-
+  String? recordedVoicePath;
+  bool get isFirstStep => currentStep.value == 0;
+  bool get isLastStep => currentStep.value == totalSteps - 1;
   @override
   void onInit() {
     super.onInit();
@@ -15,6 +17,8 @@ class LetterDetailsController extends GetxController {
   void nextStep() {
     if (currentStep.value < totalSteps - 1) {
       currentStep.value++;
+    } else {
+      Get.back();
     }
   }
 

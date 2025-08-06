@@ -22,6 +22,7 @@ class LocaleKeys {
   static const descriptionTitle = 'descriptionTitle';
   static const next = 'next';
   static const previous = 'previous';
+  static const finish = 'finish';
   static const drawLetterTitle = 'drawLetterTitle';
   static const drawLetterSubtitle = 'drawLetterSubtitle';
   static const drawLetterHintTitle = 'drawLetterHintTitle';
@@ -37,19 +38,18 @@ class LocaleKeys {
   static const formFinal = 'formFinal';
   static const mainAudioTitle = 'mainAudioTitle';
   static const mainAudioSubtitle = 'mainAudioSubtitle';
-  static const audioPlayButton = 'audioPlayButton';
-  static const mainAudioHintTitle = 'mainAudioHintTitle';
-  static const mainAudioHint = 'mainAudioHint';
-  static const variantTitle = 'variantTitle';
-  static const variantSubtitle = 'variantSubtitle';
-  static const startRecording = 'startRecording';
-  static const stopRecording = 'stopRecording';
-  static const playRecording = 'playRecording';
-  static const reRecord = 'reRecord';
-  static const validateRecording = 'validateRecording';
-  static const validationSuccess = 'validationSuccess';
-  static const validationTryAgain = 'validationTryAgain';
-  static const waveformLabel = 'waveformLabel';
+  static const variantRecordingTitle = 'variantRecordingTitle';
+  static const variantRecordingSubtitle = 'variantRecordingSubtitle';
+  static const variantNoRecordingYet = 'variantNoRecordingYet';
+  static const variantSubmitButton = 'variantSubmitButton';
+  static const variantDeleteButton = 'variantDeleteButton';
+  static const variantPronunciationHintTitle = 'variantPronunciationHintTitle';
+  static const dialogSuccessTitle = 'dialogSuccessTitle';
+  static const dialogSuccessSubtitle = 'dialogSuccessSubtitle';
+  static const dialogSuccessButton = 'dialogSuccessButton';
+  static const dialogFailTitle = 'dialogFailTitle';
+  static const dialogFailSubtitle = 'dialogFailSubtitle';
+  static const dialogFailButton = 'dialogFailButton';
 }
 
 class Locales {
@@ -65,6 +65,7 @@ class Locales {
     'descriptionTitle': 'وصف الحرف',
     'next': 'التالي',
     'previous': 'السابق',
+    'finish': 'إنهاء',
     'drawLetterTitle': 'رسم الحرف',
     'drawLetterSubtitle': 'شاهد كيف يُكتب الحرف بخط النسخ',
     'drawLetterHintTitle': 'نصيحة للرسم',
@@ -81,20 +82,18 @@ class Locales {
     'formFinal': 'نهاية الكلمة',
     'mainAudioTitle': 'الاستماع إلى الحرف',
     'mainAudioSubtitle': 'اضغط على زر التشغيل لسماع نطق الحرف بشكل صحيح',
-    'audioPlayButton': 'تشفيل',
-    'mainAudioHintTitle': 'نصيحة',
-    'mainAudioHint':
-        'استمع جيداً للنطق الصحيح قبل أن تبدأ في التكرار أو التسجيل.',
-    'variantTitle': 'أشكال الحرف مع الحركات',
-    'variantSubtitle': 'استمع وجرّب نطق الحرف بالحركات',
-    'startRecording': 'ابدأ التسجيل',
-    'stopRecording': 'إيقاف',
-    'playRecording': 'تشغيل',
-    'reRecord': 'إعادة',
-    'validateRecording': 'تحقق',
-    'validationSuccess': 'أحسنت! تم النطق بشكل صحيح.',
-    'validationTryAgain': 'حاول مرة أخرى.',
-    'waveformLabel': 'التسجيل الصوتي',
+    'variantRecordingTitle': 'تدرب على النطق',
+    'variantRecordingSubtitle': 'استمع للمثال وسجل نُطقك الخاص',
+    'variantNoRecordingYet': 'لم يتم التسجيل بعد، اضغط على الميكروفون للبدء',
+    'variantSubmitButton': 'تحقق',
+    'variantDeleteButton': 'حذف',
+    'variantPronunciationHintTitle': 'تلميحة للنطق',
+    'dialogSuccessTitle': 'أحسنت!',
+    'dialogSuccessSubtitle': 'تم نطق الحرف بشكل صحيح، استمر!',
+    'dialogSuccessButton': 'متابعة',
+    'dialogFailTitle': 'حاول مرة أخرى',
+    'dialogFailSubtitle': 'النطق غير صحيح، يرجى المحاولة مرة أخرى.',
+    'dialogFailButton': 'إعادة المحاولة',
   };
   static const en = {
     'Hello': 'Hello',
@@ -109,6 +108,7 @@ class Locales {
     'descriptionTitle': 'Letter Description',
     'next': 'Next',
     'previous': 'Previous',
+    'finish': 'Finish',
     'drawLetterTitle': 'Draw the Letter',
     'drawLetterSubtitle': 'Watch how the letter is written in naskh script',
     'drawLetterHintTitle': 'Drawing Tip',
@@ -126,9 +126,19 @@ class Locales {
     'mainAudioTitle': 'Listen to the Letter',
     'mainAudioSubtitle':
         'Tap the play button to hear the correct pronunciation',
-    'audioPlayButton': 'Play',
-    'mainAudioHintTitle': 'Tip',
-    'mainAudioHint':
-        'Listen carefully to the correct pronunciation before trying to repeat or record.',
+    'variantRecordingTitle': 'Pronounce the Variant',
+    'variantRecordingSubtitle':
+        'Listen to the example and record your own pronunciation',
+    'variantNoRecordingYet':
+        'No recording yet. Tap the mic to start recording.',
+    'variantSubmitButton': 'Submit',
+    'variantDeleteButton': 'Delete',
+    'variantPronunciationHintTitle': 'Pronunciation Hint',
+    'dialogSuccessTitle': 'Great Job!',
+    'dialogSuccessSubtitle': 'The letter was pronounced correctly. Keep going!',
+    'dialogSuccessButton': 'Continue',
+    'dialogFailTitle': 'Try Again',
+    'dialogFailSubtitle': 'The pronunciation was incorrect. Please try again.',
+    'dialogFailButton': 'Retry',
   };
 }

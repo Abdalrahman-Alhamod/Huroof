@@ -5,20 +5,21 @@ import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:get/get_utils/get_utils.dart';
-import 'package:huroof/app/data/model/letter.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
 import 'package:huroof/generated/locales.g.dart';
 
-class MainAudioStep extends StatefulWidget {
-  final Letter letter;
+import '../../../../data/model/variants.dart';
 
-  const MainAudioStep({super.key, required this.letter});
+class VariantAudioStep extends StatefulWidget {
+  final Variants variant;
+
+  const VariantAudioStep({super.key, required this.variant});
 
   @override
-  State<MainAudioStep> createState() => _MainAudioStepState();
+  State<VariantAudioStep> createState() => _VariantAudioStepState();
 }
 
-class _MainAudioStepState extends State<MainAudioStep> {
+class _VariantAudioStepState extends State<VariantAudioStep> {
   late final PlayerController _playerController;
   String? _localPath;
 
@@ -136,7 +137,7 @@ class _MainAudioStepState extends State<MainAudioStep> {
               children: [
                 SizedBox(height: 20.h),
                 Text(
-                  widget.letter.variants![0].text!,
+                  widget.variant.text!,
                   style: AppTextStyles.s68_bold.primaryColor,
                 ),
                 SizedBox(height: 24.h),
