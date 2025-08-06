@@ -62,7 +62,7 @@ class MakhrajStep extends StatelessWidget {
               border: Border.all(color: AppColors.primary),
             ),
             child: Center(
-              child: Image.asset(AppImages.alif, fit: BoxFit.contain),
+              child: Image.asset(letter.makhrajImage!, fit: BoxFit.contain),
             ),
           ),
         ),
