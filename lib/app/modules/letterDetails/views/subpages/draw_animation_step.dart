@@ -3,20 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:huroof/app/data/model/letter.dart';
+import 'package:huroof/app/modules/letterDetails/views/widgets/custom_youtube_player.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
 import 'package:huroof/generated/locales.g.dart';
-import 'package:lottie/lottie.dart';
 
 class DrawAnimationStep extends StatelessWidget {
   final Letter letter;
-
   const DrawAnimationStep({super.key, required this.letter});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        // Header with icon & subtitle
         Padding(
           padding: EdgeInsets.symmetric(vertical: 16.h, horizontal: 8.w),
           child: Column(
@@ -52,21 +50,21 @@ class DrawAnimationStep extends StatelessWidget {
           ),
         ),
         Spacer(),
-        // Animation Display
-        Expanded(
-          flex: 7,
-          child: Container(
-            width: double.infinity,
-            padding: EdgeInsets.symmetric(vertical: 32.h, horizontal: 16.w),
-            decoration: BoxDecoration(
-              color: AppColors.white,
-              borderRadius: BorderRadius.circular(24.r),
-              border: Border.all(color: AppColors.primary),
+        Container(
+          width: double.infinity,
+          padding: EdgeInsets.all(16.sp),
+          decoration: BoxDecoration(
+            color: AppColors.white,
+            borderRadius: BorderRadius.circular(24.r),
+            border: Border.all(color: AppColors.primary),
+          ),
+          child: Center(
+            child: CustomYoutubePlayer(
+              url: letter.drawVideo!,
+              aspectRatio: 0.8,
             ),
-            child: Center(child: Lottie.asset(AppLottie.alifDraw)),
           ),
         ),
-        SizedBox(height: 12.h),
         Spacer(),
       ],
     );

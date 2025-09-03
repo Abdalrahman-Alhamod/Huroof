@@ -7,7 +7,7 @@
     "description": "Alif (ا) is the 1st letter of the Arabic alphabet. It is written as a simple vertical stroke with no dots or curves, giving it a clean and elegant appearance.",
     "makhraj_image": "assets/images/makhraj/alif.jpg",
     "makhraj_description": "The letter Alif is produced from the deepest part of the throat. It flows out naturally without using the tongue or lips and often appears as a long vowel sound when elongated.",
-    "draw_video": "assets/lottie/alif_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=PaNMIDsAXDA&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/alif/main.mp3",
     "forms": {
       "isolated": "ا",
@@ -62,7 +62,7 @@
     "description": "Bāʼ (ب) is the 2nd letter. It features a flat base with a gentle right-side curve and a single centered dot below, resembling a small bowl or a smile.",
     "makhraj_image": "assets/images/makhraj/ba.jpg",
     "makhraj_description": "The letter Bāʼ is pronounced by pressing both lips together completely and then releasing them with a clear voiced sound. It is crisp and doesn’t involve nasal airflow.",
-    "draw_video": "assets/lottie/ba_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=xjrYyAU2T5w&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=114&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ba/main.mp3",
     "forms": {
       "isolated": "ب",
@@ -141,7 +141,7 @@
     "description": "Tāʼ (ت), the 3rd letter, shares the shape of Bāʼ but with two evenly spaced dots above the curve, giving it a more expressive look.",
     "makhraj_image": "assets/images/makhraj/ta.jpg",
     "makhraj_description": "Tāʼ is articulated by placing the tongue just behind the upper front teeth. The sound is sharp and voiceless with a clean, quick release.",
-    "draw_video": "assets/lottie/ta_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=ajPgCJb6dcw&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=113&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ta/main.mp3",
     "forms": {
       "isolated": "ت",
@@ -220,7 +220,7 @@
     "description": "Thāʼ (ث) is the 4th letter. Its base mirrors that of Bāʼ and Tāʼ, but it's topped with three dots, forming a balanced and decorative trio.",
     "makhraj_image": "assets/images/makhraj/tha.jpg",
     "makhraj_description": "Thāʼ is formed by positioning the tongue lightly between the upper and lower front teeth. The sound is breathy, similar to the 'th' in 'think'.",
-    "draw_video": "assets/lottie/tha_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=Z-PU01nHLqo&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=112&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/tha/main.mp3",
     "forms": {
       "isolated": "ث",
@@ -299,7 +299,7 @@
     "description": "Jīm (ج) is the 5th letter. It forms a curved bowl that dips below the writing line, ending in a tail, with a single dot beneath the body.",
     "makhraj_image": "assets/images/makhraj/jeem.jpg",
     "makhraj_description": "Jīm comes from the middle of the tongue pressing against the roof of the mouth. It's voiced and pronounced with a moderate flow, like the English 'j'.",
-    "draw_video": "assets/lottie/jeem_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=tojYHDHwWX8&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=111&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/jeem/main.mp3",
     "forms": {
       "isolated": "ج",
@@ -378,7 +378,7 @@
     "description": "Ḥāʼ (ح) is the 6th letter. It has a broad curved shape similar to Jīm but lacks any dots, giving it a more minimal form.",
     "makhraj_image": "assets/images/makhraj/ha.jpg",
     "makhraj_description": "Ḥāʼ is produced from the middle of the throat with a soft, breathy tone. It has no vocal cord vibration and requires a gentle open flow.",
-    "draw_video": "assets/lottie/ha_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=4x1khJd4MuE&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=110&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ha/main.mp3",
     "forms": {
       "isolated": "ح",
@@ -457,7 +457,7 @@
     "description": "Khāʼ (خ), the 7th letter, is shaped like Ḥāʼ but distinguished by a single dot above its curve.",
     "makhraj_image": "assets/images/makhraj/kha.jpg",
     "makhraj_description": "Khāʼ originates from the upper throat near the uvula. It is voiced, strong, and has a coarse sound, similar to the German 'ch' in 'Bach'.",
-    "draw_video": "assets/lottie/kha_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=4W1FcbVeQUw&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=109&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/kha/main.mp3",
     "forms": {
       "isolated": "خ",
@@ -536,7 +536,7 @@
     "description": "Dāl (د) is the 8th letter. It features a short, curved stroke resembling a backwards comma or a hook. It has no dots and is visually light.",
     "makhraj_image": "assets/images/makhraj/dal.jpg",
     "makhraj_description": "Dāl is pronounced by pressing the tip of the tongue against the base of the upper front teeth. It is voiced and released with a short, clear sound.",
-    "draw_video": "assets/lottie/dal_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=RfxdBgBQf2w&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=108&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/dal/main.mp3",
     "forms": {
       "isolated": "د",
@@ -615,7 +615,7 @@
     "description": "Dhāl (ذ) is the 9th letter. Its form matches Dāl but with a small dot placed above, creating a slightly heavier top.",
     "makhraj_image": "assets/images/makhraj/thal.jpg",
     "makhraj_description": "Dhāl is articulated like the English 'th' in 'this', by placing the tongue lightly between the front teeth and using vocal cord vibration.",
-    "draw_video": "assets/lottie/thal_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=9IJ7scLGAIg&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=107&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/thal/main.mp3",
     "forms": {
       "isolated": "ذ",
@@ -694,7 +694,7 @@
     "description": "Rāʼ (ر) is the 10th letter. Its shape flows like a hooked curve descending from the right and contains no dots.",
     "makhraj_image": "assets/images/makhraj/ra.jpg",
     "makhraj_description": "Rāʼ is pronounced by tapping the tip of the tongue against the roof of the mouth. It creates a vibrant, trilled or quick flicking sound.",
-    "draw_video": "assets/lottie/ra_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=HKNNQS2wW3I&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=106&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ra/main.mp3",
     "forms": {
       "isolated": "ر",
@@ -773,7 +773,7 @@
     "description": "Zāy (ز) is the 11th letter. It mirrors Rāʼ in form but includes a single dot above, adding a sleek contrast.",
     "makhraj_image": "assets/images/makhraj/zay.jpg",
     "makhraj_description": "Zāy is formed by placing the tongue close to the upper teeth, with the vocal cords vibrating to produce a buzzing 'z' sound.",
-    "draw_video": "assets/lottie/zay_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=z8tYzKuyNes&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=105&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/zay/main.mp3",
     "forms": {
       "isolated": "ز",
@@ -852,7 +852,7 @@
     "description": "Sīn (س) is the 12th letter. It consists of three connected peaks that flow smoothly across the baseline like waves.",
     "makhraj_image": "assets/images/makhraj/seen.jpg",
     "makhraj_description": "Sīn is pronounced with the tongue near the upper front teeth, allowing air to pass through and create a hissing 's' sound.",
-    "draw_video": "assets/lottie/seen_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=Lg13xusjyB0&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=104&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/seen/main.mp3",
     "forms": {
       "isolated": "س",
@@ -931,7 +931,7 @@
     "description": "Shīn (ش) is the 13th letter. Identical to Sīn but topped with three distinct dots aligned above the peaks.",
     "makhraj_image": "assets/images/makhraj/sheen.jpg",
     "makhraj_description": "Shīn is produced by raising the middle of the tongue toward the roof of the mouth and releasing air with a soft, breathy 'sh' sound.",
-    "draw_video": "assets/lottie/sheen_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=inlXTBFozgw&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=103&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/sheen/main.mp3",
     "forms": {
       "isolated": "ش",
@@ -1010,7 +1010,7 @@
     "description": "Ṣād (ص) is the 14th letter. It begins with a tall curved arch and extends into a bold stroke. It carries no dots and is visually prominent.",
     "makhraj_image": "assets/images/makhraj/sad.jpg",
     "makhraj_description": "Ṣād is a strong, emphatic version of 's', produced with the tongue touching the upper palate and vocal tract constriction.",
-    "draw_video": "assets/lottie/sad_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=5m-ZbLT78M0&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=100&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/sad/main.mp3",
     "forms": {
       "isolated": "ص",
@@ -1089,7 +1089,7 @@
     "description": "Ḍād (ض) is the 15th letter. Its structure resembles Ṣād but with an added dot inside or above the curve.",
     "makhraj_image": "assets/images/makhraj/dad.jpg",
     "makhraj_description": "Ḍād is unique to Arabic. It's made by pressing one side of the tongue against the upper molars and releasing a deep, heavy voiced sound.",
-    "draw_video": "assets/lottie/dad_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=-Y-zoKMN9GM&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=99&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/dad/main.mp3",
     "forms": {
       "isolated": "ض",
@@ -1168,7 +1168,7 @@
     "description": "Ṭāʼ (ط) is the 16th letter. It combines a pronounced arch and a straight leg, with a centered dot above.",
     "makhraj_image": "assets/images/makhraj/taa.jpg",
     "makhraj_description": "Ṭāʼ is a heavy, emphatic 't' sound formed by pressing the tongue to the upper palate and releasing it with strength.",
-    "draw_video": "assets/lottie/taa_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=XAlC3AE7E18&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=102&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/taa/main.mp3",
     "forms": {
       "isolated": "ط",
@@ -1247,7 +1247,7 @@
     "description": "Ẓāʼ (ظ) is the 17th letter. It mirrors Ṭāʼ with the same structure and one dot above, but used for deeper, emphatic sounds.",
     "makhraj_image": "assets/images/makhraj/zaa.jpg",
     "makhraj_description": "Ẓāʼ is an emphatic version of 'th', made by placing the tongue between the teeth and adding vocal heaviness.",
-    "draw_video": "assets/lottie/zaa_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=ZVlQvRwrCoM&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=101&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/zaa/main.mp3",
     "forms": {
       "isolated": "ظ",
@@ -1326,7 +1326,7 @@
     "description": "ʿAyn (ع) is the 18th letter. It has a unique open-loop shape like a backwards 'c' with a tail curving below.",
     "makhraj_image": "assets/images/makhraj/ain.jpg",
     "makhraj_description": "ʿAyn is pronounced from the middle of the throat with a strong, voiced release that feels deep and guttural.",
-    "draw_video": "assets/lottie/ain_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=brUiZ_LVnE0&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=98&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ain/main.mp3",
     "forms": {
       "isolated": "ع",
@@ -1405,7 +1405,7 @@
     "description": "Ghayn (غ) is the 19th letter. It has the same body as ʿAyn but includes a single dot above the upper arc.",
     "makhraj_image": "assets/images/makhraj/ghain.jpg",
     "makhraj_description": "Ghayn is made from the upper throat, with a coarse, vibrating sound similar to the French 'r' in 'Paris'.",
-    "draw_video": "assets/lottie/ghain_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=m5SAKJupFQw&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=97&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ghain/main.mp3",
     "forms": {
       "isolated": "غ",
@@ -1484,7 +1484,7 @@
     "description": "Fāʼ (ف) is the 20th letter. It starts with a small curve or loop and rises into a sweeping stroke, with a dot above.",
     "makhraj_image": "assets/images/makhraj/fa.jpg",
     "makhraj_description": "Fāʼ is formed by placing the bottom lip against the upper front teeth and pushing air through softly, like the English 'f'.",
-    "draw_video": "assets/lottie/fa_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=34J35GmLuho&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=96&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/fa/main.mp3",
     "forms": {
       "isolated": "ف",
@@ -1563,7 +1563,7 @@
     "description": "Qāf (ق) is the 21st letter. It features a bold looped structure and usually carries two dots above, forming a strong visual impact.",
     "makhraj_image": "assets/images/makhraj/qaf.jpg",
     "makhraj_description": "Qāf is pronounced from the deepest part of the tongue pressing upward against the soft palate, with a strong, heavy sound.",
-    "draw_video": "assets/lottie/qaf_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=lEEU2sPqZgA&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=95&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/qaf/main.mp3",
     "forms": {
       "isolated": "ق",
@@ -1642,7 +1642,7 @@
     "description": "Kāf (ك) is the 22nd letter. It is angular with a rightward tail and often includes a small arm-like flourish in some scripts.",
     "makhraj_image": "assets/images/makhraj/kaf.jpg",
     "makhraj_description": "Kāf is similar to the English 'k', formed by pressing the back of the tongue against the soft palate and releasing it.",
-    "draw_video": "assets/lottie/kaf_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=BZyf0JO7Bog&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=94&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/kaf/main.mp3",
     "forms": {
       "isolated": "ك",
@@ -1721,7 +1721,7 @@
     "description": "Lām (ل) is the 23rd letter. Its form begins with a gentle upward curve that rises before sharply descending, resembling a slanted 'l'.",
     "makhraj_image": "assets/images/makhraj/lam.jpg",
     "makhraj_description": "Lām is pronounced by touching the tip of the tongue to the gums of the upper front teeth. It's soft and clear like English 'l'.",
-    "draw_video": "assets/lottie/lam_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=v5tEi8-xZXU&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=93&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/lam/main.mp3",
     "forms": {
       "isolated": "ل",
@@ -1800,7 +1800,7 @@
     "description": "Mīm (م) is the 24th letter. It has a rounded body like a closed loop or a teardrop, often drawn slightly below the baseline.",
     "makhraj_image": "assets/images/makhraj/meem.jpg",
     "makhraj_description": "Mīm is made by pressing both lips together and allowing the sound to pass through the nose, producing a clear 'm'.",
-    "draw_video": "assets/lottie/meem_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=qD5e13Y87c8&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=92&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/meem/main.mp3",
     "forms": {
       "isolated": "م",
@@ -1879,7 +1879,7 @@
     "description": "Nūn (ن) is the 25th letter. It has a short stroke or loop with a single dot placed above, making it compact and light.",
     "makhraj_image": "assets/images/makhraj/noon.jpg",
     "makhraj_description": "Nūn is formed by pressing the tongue to the upper gums and allowing nasal sound to flow, creating an 'n' sound.",
-    "draw_video": "assets/lottie/noon_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=DMeNnLDOAJg&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=91&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/noon/main.mp3",
     "forms": {
       "isolated": "ن",
@@ -1958,7 +1958,7 @@
     "description": "Hāʼ (ه) is the 26th letter. Its isolated shape is circular or looped and varies slightly depending on its position in the word.",
     "makhraj_image": "assets/images/makhraj/ha2.jpg",
     "makhraj_description": "Hāʼ is a soft, breathy sound that comes from the lower throat, similar to a gentle sigh or whisper.",
-    "draw_video": "assets/lottie/ha2_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=Y2dd26Hb8ug&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=89&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ha2/main.mp3",
     "forms": {
       "isolated": "ه",
@@ -2037,7 +2037,7 @@
     "description": "Wāw (و) is the 27th letter. It is rounded and curves downward, similar in shape to the number 9 in many styles.",
     "makhraj_image": "assets/images/makhraj/waw.jpg",
     "makhraj_description": "Wāw is pronounced by rounding the lips and allowing voiced sound to flow, similar to the English 'w'.",
-    "draw_video": "assets/lottie/waw_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=FAiOagH7frc&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=90&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/waw/main.mp3",
     "forms": {
       "isolated": "و",
@@ -2110,7 +2110,7 @@
     "description": "Yāʼ (ي) is the 28th letter. It has a tail that flows downward and two small dots underneath, giving it a symmetrical appearance.",
     "makhraj_image": "assets/images/makhraj/ya.jpg",
     "makhraj_description": "Yāʼ is formed by raising the middle of the tongue close to the roof of the mouth, producing a 'y' sound like in 'yes'.",
-    "draw_video": "assets/lottie/ya_draw.json",
+    "draw_video": "https://www.youtube.com/watch?v=_At47j3KsOo&list=PLwgL_hPkqcWKsgrQXunPbAJZmAJvLdt64&index=87&ab_channel=AhmArtHub",
     "main_audio": "assets/audio/ya/main.mp3",
     "forms": {
       "isolated": "ي",
