@@ -21,10 +21,7 @@ class LabeledTextField extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          label,
-          style: AppTextStyles.s18_bold.blackColor,
-        ),
+        Text(label, style: AppTextStyles.s18_bold.blackColor),
         SizedBox(height: 10.h),
         CustomTextField(hintText: hintText, onChanged: onChanged),
         SizedBox(height: 10.h),

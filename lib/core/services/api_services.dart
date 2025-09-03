@@ -2,10 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:http/http.dart' as http;
 
 abstract class ApiServices {
-  Future<dynamic> get(
-    String path, {
-    Map<String, String>? queryParams,
-  });
+  Future<dynamic> get(String path, {Map<String, String>? queryParams});
 
   Future<dynamic> post(
     String path, {

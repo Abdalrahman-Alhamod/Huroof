@@ -19,15 +19,18 @@ Future<void> showValidationDialog({
     builder: (_) {
       return ValidationDialog(
         lottieAsset: lottieAsset,
-        title: isSuccess
-            ? LocaleKeys.dialogSuccessTitle.tr
-            : LocaleKeys.dialogFailTitle.tr,
-        subtitle: isSuccess
-            ? LocaleKeys.dialogSuccessSubtitle.tr
-            : LocaleKeys.dialogFailSubtitle.tr,
-        buttonText: isSuccess
-            ? LocaleKeys.dialogSuccessButton.tr
-            : LocaleKeys.dialogFailButton.tr,
+        title:
+            isSuccess
+                ? LocaleKeys.dialogSuccessTitle.tr
+                : LocaleKeys.dialogFailTitle.tr,
+        subtitle:
+            isSuccess
+                ? LocaleKeys.dialogSuccessSubtitle.tr
+                : LocaleKeys.dialogFailSubtitle.tr,
+        buttonText:
+            isSuccess
+                ? LocaleKeys.dialogSuccessButton.tr
+                : LocaleKeys.dialogFailButton.tr,
         isSuccess: isSuccess,
         onRetry: onRetry,
         onSuccess: onSuccess,

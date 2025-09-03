@@ -1,4 +1,5 @@
 part of '../utils/imports_manager.dart';
+
 abstract final class AppFontSize {
   AppFontSize._();
 

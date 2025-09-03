@@ -28,23 +28,15 @@ class CustomLoadingIndicatorState extends State<CustomLoadingIndicator> {
   }
 
   void _startLoading() {
-    Future.delayed(
-      Duration(seconds: widget.durationInSeconds),
-      () {
-        if (widget.onComplete != null) {
-          widget.onComplete!();
-        }
-      },
-    );
+    Future.delayed(Duration(seconds: widget.durationInSeconds), () {
+      if (widget.onComplete != null) {
+        widget.onComplete!();
+      }
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: SpinKitCircle(
-        color: widget.color,
-        size: widget.size,
-      ),
-    );
+    return Center(child: SpinKitCircle(color: widget.color, size: widget.size));
   }
 }

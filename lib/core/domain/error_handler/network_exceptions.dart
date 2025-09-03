@@ -250,5 +250,4 @@ abstract class NetworkExceptions with _$NetworkExceptions implements Exception {
 
     return errorMessage;
   }
-
 }

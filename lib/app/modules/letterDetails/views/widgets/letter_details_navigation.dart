@@ -36,9 +36,12 @@ class LetterDetailsNavigation extends GetView<LetterDetailsController> {
                   icon: Icons.arrow_back_ios,
                   isOutlined: true,
                 ),
-           PrimaryNavigationButton(
+            PrimaryNavigationButton(
               onPressed: controller.nextStep,
-              label: controller.isLastStep?LocaleKeys.finish.tr: LocaleKeys.next.tr,
+              label:
+                  controller.isLastStep
+                      ? LocaleKeys.finish.tr
+                      : LocaleKeys.next.tr,
               icon: Icons.arrow_forward_ios,
               isOutlined: false,
             ),
