@@ -41,20 +41,20 @@ class LetterService {
   /// Automatically localized
   static Future<Letter?> getLetterById(String id) async {
     final letters = await getLetters();
-    return letters.firstWhereOrNull((l) => l.id == id);
+    return letters.firstWhereOrNull((l) => l.key == id);
   }
 
   /// Get the index of a letter by ID (e.g., for navigation)
   static Future<int?> getLetterIndex(String id) async {
     final letters = await getLetters();
-    final index = letters.indexWhere((l) => l.id == id);
+    final index = letters.indexWhere((l) => l.key == id);
     return index >= 0 ? index : null;
   }
 
   /// Get all letter IDs
   static Future<List<String>> getAllIds() async {
     final letters = await getLetters();
-    return letters.map((l) => l.id ?? '').toList();
+    return letters.map((l) => l.key ?? '').toList();
   }
 
   /// Find a letter by exact Arabic character (e.g. ب)

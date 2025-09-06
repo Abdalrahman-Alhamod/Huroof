@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:huroof/app/data/model/variants.dart';
+import 'package:huroof/app/data/model/syllable.dart';
 import 'package:huroof/app/modules/letterDetails/controllers/letter_details_controller.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
@@ -18,16 +18,16 @@ import '../../../../../core/functions/show_custom_snackbar.dart';
 import '../../../../../core/utils/logger.dart';
 import 'validation_dialog.dart';
 
-class VariantRecordStep extends StatefulWidget {
-  final Variants variant;
+class SyllableRecordStep extends StatefulWidget {
+  final Syllable syllable;
 
-  const VariantRecordStep({super.key, required this.variant});
+  const SyllableRecordStep({super.key, required this.syllable});
 
   @override
-  State<VariantRecordStep> createState() => _VariantRecordStepState();
+  State<SyllableRecordStep> createState() => _SyllableRecordStepState();
 }
 
-class _VariantRecordStepState extends State<VariantRecordStep> {
+class _SyllableRecordStepState extends State<SyllableRecordStep> {
   late final PlayerController _playerController;
   late final RecorderController _recorderController;
   late final StreamSubscription<void> _playerCompletionSubscription;
@@ -230,7 +230,7 @@ class _VariantRecordStepState extends State<VariantRecordStep> {
                     ),
                     SizedBox(width: 6.w),
                     Text(
-                      LocaleKeys.variantRecordingTitle.tr,
+                      LocaleKeys.syllableRecordingTitle.tr,
                       style: AppTextStyles.s14_regular.primaryColor,
                     ),
                   ],
@@ -238,7 +238,7 @@ class _VariantRecordStepState extends State<VariantRecordStep> {
               ),
               SizedBox(height: 10.h),
               Text(
-                widget.variant.recordingHint!,
+                widget.syllable.recordingHint!,
                 style: AppTextStyles.s16_medium.darkGreyColor,
                 textAlign: TextAlign.center,
               ),
@@ -269,7 +269,7 @@ class _VariantRecordStepState extends State<VariantRecordStep> {
               children: [
                 SizedBox(height: 20.h),
                 Text(
-                  widget.variant.text!,
+                  widget.syllable.text!,
                   style: AppTextStyles.s68_bold.primaryColor,
                 ),
                 SizedBox(height: 24.h),
@@ -371,7 +371,7 @@ class _VariantRecordStepState extends State<VariantRecordStep> {
                     )
                     : Center(
                       child: Text(
-                        LocaleKeys.variantNoRecordingYet.tr,
+                        LocaleKeys.syllableNoRecordingYet.tr,
                         style: AppTextStyles.s14_medium.darkGreyColor,
                       ),
                     ),
@@ -387,7 +387,7 @@ class _VariantRecordStepState extends State<VariantRecordStep> {
             ElevatedButton.icon(
               onPressed: _isRecordingCompleted ? _deleteRecording : null,
               icon: const Icon(Icons.delete),
-              label: Text(LocaleKeys.variantDeleteButton.tr),
+              label: Text(LocaleKeys.syllableDeleteButton.tr),
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppColors.error,
                 foregroundColor: Colors.white,
@@ -401,7 +401,7 @@ class _VariantRecordStepState extends State<VariantRecordStep> {
             ElevatedButton.icon(
               onPressed: _isRecordingCompleted ? _submitForValidation : null,
               icon: const Icon(Icons.check_circle),
-              label: Text(LocaleKeys.variantSubmitButton.tr),
+              label: Text(LocaleKeys.syllableSubmitButton.tr),
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppColors.primary,
                 foregroundColor: Colors.white,

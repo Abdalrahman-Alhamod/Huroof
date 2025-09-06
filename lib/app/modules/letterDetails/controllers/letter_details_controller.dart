@@ -31,8 +31,8 @@ class LetterDetailsController extends GetxController {
   int get totalSteps {
     int baseSteps = 4; // overview, draw, makhraj, forms
 
-    int variantSteps = letter.variants!.length * 2; // 2 subpages per variant
+    int syllableSteps = letter.syllables!.length * 2; // 2 subpages per syllable
 
-    return baseSteps + variantSteps;
+    return baseSteps + syllableSteps;
   }
 }

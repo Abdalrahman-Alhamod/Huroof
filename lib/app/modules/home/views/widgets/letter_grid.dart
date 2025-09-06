@@ -16,7 +16,6 @@ class LetterGrid extends GetView<HomeController> {
     return Obx(
       () => Skeletonizer(
         enabled: controller.letters.isEmpty,
-
         child: GridView.builder(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
@@ -29,7 +28,7 @@ class LetterGrid extends GetView<HomeController> {
           itemBuilder: (context, index) {
             final letter =
                 controller.letters.isEmpty
-                    ? Letter(id: '', letter: 'ا', name: 'Alif')
+                    ? Letter(key: '', letter: 'ا', name: 'Alif')
                     : controller.letters[index];
             return LetterTile(
               letter: letter,

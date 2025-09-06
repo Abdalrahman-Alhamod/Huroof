@@ -1,6 +1,7 @@
 [
   {
-    "id": "alif",
+    "id": 0,
+    "key": "alif",
     "letter": "ا",
     "name": "ألف",
     "pronunciation": "أَلِف",
@@ -15,47 +16,54 @@
       "medial": null,
       "final": "ـا"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "أَ",
         "audio": "assets/audio/alif/alif_fatha.mp3",
-        "recording_hint": "ابدأ بهمزة مفتوحة وافتح الفم للنطق."
+        "recording_hint": "ابدأ بهمزة مفتوحة وافتح الفم للنطق.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "أُ",
         "audio": "assets/audio/alif/alif_damma.mp3",
-        "recording_hint": "ابدأ بهمزة مضمومة وضم الشفتين."
+        "recording_hint": "ابدأ بهمزة مضمومة وضم الشفتين.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "أِ",
         "audio": "assets/audio/alif/alif_kasra.mp3",
-        "recording_hint": "ابدأ بهمزة مكسورة بخفض الفك."
+        "recording_hint": "ابدأ بهمزة مكسورة بخفض الفك.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "ءَا",
         "audio": "assets/audio/alif/alif_long_fatha.mp3",
-        "recording_hint": "ابدأ بهمزة ثم مد بالألف."
+        "recording_hint": "ابدأ بهمزة ثم مد بالألف.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "ءُو",
         "audio": "assets/audio/alif/alif_long_damma.mp3",
-        "recording_hint": "ابدأ بهمزة مضمومة ثم مد بالواو."
+        "recording_hint": "ابدأ بهمزة مضمومة ثم مد بالواو.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "ءِى",
         "audio": "assets/audio/alif/alif_long_kasra.mp3",
-        "recording_hint": "ابدأ بهمزة مكسورة ثم مد بالياء."
+        "recording_hint": "ابدأ بهمزة مكسورة ثم مد بالياء.",
+        "key": "madd_yaa"
       }
     ]
   },
   {
-    "id": "ba",
+    "id": 0,
+    "key": "baa",
     "letter": "ب",
     "name": "باء",
     "pronunciation": "بَاء",
@@ -70,71 +78,82 @@
       "medial": "ـبـ",
       "final": "ـب"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "بَ",
         "audio": "assets/audio/ba/ba_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "بُ",
         "audio": "assets/audio/ba/ba_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "بِ",
         "audio": "assets/audio/ba/ba_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "با",
         "audio": "assets/audio/ba/ba_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "بو",
         "audio": "assets/audio/ba/ba_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "بي",
         "audio": "assets/audio/ba/ba_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِبْ",
         "audio": "assets/audio/ba/ba_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أبّ",
         "audio": "assets/audio/ba/ba_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُبّ",
         "audio": "assets/audio/ba/ba_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِبّ",
         "audio": "assets/audio/ba/ba_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "ta",
+    "id": 0,
+    "key": "taa",
     "letter": "ت",
     "name": "تاء",
     "pronunciation": "تَاء",
@@ -149,71 +168,82 @@
       "medial": "ـتـ",
       "final": "ـت"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "تَ",
         "audio": "assets/audio/ta/ta_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "تُ",
         "audio": "assets/audio/ta/ta_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "تِ",
         "audio": "assets/audio/ta/ta_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "تا",
         "audio": "assets/audio/ta/ta_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "تو",
         "audio": "assets/audio/ta/ta_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "تي",
         "audio": "assets/audio/ta/ta_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِتْ",
         "audio": "assets/audio/ta/ta_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أتّ",
         "audio": "assets/audio/ta/ta_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُتّ",
         "audio": "assets/audio/ta/ta_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِتّ",
         "audio": "assets/audio/ta/ta_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "tha",
+    "id": 0,
+    "key": "thaa",
     "letter": "ث",
     "name": "ثاء",
     "pronunciation": "ثَاء",
@@ -228,71 +258,82 @@
       "medial": "ـثـ",
       "final": "ـث"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "ثَ",
         "audio": "assets/audio/tha/tha_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "ثُ",
         "audio": "assets/audio/tha/tha_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "ثِ",
         "audio": "assets/audio/tha/tha_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "ثا",
         "audio": "assets/audio/tha/tha_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "ثو",
         "audio": "assets/audio/tha/tha_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "ثي",
         "audio": "assets/audio/tha/tha_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِثْ",
         "audio": "assets/audio/tha/tha_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أثّ",
         "audio": "assets/audio/tha/tha_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُثّ",
         "audio": "assets/audio/tha/tha_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِثّ",
         "audio": "assets/audio/tha/tha_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "jeem",
+    "id": 0,
+    "key": "jeem",
     "letter": "ج",
     "name": "جيم",
     "pronunciation": "جِيم",
@@ -307,71 +348,82 @@
       "medial": "ـجـ",
       "final": "ـج"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "جَ",
         "audio": "assets/audio/jeem/jeem_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "جُ",
         "audio": "assets/audio/jeem/jeem_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "جِ",
         "audio": "assets/audio/jeem/jeem_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "جا",
         "audio": "assets/audio/jeem/jeem_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "جو",
         "audio": "assets/audio/jeem/jeem_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "جي",
         "audio": "assets/audio/jeem/jeem_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِجْ",
         "audio": "assets/audio/jeem/jeem_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أجّ",
         "audio": "assets/audio/jeem/jeem_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُجّ",
         "audio": "assets/audio/jeem/jeem_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِجّ",
         "audio": "assets/audio/jeem/jeem_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "ha",
+    "id": 0,
+    "key": "ha",
     "letter": "ح",
     "name": "حاء",
     "pronunciation": "حَاء",
@@ -386,71 +438,82 @@
       "medial": "ـحـ",
       "final": "ـح"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "حَ",
         "audio": "assets/audio/ha/ha_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "حُ",
         "audio": "assets/audio/ha/ha_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "حِ",
         "audio": "assets/audio/ha/ha_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "حا",
         "audio": "assets/audio/ha/ha_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "حو",
         "audio": "assets/audio/ha/ha_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "حي",
         "audio": "assets/audio/ha/ha_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِحْ",
         "audio": "assets/audio/ha/ha_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أحّ",
         "audio": "assets/audio/ha/ha_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُحّ",
         "audio": "assets/audio/ha/ha_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِحّ",
         "audio": "assets/audio/ha/ha_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "kha",
+    "id": 0,
+    "key": "khaa",
     "letter": "خ",
     "name": "خاء",
     "pronunciation": "خَاء",
@@ -465,71 +528,82 @@
       "medial": "ـخـ",
       "final": "ـخ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "خَ",
         "audio": "assets/audio/kha/kha_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "خُ",
         "audio": "assets/audio/kha/kha_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "خِ",
         "audio": "assets/audio/kha/kha_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "خا",
         "audio": "assets/audio/kha/kha_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "خو",
         "audio": "assets/audio/kha/kha_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "خي",
         "audio": "assets/audio/kha/kha_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِخْ",
         "audio": "assets/audio/kha/kha_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أخّ",
         "audio": "assets/audio/kha/kha_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُخّ",
         "audio": "assets/audio/kha/kha_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِخّ",
         "audio": "assets/audio/kha/kha_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "dal",
+    "id": 0,
+    "key": "dal",
     "letter": "د",
     "name": "دال",
     "pronunciation": "دَال",
@@ -544,71 +618,82 @@
       "medial": null,
       "final": "ـد"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "دَ",
         "audio": "assets/audio/dal/dal_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "دُ",
         "audio": "assets/audio/dal/dal_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "دِ",
         "audio": "assets/audio/dal/dal_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "دا",
         "audio": "assets/audio/dal/dal_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "دو",
         "audio": "assets/audio/dal/dal_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "دي",
         "audio": "assets/audio/dal/dal_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِدْ",
         "audio": "assets/audio/dal/dal_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أدّ",
         "audio": "assets/audio/dal/dal_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُدّ",
         "audio": "assets/audio/dal/dal_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِدّ",
         "audio": "assets/audio/dal/dal_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "thal",
+    "id": 0,
+    "key": "thal",
     "letter": "ذ",
     "name": "ذال",
     "pronunciation": "ذَال",
@@ -623,71 +708,82 @@
       "medial": null,
       "final": "ـذ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "ذَ",
         "audio": "assets/audio/thal/thal_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "ذُ",
         "audio": "assets/audio/thal/thal_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "ذِ",
         "audio": "assets/audio/thal/thal_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "ذا",
         "audio": "assets/audio/thal/thal_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "ذو",
         "audio": "assets/audio/thal/thal_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "ذي",
         "audio": "assets/audio/thal/thal_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِذْ",
         "audio": "assets/audio/thal/thal_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أذّ",
         "audio": "assets/audio/thal/thal_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُذّ",
         "audio": "assets/audio/thal/thal_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِذّ",
         "audio": "assets/audio/thal/thal_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "ra",
+    "id": 0,
+    "key": "raa",
     "letter": "ر",
     "name": "راء",
     "pronunciation": "رَاء",
@@ -702,71 +798,82 @@
       "medial": null,
       "final": "ـر"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "رَ",
         "audio": "assets/audio/ra/ra_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "رُ",
         "audio": "assets/audio/ra/ra_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "رِ",
         "audio": "assets/audio/ra/ra_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "را",
         "audio": "assets/audio/ra/ra_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "رو",
         "audio": "assets/audio/ra/ra_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "ري",
         "audio": "assets/audio/ra/ra_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِرْ",
         "audio": "assets/audio/ra/ra_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أرّ",
         "audio": "assets/audio/ra/ra_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُرّ",
         "audio": "assets/audio/ra/ra_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِرّ",
         "audio": "assets/audio/ra/ra_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "zay",
+    "id": 0,
+    "key": "zay",
     "letter": "ز",
     "name": "زاي",
     "pronunciation": "زَاي",
@@ -781,71 +888,82 @@
       "medial": null,
       "final": "ـز"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "زَ",
         "audio": "assets/audio/zay/zay_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "زُ",
         "audio": "assets/audio/zay/zay_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "زِ",
         "audio": "assets/audio/zay/zay_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "زا",
         "audio": "assets/audio/zay/zay_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "زو",
         "audio": "assets/audio/zay/zay_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "زي",
         "audio": "assets/audio/zay/zay_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِزْ",
         "audio": "assets/audio/zay/zay_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أزّ",
         "audio": "assets/audio/zay/zay_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُزّ",
         "audio": "assets/audio/zay/zay_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِزّ",
         "audio": "assets/audio/zay/zay_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "seen",
+    "id": 0,
+    "key": "seen",
     "letter": "س",
     "name": "سين",
     "pronunciation": "سِين",
@@ -860,71 +978,82 @@
       "medial": "ـسـ",
       "final": "ـس"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "سَ",
         "audio": "assets/audio/seen/seen_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "سُ",
         "audio": "assets/audio/seen/seen_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "سِ",
         "audio": "assets/audio/seen/seen_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "سا",
         "audio": "assets/audio/seen/seen_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "سو",
         "audio": "assets/audio/seen/seen_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "سي",
         "audio": "assets/audio/seen/seen_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِسْ",
         "audio": "assets/audio/seen/seen_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أسّ",
         "audio": "assets/audio/seen/seen_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُسّ",
         "audio": "assets/audio/seen/seen_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِسّ",
         "audio": "assets/audio/seen/seen_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "sheen",
+    "id": 0,
+    "key": "sheen",
     "letter": "ش",
     "name": "شين",
     "pronunciation": "شِين",
@@ -939,71 +1068,82 @@
       "medial": "ـشـ",
       "final": "ـش"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "شَ",
         "audio": "assets/audio/sheen/sheen_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "شُ",
         "audio": "assets/audio/sheen/sheen_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "شِ",
         "audio": "assets/audio/sheen/sheen_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "شا",
         "audio": "assets/audio/sheen/sheen_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "شو",
         "audio": "assets/audio/sheen/sheen_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "شي",
         "audio": "assets/audio/sheen/sheen_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِشْ",
         "audio": "assets/audio/sheen/sheen_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أشّ",
         "audio": "assets/audio/sheen/sheen_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُشّ",
         "audio": "assets/audio/sheen/sheen_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِشّ",
         "audio": "assets/audio/sheen/sheen_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "sad",
+    "id": 0,
+    "key": "sad",
     "letter": "ص",
     "name": "صاد",
     "pronunciation": "صَاد",
@@ -1018,71 +1158,82 @@
       "medial": "ـصـ",
       "final": "ـص"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "صَ",
         "audio": "assets/audio/sad/sad_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "صُ",
         "audio": "assets/audio/sad/sad_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "صِ",
         "audio": "assets/audio/sad/sad_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "صا",
         "audio": "assets/audio/sad/sad_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "صو",
         "audio": "assets/audio/sad/sad_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "صي",
         "audio": "assets/audio/sad/sad_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِصْ",
         "audio": "assets/audio/sad/sad_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أصّ",
         "audio": "assets/audio/sad/sad_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُصّ",
         "audio": "assets/audio/sad/sad_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِصّ",
         "audio": "assets/audio/sad/sad_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "dad",
+    "id": 0,
+    "key": "dad",
     "letter": "ض",
     "name": "ضاد",
     "pronunciation": "ضَاد",
@@ -1097,71 +1248,82 @@
       "medial": "ـضـ",
       "final": "ـض"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "ضَ",
         "audio": "assets/audio/dad/dad_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "ضُ",
         "audio": "assets/audio/dad/dad_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "ضِ",
         "audio": "assets/audio/dad/dad_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "ضا",
         "audio": "assets/audio/dad/dad_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "ضو",
         "audio": "assets/audio/dad/dad_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "ضي",
         "audio": "assets/audio/dad/dad_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِضْ",
         "audio": "assets/audio/dad/dad_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أضّ",
         "audio": "assets/audio/dad/dad_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُضّ",
         "audio": "assets/audio/dad/dad_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِضّ",
         "audio": "assets/audio/dad/dad_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "taa",
+    "id": 0,
+    "key": "tah",
     "letter": "ط",
     "name": "طاء",
     "pronunciation": "طَاء",
@@ -1176,71 +1338,82 @@
       "medial": "ـطـ",
       "final": "ـط"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "طَ",
         "audio": "assets/audio/taa/taa_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "طُ",
         "audio": "assets/audio/taa/taa_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "طِ",
         "audio": "assets/audio/taa/taa_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "طا",
         "audio": "assets/audio/taa/taa_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "طو",
         "audio": "assets/audio/taa/taa_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "طي",
         "audio": "assets/audio/taa/taa_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِطْ",
         "audio": "assets/audio/taa/taa_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أطّ",
         "audio": "assets/audio/taa/taa_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُطّ",
         "audio": "assets/audio/taa/taa_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِطّ",
         "audio": "assets/audio/taa/taa_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "zaa",
+    "id": 0,
+    "key": "thah",
     "letter": "ظ",
     "name": "ظاء",
     "pronunciation": "ظَاء",
@@ -1255,71 +1428,82 @@
       "medial": "ـظـ",
       "final": "ـظ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "ظَ",
         "audio": "assets/audio/zaa/zaa_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "ظُ",
         "audio": "assets/audio/zaa/zaa_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "ظِ",
         "audio": "assets/audio/zaa/zaa_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "ظا",
         "audio": "assets/audio/zaa/zaa_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "ظو",
         "audio": "assets/audio/zaa/zaa_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "ظي",
         "audio": "assets/audio/zaa/zaa_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِظْ",
         "audio": "assets/audio/zaa/zaa_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أظّ",
         "audio": "assets/audio/zaa/zaa_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُظّ",
         "audio": "assets/audio/zaa/zaa_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِظّ",
         "audio": "assets/audio/zaa/zaa_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "ain",
+    "id": 0,
+    "key": "ain",
     "letter": "ع",
     "name": "عين",
     "pronunciation": "عَيْن",
@@ -1334,71 +1518,82 @@
       "medial": "ـعـ",
       "final": "ـع"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "عَ",
         "audio": "assets/audio/ain/ain_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "عُ",
         "audio": "assets/audio/ain/ain_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "عِ",
         "audio": "assets/audio/ain/ain_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "عا",
         "audio": "assets/audio/ain/ain_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "عو",
         "audio": "assets/audio/ain/ain_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "عي",
         "audio": "assets/audio/ain/ain_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِعْ",
         "audio": "assets/audio/ain/ain_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أعّ",
         "audio": "assets/audio/ain/ain_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُعّ",
         "audio": "assets/audio/ain/ain_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِعّ",
         "audio": "assets/audio/ain/ain_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "ghain",
+    "id": 0,
+    "key": "ghain",
     "letter": "غ",
     "name": "غين",
     "pronunciation": "غَيْن",
@@ -1413,71 +1608,82 @@
       "medial": "ـغـ",
       "final": "ـغ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "غَ",
         "audio": "assets/audio/ghain/ghain_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "غُ",
         "audio": "assets/audio/ghain/ghain_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "غِ",
         "audio": "assets/audio/ghain/ghain_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "غا",
         "audio": "assets/audio/ghain/ghain_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "غو",
         "audio": "assets/audio/ghain/ghain_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "غي",
         "audio": "assets/audio/ghain/ghain_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِغْ",
         "audio": "assets/audio/ghain/ghain_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أغّ",
         "audio": "assets/audio/ghain/ghain_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُغّ",
         "audio": "assets/audio/ghain/ghain_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِغّ",
         "audio": "assets/audio/ghain/ghain_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "fa",
+    "id": 0,
+    "key": "faa",
     "letter": "ف",
     "name": "فاء",
     "pronunciation": "فَاء",
@@ -1492,71 +1698,82 @@
       "medial": "ـفـ",
       "final": "ـف"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "فَ",
         "audio": "assets/audio/fa/fa_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "فُ",
         "audio": "assets/audio/fa/fa_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "فِ",
         "audio": "assets/audio/fa/fa_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "فا",
         "audio": "assets/audio/fa/fa_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "فو",
         "audio": "assets/audio/fa/fa_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "في",
         "audio": "assets/audio/fa/fa_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِفْ",
         "audio": "assets/audio/fa/fa_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أفّ",
         "audio": "assets/audio/fa/fa_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُفّ",
         "audio": "assets/audio/fa/fa_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِفّ",
         "audio": "assets/audio/fa/fa_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "qaf",
+    "id": 0,
+    "key": "qaf",
     "letter": "ق",
     "name": "قاف",
     "pronunciation": "قَاف",
@@ -1571,71 +1788,82 @@
       "medial": "ـقـ",
       "final": "ـق"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "قَ",
         "audio": "assets/audio/qaf/qaf_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "قُ",
         "audio": "assets/audio/qaf/qaf_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "قِ",
         "audio": "assets/audio/qaf/qaf_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "قا",
         "audio": "assets/audio/qaf/qaf_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "قو",
         "audio": "assets/audio/qaf/qaf_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "قي",
         "audio": "assets/audio/qaf/qaf_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِقْ",
         "audio": "assets/audio/qaf/qaf_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أقّ",
         "audio": "assets/audio/qaf/qaf_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُقّ",
         "audio": "assets/audio/qaf/qaf_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِقّ",
         "audio": "assets/audio/qaf/qaf_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "kaf",
+    "id": 0,
+    "key": "kaf",
     "letter": "ك",
     "name": "كاف",
     "pronunciation": "كَاف",
@@ -1650,71 +1878,82 @@
       "medial": "ـكـ",
       "final": "ـك"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "كَ",
         "audio": "assets/audio/kaf/kaf_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "كُ",
         "audio": "assets/audio/kaf/kaf_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "كِ",
         "audio": "assets/audio/kaf/kaf_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "كا",
         "audio": "assets/audio/kaf/kaf_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "كو",
         "audio": "assets/audio/kaf/kaf_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "كي",
         "audio": "assets/audio/kaf/kaf_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِكْ",
         "audio": "assets/audio/kaf/kaf_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أكّ",
         "audio": "assets/audio/kaf/kaf_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُكّ",
         "audio": "assets/audio/kaf/kaf_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِكّ",
         "audio": "assets/audio/kaf/kaf_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "lam",
+    "id": 0,
+    "key": "lam",
     "letter": "ل",
     "name": "لام",
     "pronunciation": "لَام",
@@ -1729,71 +1968,82 @@
       "medial": "ـلـ",
       "final": "ـل"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "لَ",
         "audio": "assets/audio/lam/lam_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "لُ",
         "audio": "assets/audio/lam/lam_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "لِ",
         "audio": "assets/audio/lam/lam_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "لا",
         "audio": "assets/audio/lam/lam_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "لو",
         "audio": "assets/audio/lam/lam_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "لي",
         "audio": "assets/audio/lam/lam_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِلْ",
         "audio": "assets/audio/lam/lam_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "ألّ",
         "audio": "assets/audio/lam/lam_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُلّ",
         "audio": "assets/audio/lam/lam_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِلّ",
         "audio": "assets/audio/lam/lam_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "meem",
+    "id": 0,
+    "key": "meem",
     "letter": "م",
     "name": "ميم",
     "pronunciation": "مِيم",
@@ -1808,71 +2058,82 @@
       "medial": "ـمـ",
       "final": "ـم"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "مَ",
         "audio": "assets/audio/meem/meem_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "مُ",
         "audio": "assets/audio/meem/meem_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "مِ",
         "audio": "assets/audio/meem/meem_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "ما",
         "audio": "assets/audio/meem/meem_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "مو",
         "audio": "assets/audio/meem/meem_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "مي",
         "audio": "assets/audio/meem/meem_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِمْ",
         "audio": "assets/audio/meem/meem_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أمّ",
         "audio": "assets/audio/meem/meem_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُمّ",
         "audio": "assets/audio/meem/meem_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِمّ",
         "audio": "assets/audio/meem/meem_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "noon",
+    "id": 0,
+    "key": "noon",
     "letter": "ن",
     "name": "نون",
     "pronunciation": "نُون",
@@ -1887,71 +2148,82 @@
       "medial": "ـنـ",
       "final": "ـن"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "نَ",
         "audio": "assets/audio/noon/noon_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "نُ",
         "audio": "assets/audio/noon/noon_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "نِ",
         "audio": "assets/audio/noon/noon_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "نا",
         "audio": "assets/audio/noon/noon_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "نو",
         "audio": "assets/audio/noon/noon_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "ني",
         "audio": "assets/audio/noon/noon_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِنْ",
         "audio": "assets/audio/noon/noon_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أنّ",
         "audio": "assets/audio/noon/noon_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُنّ",
         "audio": "assets/audio/noon/noon_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِنّ",
         "audio": "assets/audio/noon/noon_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "ha2",
+    "id": 0,
+    "key": "haa",
     "letter": "ه",
     "name": "هاء",
     "pronunciation": "هَاء",
@@ -1966,71 +2238,82 @@
       "medial": "ـهـ",
       "final": "ـه"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "هَ",
         "audio": "assets/audio/ha2/ha2_fatha.mp3",
-        "recording_hint": "نطق واضح مع فتح الفم."
+        "recording_hint": "نطق واضح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "هُ",
         "audio": "assets/audio/ha2/ha2_damma.mp3",
-        "recording_hint": "ضم الشفتين جيدًا أثناء النطق."
+        "recording_hint": "ضم الشفتين جيدًا أثناء النطق.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "هِ",
         "audio": "assets/audio/ha2/ha2_kasra.mp3",
-        "recording_hint": "خفض الفك السفلي قليلًا عند النطق."
+        "recording_hint": "خفض الفك السفلي قليلًا عند النطق.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالألف",
+        "name": "مد بالألف",
         "text": "ها",
         "audio": "assets/audio/ha2/ha2_long_fatha.mp3",
-        "recording_hint": "مد بالألف بصوت مفتوح."
+        "recording_hint": "مد بالألف بصوت مفتوح.",
+        "key": "madd_alif"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "هو",
         "audio": "assets/audio/ha2/ha2_long_damma.mp3",
-        "recording_hint": "مد بالواو مع ضم."
+        "recording_hint": "مد بالواو مع ضم.",
+        "key": "madd_waw"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "هي",
         "audio": "assets/audio/ha2/ha2_long_kasra.mp3",
-        "recording_hint": "مد بالياء مع كسر خفيف."
+        "recording_hint": "مد بالياء مع كسر خفيف.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اِهْ",
         "audio": "assets/audio/ha2/ha2_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق الحرف ساكنًا.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "أهّ",
         "audio": "assets/audio/ha2/ha2_shaddah_fatha.mp3",
-        "recording_hint": "شدد الحرف مع فتحة واضحة."
+        "recording_hint": "شدد الحرف مع فتحة واضحة.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُهّ",
         "audio": "assets/audio/ha2/ha2_shaddah_damma.mp3",
-        "recording_hint": "شدد الحرف مع ضمة كاملة."
+        "recording_hint": "شدد الحرف مع ضمة كاملة.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِهّ",
         "audio": "assets/audio/ha2/ha2_shaddah_kasra.mp3",
-        "recording_hint": "شدد الحرف مع كسر ناعم."
+        "recording_hint": "شدد الحرف مع كسر ناعم.",
+        "key": "shaddah_kasra"
       }
     ]
   },
   {
-    "id": "waw",
+    "id": 0,
+    "key": "waw",
     "letter": "و",
     "name": "واو",
     "pronunciation": "وَاو",
@@ -2045,65 +2328,75 @@
       "medial": null,
       "final": null
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "وَ",
         "audio": "assets/audio/waw/waw_fatha.mp3",
-        "recording_hint": "انطق وَ بوضوح مع فتح الفم."
+        "recording_hint": "انطق وَ بوضوح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "وُ",
         "audio": "assets/audio/waw/waw_damma.mp3",
-        "recording_hint": "ضم الشفتين عند النطق بوُ."
+        "recording_hint": "ضم الشفتين عند النطق بوُ.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "وِ",
         "audio": "assets/audio/waw/waw_kasra.mp3",
-        "recording_hint": "نطق خفيف لوِ مع كسرة."
+        "recording_hint": "نطق خفيف لوِ مع كسرة.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالواو",
+        "name": "مد بالواو",
         "text": "وُو",
         "audio": "assets/audio/waw/waw_long_damma.mp3",
-        "recording_hint": "مد الواو بصوت واضح وطويل."
+        "recording_hint": "مد الواو بصوت واضح وطويل.",
+        "key": "madd_waw"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اَوْ",
         "audio": "assets/audio/waw/waw_sukun.mp3",
-        "recording_hint": "ابدأ بألف وصل، ثم انطق وْ ساكنة."
+        "recording_hint": "ابدأ بألف وصل، ثم انطق وْ ساكنة.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "اَوَّ",
         "audio": "assets/audio/waw/waw_shaddah_fatha.mp3",
-        "recording_hint": "انطق وّ بفتح قوي."
+        "recording_hint": "انطق وّ بفتح قوي.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالضمة",
+        "name": "شدة بالضمة",
         "text": "أُوُّ",
         "audio": "assets/audio/waw/waw_shaddah_damma.mp3",
-        "recording_hint": "ضم واضح ومكرر في وّ."
+        "recording_hint": "ضم واضح ومكرر في وّ.",
+        "key": "shaddah_damma"
       },
       {
-        "type": "لينه",
+        "name": "لينه",
         "text": "أَوْ",
         "audio": "assets/audio/waw/waw_lainah1.mp3",
-        "recording_hint": "ابدأ بألف وهمزة، ثم و ساكنة."
+        "recording_hint": "ابدأ بألف وهمزة، ثم و ساكنة.",
+        "key": "laienah"
       },
       {
-        "type": "لينه",
+        "name": "لينه",
         "text": "بَوْ",
         "audio": "assets/audio/waw/waw_lainah2.mp3",
-        "recording_hint": "انطق بَوْ بهدوء ونعومة."
+        "recording_hint": "انطق بَوْ بهدوء ونعومة.",
+        "key": "laienah"
       }
     ]
   },
   {
-    "id": "ya",
+    "id": 0,
+    "key": "yaa",
     "letter": "ي",
     "name": "ياء",
     "pronunciation": "يَاء",
@@ -2118,60 +2411,69 @@
       "medial": "ـيـ",
       "final": "ـي"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "فتحة",
+        "name": "فتحة",
         "text": "يَ",
         "audio": "assets/audio/ya/ya_fatha.mp3",
-        "recording_hint": "انطق يَ بوضوح مع فتح الفم."
+        "recording_hint": "انطق يَ بوضوح مع فتح الفم.",
+        "key": "fatha"
       },
       {
-        "type": "ضمة",
+        "name": "ضمة",
         "text": "يُ",
         "audio": "assets/audio/ya/ya_damma.mp3",
-        "recording_hint": "ضم الشفتين أثناء نطق يُ."
+        "recording_hint": "ضم الشفتين أثناء نطق يُ.",
+        "key": "damma"
       },
       {
-        "type": "كسرة",
+        "name": "كسرة",
         "text": "يِ",
         "audio": "assets/audio/ya/ya_kasra.mp3",
-        "recording_hint": "نطق خفيف ليِ."
+        "recording_hint": "نطق خفيف ليِ.",
+        "key": "kasra"
       },
       {
-        "type": "مد بالياء",
+        "name": "مد بالياء",
         "text": "يِي",
         "audio": "assets/audio/ya/ya_long_kasra.mp3",
-        "recording_hint": "مد الياء بصوت مكسور واضح."
+        "recording_hint": "مد الياء بصوت مكسور واضح.",
+        "key": "madd_yaa"
       },
       {
-        "type": "سكون",
+        "name": "سكون",
         "text": "اَيْ",
         "audio": "assets/audio/ya/ya_sukun.mp3",
-        "recording_hint": "ابدأ بهمزة وصل، ثم انطق يْ ساكنة."
+        "recording_hint": "ابدأ بهمزة وصل، ثم انطق يْ ساكنة.",
+        "key": "sukun"
       },
       {
-        "type": "شدة بالفتحة",
+        "name": "شدة بالفتحة",
         "text": "اَيَّ",
         "audio": "assets/audio/ya/ya_shaddah_fatha.mp3",
-        "recording_hint": "نطق يّ مشدد بفتح واضح."
+        "recording_hint": "نطق يّ مشدد بفتح واضح.",
+        "key": "shaddah_fatha"
       },
       {
-        "type": "شدة بالكسرة",
+        "name": "شدة بالكسرة",
         "text": "اِيِّ",
         "audio": "assets/audio/ya/ya_shaddah_kasra.mp3",
-        "recording_hint": "نطق يّ مشدد مع كسر خفيف."
+        "recording_hint": "نطق يّ مشدد مع كسر خفيف.",
+        "key": "shaddah_kasra"
       },
       {
-        "type": "لينه",
+        "name": "لينه",
         "text": "أَيْ",
         "audio": "assets/audio/ya/ya_lainah1.mp3",
-        "recording_hint": "ابدأ بهمزة، ثم ي ساكنة ناعمة."
+        "recording_hint": "ابدأ بهمزة، ثم ي ساكنة ناعمة.",
+        "key": "laienah"
       },
       {
-        "type": "لينه",
+        "name": "لينه",
         "text": "بَيْ",
         "audio": "assets/audio/ya/ya_lainah2.mp3",
-        "recording_hint": "انطق بَيْ بصوت خفيف ومرن."
+        "recording_hint": "انطق بَيْ بصوت خفيف ومرن.",
+        "key": "laienah"
       }
     ]
   }

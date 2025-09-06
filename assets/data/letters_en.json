@@ -1,6 +1,7 @@
 [
   {
-    "id": "alif",
+    "id": 0,
+    "key": "alif",
     "letter": "ا",
     "name": "Alif",
     "pronunciation": "'a-lif",
@@ -15,39 +16,45 @@
       "medial": null,
       "final": "ـا"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Start with a glottal onset and open your mouth clearly.",
         "text": "أَ",
         "audio": "assets/audio/alif/alif_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Start with a glottal sound while rounding the lips.",
         "text": "أُ",
         "audio": "assets/audio/alif/alif_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Start with a glottal sound while slightly lowering your jaw.",
         "text": "أِ",
         "audio": "assets/audio/alif/alif_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Start with a glottal onset followed by an extended 'aa' sound.",
         "text": "ءَا",
         "audio": "assets/audio/alif/alif_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Start with a rounded glottal sound and extend with 'oo'.",
         "text": "ءُو",
         "audio": "assets/audio/alif/alif_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Start with a sharp glottal sound and extend with 'ee'.",
         "text": "ءِى",
         "audio": "assets/audio/alif/alif_long_kasra.mp3"
@@ -55,7 +62,8 @@
     ]
   },
   {
-    "id": "ba",
+    "id": 0,
+    "key": "baa",
     "letter": "ب",
     "name": "Ba",
     "pronunciation": "ba",
@@ -70,63 +78,73 @@
       "medial": "ـبـ",
       "final": "ـب"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "بَ",
         "audio": "assets/audio/ba/ba_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "بُ",
         "audio": "assets/audio/ba/ba_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "بِ",
         "audio": "assets/audio/ba/ba_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "با",
         "audio": "assets/audio/ba/ba_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "بو",
         "audio": "assets/audio/ba/ba_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "بي",
         "audio": "assets/audio/ba/ba_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِبْ",
         "audio": "assets/audio/ba/ba_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أبّ",
         "audio": "assets/audio/ba/ba_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُبّ",
         "audio": "assets/audio/ba/ba_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِبّ",
         "audio": "assets/audio/ba/ba_shaddah_kasra.mp3"
@@ -134,7 +152,8 @@
     ]
   },
   {
-    "id": "ta",
+    "id": 0,
+    "key": "taa",
     "letter": "ت",
     "name": "Ta",
     "pronunciation": "ta",
@@ -149,63 +168,73 @@
       "medial": "ـتـ",
       "final": "ـت"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "تَ",
         "audio": "assets/audio/ta/ta_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "تُ",
         "audio": "assets/audio/ta/ta_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "تِ",
         "audio": "assets/audio/ta/ta_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "تا",
         "audio": "assets/audio/ta/ta_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "تو",
         "audio": "assets/audio/ta/ta_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "تي",
         "audio": "assets/audio/ta/ta_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِتْ",
         "audio": "assets/audio/ta/ta_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أتّ",
         "audio": "assets/audio/ta/ta_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُتّ",
         "audio": "assets/audio/ta/ta_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِتّ",
         "audio": "assets/audio/ta/ta_shaddah_kasra.mp3"
@@ -213,7 +242,8 @@
     ]
   },
   {
-    "id": "tha",
+    "id": 0,
+    "key": "thaa",
     "letter": "ث",
     "name": "Tha",
     "pronunciation": "tha",
@@ -228,63 +258,73 @@
       "medial": "ـثـ",
       "final": "ـث"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "ثَ",
         "audio": "assets/audio/tha/tha_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "ثُ",
         "audio": "assets/audio/tha/tha_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "ثِ",
         "audio": "assets/audio/tha/tha_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "ثا",
         "audio": "assets/audio/tha/tha_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "ثو",
         "audio": "assets/audio/tha/tha_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "ثي",
         "audio": "assets/audio/tha/tha_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِثْ",
         "audio": "assets/audio/tha/tha_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أثّ",
         "audio": "assets/audio/tha/tha_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُثّ",
         "audio": "assets/audio/tha/tha_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِثّ",
         "audio": "assets/audio/tha/tha_shaddah_kasra.mp3"
@@ -292,7 +332,8 @@
     ]
   },
   {
-    "id": "jeem",
+    "id": 0,
+    "key": "jeem",
     "letter": "ج",
     "name": "Jeem",
     "pronunciation": "jim",
@@ -307,63 +348,73 @@
       "medial": "ـجـ",
       "final": "ـج"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "جَ",
         "audio": "assets/audio/jeem/jeem_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "جُ",
         "audio": "assets/audio/jeem/jeem_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "جِ",
         "audio": "assets/audio/jeem/jeem_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "جا",
         "audio": "assets/audio/jeem/jeem_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "جو",
         "audio": "assets/audio/jeem/jeem_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "جي",
         "audio": "assets/audio/jeem/jeem_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِجْ",
         "audio": "assets/audio/jeem/jeem_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أجّ",
         "audio": "assets/audio/jeem/jeem_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُجّ",
         "audio": "assets/audio/jeem/jeem_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِجّ",
         "audio": "assets/audio/jeem/jeem_shaddah_kasra.mp3"
@@ -371,7 +422,8 @@
     ]
   },
   {
-    "id": "ha",
+    "id": 0,
+    "key": "ha",
     "letter": "ح",
     "name": "Ha",
     "pronunciation": "ha",
@@ -386,63 +438,73 @@
       "medial": "ـحـ",
       "final": "ـح"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "حَ",
         "audio": "assets/audio/ha/ha_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "حُ",
         "audio": "assets/audio/ha/ha_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "حِ",
         "audio": "assets/audio/ha/ha_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "حا",
         "audio": "assets/audio/ha/ha_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "حو",
         "audio": "assets/audio/ha/ha_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "حي",
         "audio": "assets/audio/ha/ha_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِحْ",
         "audio": "assets/audio/ha/ha_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أحّ",
         "audio": "assets/audio/ha/ha_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُحّ",
         "audio": "assets/audio/ha/ha_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِحّ",
         "audio": "assets/audio/ha/ha_shaddah_kasra.mp3"
@@ -450,7 +512,8 @@
     ]
   },
   {
-    "id": "kha",
+    "id": 0,
+    "key": "khaa",
     "letter": "خ",
     "name": "Kha",
     "pronunciation": "kha",
@@ -465,63 +528,73 @@
       "medial": "ـخـ",
       "final": "ـخ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "خَ",
         "audio": "assets/audio/kha/kha_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "خُ",
         "audio": "assets/audio/kha/kha_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "خِ",
         "audio": "assets/audio/kha/kha_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "خا",
         "audio": "assets/audio/kha/kha_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "خو",
         "audio": "assets/audio/kha/kha_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "خي",
         "audio": "assets/audio/kha/kha_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِخْ",
         "audio": "assets/audio/kha/kha_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أخّ",
         "audio": "assets/audio/kha/kha_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُخّ",
         "audio": "assets/audio/kha/kha_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِخّ",
         "audio": "assets/audio/kha/kha_shaddah_kasra.mp3"
@@ -529,7 +602,8 @@
     ]
   },
   {
-    "id": "dal",
+    "id": 0,
+    "key": "dal",
     "letter": "د",
     "name": "Dal",
     "pronunciation": "dal",
@@ -544,63 +618,73 @@
       "medial": null,
       "final": "ـد"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "دَ",
         "audio": "assets/audio/dal/dal_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "دُ",
         "audio": "assets/audio/dal/dal_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "دِ",
         "audio": "assets/audio/dal/dal_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "دا",
         "audio": "assets/audio/dal/dal_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "دو",
         "audio": "assets/audio/dal/dal_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "دي",
         "audio": "assets/audio/dal/dal_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِدْ",
         "audio": "assets/audio/dal/dal_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أدّ",
         "audio": "assets/audio/dal/dal_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُدّ",
         "audio": "assets/audio/dal/dal_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِدّ",
         "audio": "assets/audio/dal/dal_shaddah_kasra.mp3"
@@ -608,7 +692,8 @@
     ]
   },
   {
-    "id": "thal",
+    "id": 0,
+    "key": "thal",
     "letter": "ذ",
     "name": "Dhal",
     "pronunciation": "dhal",
@@ -623,63 +708,73 @@
       "medial": null,
       "final": "ـذ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "ذَ",
         "audio": "assets/audio/thal/thal_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "ذُ",
         "audio": "assets/audio/thal/thal_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "ذِ",
         "audio": "assets/audio/thal/thal_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "ذا",
         "audio": "assets/audio/thal/thal_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "ذو",
         "audio": "assets/audio/thal/thal_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "ذي",
         "audio": "assets/audio/thal/thal_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِذْ",
         "audio": "assets/audio/thal/thal_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أذّ",
         "audio": "assets/audio/thal/thal_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُذّ",
         "audio": "assets/audio/thal/thal_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِذّ",
         "audio": "assets/audio/thal/thal_shaddah_kasra.mp3"
@@ -687,7 +782,8 @@
     ]
   },
   {
-    "id": "ra",
+    "id": 0,
+    "key": "raa",
     "letter": "ر",
     "name": "Ra",
     "pronunciation": "ra",
@@ -702,63 +798,73 @@
       "medial": null,
       "final": "ـر"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "رَ",
         "audio": "assets/audio/ra/ra_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "رُ",
         "audio": "assets/audio/ra/ra_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "رِ",
         "audio": "assets/audio/ra/ra_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "را",
         "audio": "assets/audio/ra/ra_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "رو",
         "audio": "assets/audio/ra/ra_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "ري",
         "audio": "assets/audio/ra/ra_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِرْ",
         "audio": "assets/audio/ra/ra_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أرّ",
         "audio": "assets/audio/ra/ra_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُرّ",
         "audio": "assets/audio/ra/ra_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِرّ",
         "audio": "assets/audio/ra/ra_shaddah_kasra.mp3"
@@ -766,7 +872,8 @@
     ]
   },
   {
-    "id": "zay",
+    "id": 0,
+    "key": "zay",
     "letter": "ز",
     "name": "Zay",
     "pronunciation": "zay",
@@ -781,63 +888,73 @@
       "medial": null,
       "final": "ـز"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "زَ",
         "audio": "assets/audio/zay/zay_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "زُ",
         "audio": "assets/audio/zay/zay_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "زِ",
         "audio": "assets/audio/zay/zay_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "زا",
         "audio": "assets/audio/zay/zay_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "زو",
         "audio": "assets/audio/zay/zay_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "زي",
         "audio": "assets/audio/zay/zay_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِزْ",
         "audio": "assets/audio/zay/zay_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أزّ",
         "audio": "assets/audio/zay/zay_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُزّ",
         "audio": "assets/audio/zay/zay_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِزّ",
         "audio": "assets/audio/zay/zay_shaddah_kasra.mp3"
@@ -845,7 +962,8 @@
     ]
   },
   {
-    "id": "seen",
+    "id": 0,
+    "key": "seen",
     "letter": "س",
     "name": "Seen",
     "pronunciation": "sin",
@@ -860,63 +978,73 @@
       "medial": "ـسـ",
       "final": "ـس"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "سَ",
         "audio": "assets/audio/seen/seen_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "سُ",
         "audio": "assets/audio/seen/seen_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "سِ",
         "audio": "assets/audio/seen/seen_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "سا",
         "audio": "assets/audio/seen/seen_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "سو",
         "audio": "assets/audio/seen/seen_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "سي",
         "audio": "assets/audio/seen/seen_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِسْ",
         "audio": "assets/audio/seen/seen_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أسّ",
         "audio": "assets/audio/seen/seen_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُسّ",
         "audio": "assets/audio/seen/seen_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِسّ",
         "audio": "assets/audio/seen/seen_shaddah_kasra.mp3"
@@ -924,7 +1052,8 @@
     ]
   },
   {
-    "id": "sheen",
+    "id": 0,
+    "key": "sheen",
     "letter": "ش",
     "name": "Sheen",
     "pronunciation": "shin",
@@ -939,63 +1068,73 @@
       "medial": "ـشـ",
       "final": "ـش"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "شَ",
         "audio": "assets/audio/sheen/sheen_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "شُ",
         "audio": "assets/audio/sheen/sheen_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "شِ",
         "audio": "assets/audio/sheen/sheen_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "شا",
         "audio": "assets/audio/sheen/sheen_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "شو",
         "audio": "assets/audio/sheen/sheen_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "شي",
         "audio": "assets/audio/sheen/sheen_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِشْ",
         "audio": "assets/audio/sheen/sheen_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أشّ",
         "audio": "assets/audio/sheen/sheen_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُشّ",
         "audio": "assets/audio/sheen/sheen_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِشّ",
         "audio": "assets/audio/sheen/sheen_shaddah_kasra.mp3"
@@ -1003,7 +1142,8 @@
     ]
   },
   {
-    "id": "sad",
+    "id": 0,
+    "key": "sad",
     "letter": "ص",
     "name": "Sad",
     "pronunciation": "sad",
@@ -1018,63 +1158,73 @@
       "medial": "ـصـ",
       "final": "ـص"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "صَ",
         "audio": "assets/audio/sad/sad_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "صُ",
         "audio": "assets/audio/sad/sad_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "صِ",
         "audio": "assets/audio/sad/sad_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "صا",
         "audio": "assets/audio/sad/sad_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "صو",
         "audio": "assets/audio/sad/sad_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "صي",
         "audio": "assets/audio/sad/sad_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِصْ",
         "audio": "assets/audio/sad/sad_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أصّ",
         "audio": "assets/audio/sad/sad_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُصّ",
         "audio": "assets/audio/sad/sad_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِصّ",
         "audio": "assets/audio/sad/sad_shaddah_kasra.mp3"
@@ -1082,7 +1232,8 @@
     ]
   },
   {
-    "id": "dad",
+    "id": 0,
+    "key": "dad",
     "letter": "ض",
     "name": "Dad",
     "pronunciation": "dad",
@@ -1097,63 +1248,73 @@
       "medial": "ـضـ",
       "final": "ـض"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "ضَ",
         "audio": "assets/audio/dad/dad_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "ضُ",
         "audio": "assets/audio/dad/dad_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "ضِ",
         "audio": "assets/audio/dad/dad_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "ضا",
         "audio": "assets/audio/dad/dad_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "ضو",
         "audio": "assets/audio/dad/dad_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "ضي",
         "audio": "assets/audio/dad/dad_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِضْ",
         "audio": "assets/audio/dad/dad_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أضّ",
         "audio": "assets/audio/dad/dad_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُضّ",
         "audio": "assets/audio/dad/dad_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِضّ",
         "audio": "assets/audio/dad/dad_shaddah_kasra.mp3"
@@ -1161,7 +1322,8 @@
     ]
   },
   {
-    "id": "taa",
+    "id": 0,
+    "key": "tah",
     "letter": "ط",
     "name": "Ta'",
     "pronunciation": "ta'",
@@ -1176,63 +1338,73 @@
       "medial": "ـطـ",
       "final": "ـط"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "طَ",
         "audio": "assets/audio/taa/taa_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "طُ",
         "audio": "assets/audio/taa/taa_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "طِ",
         "audio": "assets/audio/taa/taa_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "طا",
         "audio": "assets/audio/taa/taa_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "طو",
         "audio": "assets/audio/taa/taa_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "طي",
         "audio": "assets/audio/taa/taa_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِطْ",
         "audio": "assets/audio/taa/taa_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أطّ",
         "audio": "assets/audio/taa/taa_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُطّ",
         "audio": "assets/audio/taa/taa_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِطّ",
         "audio": "assets/audio/taa/taa_shaddah_kasra.mp3"
@@ -1240,7 +1412,8 @@
     ]
   },
   {
-    "id": "zaa",
+    "id": 0,
+    "key": "thah",
     "letter": "ظ",
     "name": "Za'",
     "pronunciation": "za'",
@@ -1255,63 +1428,73 @@
       "medial": "ـظـ",
       "final": "ـظ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "ظَ",
         "audio": "assets/audio/zaa/zaa_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "ظُ",
         "audio": "assets/audio/zaa/zaa_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "ظِ",
         "audio": "assets/audio/zaa/zaa_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "ظا",
         "audio": "assets/audio/zaa/zaa_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "ظو",
         "audio": "assets/audio/zaa/zaa_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "ظي",
         "audio": "assets/audio/zaa/zaa_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِظْ",
         "audio": "assets/audio/zaa/zaa_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أظّ",
         "audio": "assets/audio/zaa/zaa_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُظّ",
         "audio": "assets/audio/zaa/zaa_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِظّ",
         "audio": "assets/audio/zaa/zaa_shaddah_kasra.mp3"
@@ -1319,7 +1502,8 @@
     ]
   },
   {
-    "id": "ain",
+    "id": 0,
+    "key": "ain",
     "letter": "ع",
     "name": "Ayn",
     "pronunciation": "`ayn",
@@ -1334,63 +1518,73 @@
       "medial": "ـعـ",
       "final": "ـع"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "عَ",
         "audio": "assets/audio/ain/ain_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "عُ",
         "audio": "assets/audio/ain/ain_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "عِ",
         "audio": "assets/audio/ain/ain_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "عا",
         "audio": "assets/audio/ain/ain_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "عو",
         "audio": "assets/audio/ain/ain_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "عي",
         "audio": "assets/audio/ain/ain_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِعْ",
         "audio": "assets/audio/ain/ain_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أعّ",
         "audio": "assets/audio/ain/ain_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُعّ",
         "audio": "assets/audio/ain/ain_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِعّ",
         "audio": "assets/audio/ain/ain_shaddah_kasra.mp3"
@@ -1398,7 +1592,8 @@
     ]
   },
   {
-    "id": "ghain",
+    "id": 0,
+    "key": "ghain",
     "letter": "غ",
     "name": "Ghayn",
     "pronunciation": "ghayn",
@@ -1413,63 +1608,73 @@
       "medial": "ـغـ",
       "final": "ـغ"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "غَ",
         "audio": "assets/audio/ghain/ghain_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "غُ",
         "audio": "assets/audio/ghain/ghain_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "غِ",
         "audio": "assets/audio/ghain/ghain_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "غا",
         "audio": "assets/audio/ghain/ghain_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "غو",
         "audio": "assets/audio/ghain/ghain_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "غي",
         "audio": "assets/audio/ghain/ghain_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِغْ",
         "audio": "assets/audio/ghain/ghain_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أغّ",
         "audio": "assets/audio/ghain/ghain_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُغّ",
         "audio": "assets/audio/ghain/ghain_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِغّ",
         "audio": "assets/audio/ghain/ghain_shaddah_kasra.mp3"
@@ -1477,7 +1682,8 @@
     ]
   },
   {
-    "id": "fa",
+    "id": 0,
+    "key": "faa",
     "letter": "ف",
     "name": "Fa",
     "pronunciation": "fa",
@@ -1492,63 +1698,73 @@
       "medial": "ـفـ",
       "final": "ـف"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "فَ",
         "audio": "assets/audio/fa/fa_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "فُ",
         "audio": "assets/audio/fa/fa_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "فِ",
         "audio": "assets/audio/fa/fa_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "فا",
         "audio": "assets/audio/fa/fa_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "فو",
         "audio": "assets/audio/fa/fa_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "في",
         "audio": "assets/audio/fa/fa_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِفْ",
         "audio": "assets/audio/fa/fa_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أفّ",
         "audio": "assets/audio/fa/fa_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُفّ",
         "audio": "assets/audio/fa/fa_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِفّ",
         "audio": "assets/audio/fa/fa_shaddah_kasra.mp3"
@@ -1556,7 +1772,8 @@
     ]
   },
   {
-    "id": "qaf",
+    "id": 0,
+    "key": "qaf",
     "letter": "ق",
     "name": "Qaf",
     "pronunciation": "qaf",
@@ -1571,63 +1788,73 @@
       "medial": "ـقـ",
       "final": "ـق"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "قَ",
         "audio": "assets/audio/qaf/qaf_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "قُ",
         "audio": "assets/audio/qaf/qaf_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "قِ",
         "audio": "assets/audio/qaf/qaf_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "قا",
         "audio": "assets/audio/qaf/qaf_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "قو",
         "audio": "assets/audio/qaf/qaf_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "قي",
         "audio": "assets/audio/qaf/qaf_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِقْ",
         "audio": "assets/audio/qaf/qaf_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أقّ",
         "audio": "assets/audio/qaf/qaf_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُقّ",
         "audio": "assets/audio/qaf/qaf_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِقّ",
         "audio": "assets/audio/qaf/qaf_shaddah_kasra.mp3"
@@ -1635,7 +1862,8 @@
     ]
   },
   {
-    "id": "kaf",
+    "id": 0,
+    "key": "kaf",
     "letter": "ك",
     "name": "Kaf",
     "pronunciation": "kaf",
@@ -1650,63 +1878,73 @@
       "medial": "ـكـ",
       "final": "ـك"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "كَ",
         "audio": "assets/audio/kaf/kaf_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "كُ",
         "audio": "assets/audio/kaf/kaf_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "كِ",
         "audio": "assets/audio/kaf/kaf_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "كا",
         "audio": "assets/audio/kaf/kaf_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "كو",
         "audio": "assets/audio/kaf/kaf_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "كي",
         "audio": "assets/audio/kaf/kaf_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِكْ",
         "audio": "assets/audio/kaf/kaf_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أكّ",
         "audio": "assets/audio/kaf/kaf_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُكّ",
         "audio": "assets/audio/kaf/kaf_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِكّ",
         "audio": "assets/audio/kaf/kaf_shaddah_kasra.mp3"
@@ -1714,7 +1952,8 @@
     ]
   },
   {
-    "id": "lam",
+    "id": 0,
+    "key": "lam",
     "letter": "ل",
     "name": "Lam",
     "pronunciation": "lam",
@@ -1729,63 +1968,73 @@
       "medial": "ـلـ",
       "final": "ـل"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "لَ",
         "audio": "assets/audio/lam/lam_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "لُ",
         "audio": "assets/audio/lam/lam_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "لِ",
         "audio": "assets/audio/lam/lam_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "لا",
         "audio": "assets/audio/lam/lam_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "لو",
         "audio": "assets/audio/lam/lam_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "لي",
         "audio": "assets/audio/lam/lam_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِلْ",
         "audio": "assets/audio/lam/lam_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "ألّ",
         "audio": "assets/audio/lam/lam_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُلّ",
         "audio": "assets/audio/lam/lam_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِلّ",
         "audio": "assets/audio/lam/lam_shaddah_kasra.mp3"
@@ -1793,7 +2042,8 @@
     ]
   },
   {
-    "id": "meem",
+    "id": 0,
+    "key": "meem",
     "letter": "م",
     "name": "Meem",
     "pronunciation": "mim",
@@ -1808,63 +2058,73 @@
       "medial": "ـمـ",
       "final": "ـم"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "مَ",
         "audio": "assets/audio/meem/meem_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "مُ",
         "audio": "assets/audio/meem/meem_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "مِ",
         "audio": "assets/audio/meem/meem_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "ما",
         "audio": "assets/audio/meem/meem_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "مو",
         "audio": "assets/audio/meem/meem_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "مي",
         "audio": "assets/audio/meem/meem_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِمْ",
         "audio": "assets/audio/meem/meem_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أمّ",
         "audio": "assets/audio/meem/meem_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُمّ",
         "audio": "assets/audio/meem/meem_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِمّ",
         "audio": "assets/audio/meem/meem_shaddah_kasra.mp3"
@@ -1872,7 +2132,8 @@
     ]
   },
   {
-    "id": "noon",
+    "id": 0,
+    "key": "noon",
     "letter": "ن",
     "name": "Noon",
     "pronunciation": "nun",
@@ -1887,63 +2148,73 @@
       "medial": "ـنـ",
       "final": "ـن"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "نَ",
         "audio": "assets/audio/noon/noon_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "نُ",
         "audio": "assets/audio/noon/noon_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "نِ",
         "audio": "assets/audio/noon/noon_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "نا",
         "audio": "assets/audio/noon/noon_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "نو",
         "audio": "assets/audio/noon/noon_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "ني",
         "audio": "assets/audio/noon/noon_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِنْ",
         "audio": "assets/audio/noon/noon_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أنّ",
         "audio": "assets/audio/noon/noon_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُنّ",
         "audio": "assets/audio/noon/noon_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِنّ",
         "audio": "assets/audio/noon/noon_shaddah_kasra.mp3"
@@ -1951,7 +2222,8 @@
     ]
   },
   {
-    "id": "ha2",
+    "id": 0,
+    "key": "haa",
     "letter": "ه",
     "name": "Ha'",
     "pronunciation": "ha'",
@@ -1966,63 +2238,73 @@
       "medial": "ـهـ",
       "final": "ـه"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce clearly with the mouth open.",
         "text": "هَ",
         "audio": "assets/audio/ha2/ha2_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Firmly round the lips while pronouncing.",
         "text": "هُ",
         "audio": "assets/audio/ha2/ha2_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Lower the jaw slightly when pronouncing.",
         "text": "هِ",
         "audio": "assets/audio/ha2/ha2_kasra.mp3"
       },
       {
-        "type": "Madd with Alif",
+        "key": "madd_alif",
+        "name": "Madd with Alif",
         "recording_hint": "Extend the 'aa' sound with an open voice.",
         "text": "ها",
         "audio": "assets/audio/ha2/ha2_long_fatha.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend the 'oo' sound with rounded lips.",
         "text": "هو",
         "audio": "assets/audio/ha2/ha2_long_damma.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ee' sound with a sharp tone.",
         "text": "هي",
         "audio": "assets/audio/ha2/ha2_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with a glottal connection, then pronounce the letter silently.",
         "text": "اِهْ",
         "audio": "assets/audio/ha2/ha2_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Emphasize the letter with a clear 'a' sound.",
         "text": "أهّ",
         "audio": "assets/audio/ha2/ha2_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Emphasize the letter with a full 'u' sound.",
         "text": "أُهّ",
         "audio": "assets/audio/ha2/ha2_shaddah_damma.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Emphasize the letter with a soft 'i' sound.",
         "text": "اِهّ",
         "audio": "assets/audio/ha2/ha2_shaddah_kasra.mp3"
@@ -2030,7 +2312,8 @@
     ]
   },
   {
-    "id": "waw",
+    "id": 0,
+    "key": "waw",
     "letter": "و",
     "name": "Waw",
     "pronunciation": "waw",
@@ -2045,57 +2328,66 @@
       "medial": null,
       "final": null
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Pronounce 'wa' clearly with an open mouth.",
         "text": "وَ",
         "audio": "assets/audio/waw/waw_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Round the lips when saying 'wu'.",
         "text": "وُ",
         "audio": "assets/audio/waw/waw_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Say 'wi' gently with a broken vowel.",
         "text": "وِ",
         "audio": "assets/audio/waw/waw_kasra.mp3"
       },
       {
-        "type": "Madd with Waw",
+        "key": "madd_waw",
+        "name": "Madd with Waw",
         "recording_hint": "Extend 'waw' with a clear, long sound.",
         "text": "وُو",
         "audio": "assets/audio/waw/waw_long_damma.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Start with a connecting 'alif' then say a still 'w'.",
         "text": "اَوْ",
         "audio": "assets/audio/waw/waw_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Say 'w' with strong emphasis and an open sound.",
         "text": "اَوَّ",
         "audio": "assets/audio/waw/waw_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Damma",
+        "key": "shaddah_damma",
+        "name": "Shadda with Damma",
         "recording_hint": "Repeat 'w' with clear rounding.",
         "text": "أُوُّ",
         "audio": "assets/audio/waw/waw_shaddah_damma.mp3"
       },
       {
-        "type": "Softened (Layyinah)",
+        "key": "laienah",
+        "name": "Softened (Layyinah)",
         "recording_hint": "Start with Alif and Hamzah, followed by a still 'w'.",
         "text": "بَوْ",
         "audio": "assets/audio/waw/waw_lainah2.mp3"
       },
       {
-        "type": "Softened (Layyinah)",
+        "key": "laienah",
+        "name": "Softened (Layyinah)",
         "recording_hint": "Pronounce 'baw' softly and smoothly.",
         "text": "بَوْ",
         "audio": "assets/audio/waw/waw_lainah2.mp3"
@@ -2103,7 +2395,8 @@
     ]
   },
   {
-    "id": "ya",
+    "id": 0,
+    "key": "yaa",
     "letter": "ي",
     "name": "Ya",
     "pronunciation": "ya",
@@ -2118,57 +2411,66 @@
       "medial": "ـيـ",
       "final": "ـي"
     },
-    "variants": [
+    "syllables": [
       {
-        "type": "Fatha",
+        "key": "fatha",
+        "name": "Fatha",
         "recording_hint": "Say 'ya' clearly with an open mouth.",
         "text": "يَ",
         "audio": "assets/audio/ya/ya_fatha.mp3"
       },
       {
-        "type": "Damma",
+        "key": "damma",
+        "name": "Damma",
         "recording_hint": "Round the lips while pronouncing 'yu'.",
         "text": "يُ",
         "audio": "assets/audio/ya/ya_damma.mp3"
       },
       {
-        "type": "Kasra",
+        "key": "kasra",
+        "name": "Kasra",
         "recording_hint": "Say 'yi' gently.",
         "text": "يِ",
         "audio": "assets/audio/ya/ya_kasra.mp3"
       },
       {
-        "type": "Madd with Ya",
+        "key": "madd_yaa",
+        "name": "Madd with Ya",
         "recording_hint": "Extend the 'ya' sound with a clear 'i' tone.",
         "text": "يِي",
         "audio": "assets/audio/ya/ya_long_kasra.mp3"
       },
       {
-        "type": "Sukūn",
+        "key": "sukun",
+        "name": "Sukūn",
         "recording_hint": "Begin with Hamzah wasl then pronounce still 'ya'.",
         "text": "اَيْ",
         "audio": "assets/audio/ya/ya_sukun.mp3"
       },
       {
-        "type": "Shadda with Fatha",
+        "key": "shaddah_fatha",
+        "name": "Shadda with Fatha",
         "recording_hint": "Pronounce a stressed 'ya' with an open 'a' sound.",
         "text": "اَيَّ",
         "audio": "assets/audio/ya/ya_shaddah_fatha.mp3"
       },
       {
-        "type": "Shadda with Kasra",
+        "key": "shaddah_kasra",
+        "name": "Shadda with Kasra",
         "recording_hint": "Pronounce a stressed 'ya' with a soft 'i' sound.",
         "text": "اِيِّ",
         "audio": "assets/audio/ya/ya_shaddah_kasra.mp3"
       },
       {
-        "type": "Softened (Layyinah)",
+        "key": "laienah",
+        "name": "Softened (Layyinah)",
         "recording_hint": "Start with a glottal onset then a soft still 'ya'.",
         "text": "بَيْ",
         "audio": "assets/audio/ya/ya_lainah2.mp3"
       },
       {
-        "type": "Softened (Layyinah)",
+        "key": "laienah",
+        "name": "Softened (Layyinah)",
         "recording_hint": "Say 'bay' with a light, smooth tone.",
         "text": "بَيْ",
         "audio": "assets/audio/ya/ya_lainah2.mp3"

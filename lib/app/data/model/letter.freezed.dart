@@ -15,7 +15,7 @@ T _$identity<T>(T value) => value;
 /// @nodoc
 mixin _$Letter implements DiagnosticableTreeMixin {
 
-@JsonKey(name: 'id') String? get id;@JsonKey(name: 'letter') String? get letter;@JsonKey(name: 'name') String? get name;@JsonKey(name: 'pronunciation') String? get pronunciation;@JsonKey(name: 'description') String? get description;@JsonKey(name: 'makhraj_image') String? get makhrajImage;@JsonKey(name: 'makhraj_description') String? get makhrajDescription;@JsonKey(name: 'draw_video') String? get drawVideo;@JsonKey(name: 'main_audio') String? get mainAudio;@JsonKey(name: 'forms') Forms? get forms;@JsonKey(name: 'variants') List<Variants>? get variants;
+@JsonKey(name: 'id') int? get id;@JsonKey(name: 'key') String? get key;@JsonKey(name: 'letter') String? get letter;@JsonKey(name: 'name') String? get name;@JsonKey(name: 'pronunciation') String? get pronunciation;@JsonKey(name: 'description') String? get description;@JsonKey(name: 'makhraj_image') String? get makhrajImage;@JsonKey(name: 'makhraj_description') String? get makhrajDescription;@JsonKey(name: 'draw_video') String? get drawVideo;@JsonKey(name: 'main_audio') String? get mainAudio;@JsonKey(name: 'forms') Form? get forms;@JsonKey(name: 'syllables') List<Syllable>? get syllables;
 /// Create a copy of Letter
 /// with the given fields replaced by the non-null parameter values.
 @JsonKey(includeFromJson: false, includeToJson: false)
@@ -29,21 +29,21 @@ $LetterCopyWith<Letter> get copyWith => _$LetterCopyWithImpl<Letter>(this as Let
 void debugFillProperties(DiagnosticPropertiesBuilder properties) {
   properties
     ..add(DiagnosticsProperty('type', 'Letter'))
-    ..add(DiagnosticsProperty('id', id))..add(DiagnosticsProperty('letter', letter))..add(DiagnosticsProperty('name', name))..add(DiagnosticsProperty('pronunciation', pronunciation))..add(DiagnosticsProperty('description', description))..add(DiagnosticsProperty('makhrajImage', makhrajImage))..add(DiagnosticsProperty('makhrajDescription', makhrajDescription))..add(DiagnosticsProperty('drawVideo', drawVideo))..add(DiagnosticsProperty('mainAudio', mainAudio))..add(DiagnosticsProperty('forms', forms))..add(DiagnosticsProperty('variants', variants));
+    ..add(DiagnosticsProperty('id', id))..add(DiagnosticsProperty('key', key))..add(DiagnosticsProperty('letter', letter))..add(DiagnosticsProperty('name', name))..add(DiagnosticsProperty('pronunciation', pronunciation))..add(DiagnosticsProperty('description', description))..add(DiagnosticsProperty('makhrajImage', makhrajImage))..add(DiagnosticsProperty('makhrajDescription', makhrajDescription))..add(DiagnosticsProperty('drawVideo', drawVideo))..add(DiagnosticsProperty('mainAudio', mainAudio))..add(DiagnosticsProperty('forms', forms))..add(DiagnosticsProperty('syllables', syllables));
 }
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is Letter&&(identical(other.id, id) || other.id == id)&&(identical(other.letter, letter) || other.letter == letter)&&(identical(other.name, name) || other.name == name)&&(identical(other.pronunciation, pronunciation) || other.pronunciation == pronunciation)&&(identical(other.description, description) || other.description == description)&&(identical(other.makhrajImage, makhrajImage) || other.makhrajImage == makhrajImage)&&(identical(other.makhrajDescription, makhrajDescription) || other.makhrajDescription == makhrajDescription)&&(identical(other.drawVideo, drawVideo) || other.drawVideo == drawVideo)&&(identical(other.mainAudio, mainAudio) || other.mainAudio == mainAudio)&&(identical(other.forms, forms) || other.forms == forms)&&const DeepCollectionEquality().equals(other.variants, variants));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is Letter&&(identical(other.id, id) || other.id == id)&&(identical(other.key, key) || other.key == key)&&(identical(other.letter, letter) || other.letter == letter)&&(identical(other.name, name) || other.name == name)&&(identical(other.pronunciation, pronunciation) || other.pronunciation == pronunciation)&&(identical(other.description, description) || other.description == description)&&(identical(other.makhrajImage, makhrajImage) || other.makhrajImage == makhrajImage)&&(identical(other.makhrajDescription, makhrajDescription) || other.makhrajDescription == makhrajDescription)&&(identical(other.drawVideo, drawVideo) || other.drawVideo == drawVideo)&&(identical(other.mainAudio, mainAudio) || other.mainAudio == mainAudio)&&(identical(other.forms, forms) || other.forms == forms)&&const DeepCollectionEquality().equals(other.syllables, syllables));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,letter,name,pronunciation,description,makhrajImage,makhrajDescription,drawVideo,mainAudio,forms,const DeepCollectionEquality().hash(variants));
+int get hashCode => Object.hash(runtimeType,id,key,letter,name,pronunciation,description,makhrajImage,makhrajDescription,drawVideo,mainAudio,forms,const DeepCollectionEquality().hash(syllables));
 
 @override
 String toString({ DiagnosticLevel minLevel = DiagnosticLevel.info }) {
-  return 'Letter(id: $id, letter: $letter, name: $name, pronunciation: $pronunciation, description: $description, makhrajImage: $makhrajImage, makhrajDescription: $makhrajDescription, drawVideo: $drawVideo, mainAudio: $mainAudio, forms: $forms, variants: $variants)';
+  return 'Letter(id: $id, key: $key, letter: $letter, name: $name, pronunciation: $pronunciation, description: $description, makhrajImage: $makhrajImage, makhrajDescription: $makhrajDescription, drawVideo: $drawVideo, mainAudio: $mainAudio, forms: $forms, syllables: $syllables)';
 }
 
 
@@ -54,11 +54,11 @@ abstract mixin class $LetterCopyWith<$Res>  {
   factory $LetterCopyWith(Letter value, $Res Function(Letter) _then) = _$LetterCopyWithImpl;
 @useResult
 $Res call({
-@JsonKey(name: 'id') String? id,@JsonKey(name: 'letter') String? letter,@JsonKey(name: 'name') String? name,@JsonKey(name: 'pronunciation') String? pronunciation,@JsonKey(name: 'description') String? description,@JsonKey(name: 'makhraj_image') String? makhrajImage,@JsonKey(name: 'makhraj_description') String? makhrajDescription,@JsonKey(name: 'draw_video') String? drawVideo,@JsonKey(name: 'main_audio') String? mainAudio,@JsonKey(name: 'forms') Forms? forms,@JsonKey(name: 'variants') List<Variants>? variants
+@JsonKey(name: 'id') int? id,@JsonKey(name: 'key') String? key,@JsonKey(name: 'letter') String? letter,@JsonKey(name: 'name') String? name,@JsonKey(name: 'pronunciation') String? pronunciation,@JsonKey(name: 'description') String? description,@JsonKey(name: 'makhraj_image') String? makhrajImage,@JsonKey(name: 'makhraj_description') String? makhrajDescription,@JsonKey(name: 'draw_video') String? drawVideo,@JsonKey(name: 'main_audio') String? mainAudio,@JsonKey(name: 'forms') Form? forms,@JsonKey(name: 'syllables') List<Syllable>? syllables
 });
 
 
-$FormsCopyWith<$Res>? get forms;
+$FormCopyWith<$Res>? get forms;
 
 }
 /// @nodoc
@@ -71,9 +71,10 @@ class _$LetterCopyWithImpl<$Res>
 
 /// Create a copy of Letter
 /// with the given fields replaced by the non-null parameter values.
-@pragma('vm:prefer-inline') @override $Res call({Object? id = freezed,Object? letter = freezed,Object? name = freezed,Object? pronunciation = freezed,Object? description = freezed,Object? makhrajImage = freezed,Object? makhrajDescription = freezed,Object? drawVideo = freezed,Object? mainAudio = freezed,Object? forms = freezed,Object? variants = freezed,}) {
+@pragma('vm:prefer-inline') @override $Res call({Object? id = freezed,Object? key = freezed,Object? letter = freezed,Object? name = freezed,Object? pronunciation = freezed,Object? description = freezed,Object? makhrajImage = freezed,Object? makhrajDescription = freezed,Object? drawVideo = freezed,Object? mainAudio = freezed,Object? forms = freezed,Object? syllables = freezed,}) {
   return _then(_self.copyWith(
 id: freezed == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
+as int?,key: freezed == key ? _self.key : key // ignore: cast_nullable_to_non_nullable
 as String?,letter: freezed == letter ? _self.letter : letter // ignore: cast_nullable_to_non_nullable
 as String?,name: freezed == name ? _self.name : name // ignore: cast_nullable_to_non_nullable
 as String?,pronunciation: freezed == pronunciation ? _self.pronunciation : pronunciation // ignore: cast_nullable_to_non_nullable
@@ -83,20 +84,20 @@ as String?,makhrajDescription: freezed == makhrajDescription ? _self.makhrajDesc
 as String?,drawVideo: freezed == drawVideo ? _self.drawVideo : drawVideo // ignore: cast_nullable_to_non_nullable
 as String?,mainAudio: freezed == mainAudio ? _self.mainAudio : mainAudio // ignore: cast_nullable_to_non_nullable
 as String?,forms: freezed == forms ? _self.forms : forms // ignore: cast_nullable_to_non_nullable
-as Forms?,variants: freezed == variants ? _self.variants : variants // ignore: cast_nullable_to_non_nullable
-as List<Variants>?,
+as Form?,syllables: freezed == syllables ? _self.syllables : syllables // ignore: cast_nullable_to_non_nullable
+as List<Syllable>?,
   ));
 }
 /// Create a copy of Letter
 /// with the given fields replaced by the non-null parameter values.
 @override
 @pragma('vm:prefer-inline')
-$FormsCopyWith<$Res>? get forms {
+$FormCopyWith<$Res>? get forms {
     if (_self.forms == null) {
     return null;
   }
 
-  return $FormsCopyWith<$Res>(_self.forms!, (value) {
+  return $FormCopyWith<$Res>(_self.forms!, (value) {
     return _then(_self.copyWith(forms: value));
   });
 }
@@ -181,10 +182,10 @@ return $default(_that);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function(@JsonKey(name: 'id')  String? id, @JsonKey(name: 'letter')  String? letter, @JsonKey(name: 'name')  String? name, @JsonKey(name: 'pronunciation')  String? pronunciation, @JsonKey(name: 'description')  String? description, @JsonKey(name: 'makhraj_image')  String? makhrajImage, @JsonKey(name: 'makhraj_description')  String? makhrajDescription, @JsonKey(name: 'draw_video')  String? drawVideo, @JsonKey(name: 'main_audio')  String? mainAudio, @JsonKey(name: 'forms')  Forms? forms, @JsonKey(name: 'variants')  List<Variants>? variants)?  $default,{required TResult orElse(),}) {final _that = this;
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function(@JsonKey(name: 'id')  int? id, @JsonKey(name: 'key')  String? key, @JsonKey(name: 'letter')  String? letter, @JsonKey(name: 'name')  String? name, @JsonKey(name: 'pronunciation')  String? pronunciation, @JsonKey(name: 'description')  String? description, @JsonKey(name: 'makhraj_image')  String? makhrajImage, @JsonKey(name: 'makhraj_description')  String? makhrajDescription, @JsonKey(name: 'draw_video')  String? drawVideo, @JsonKey(name: 'main_audio')  String? mainAudio, @JsonKey(name: 'forms')  Form? forms, @JsonKey(name: 'syllables')  List<Syllable>? syllables)?  $default,{required TResult orElse(),}) {final _that = this;
 switch (_that) {
 case _Letter() when $default != null:
-return $default(_that.id,_that.letter,_that.name,_that.pronunciation,_that.description,_that.makhrajImage,_that.makhrajDescription,_that.drawVideo,_that.mainAudio,_that.forms,_that.variants);case _:
+return $default(_that.id,_that.key,_that.letter,_that.name,_that.pronunciation,_that.description,_that.makhrajImage,_that.makhrajDescription,_that.drawVideo,_that.mainAudio,_that.forms,_that.syllables);case _:
   return orElse();
 
 }
@@ -202,10 +203,10 @@ return $default(_that.id,_that.letter,_that.name,_that.pronunciation,_that.descr
 /// }
 /// ```
 
-@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function(@JsonKey(name: 'id')  String? id, @JsonKey(name: 'letter')  String? letter, @JsonKey(name: 'name')  String? name, @JsonKey(name: 'pronunciation')  String? pronunciation, @JsonKey(name: 'description')  String? description, @JsonKey(name: 'makhraj_image')  String? makhrajImage, @JsonKey(name: 'makhraj_description')  String? makhrajDescription, @JsonKey(name: 'draw_video')  String? drawVideo, @JsonKey(name: 'main_audio')  String? mainAudio, @JsonKey(name: 'forms')  Forms? forms, @JsonKey(name: 'variants')  List<Variants>? variants)  $default,) {final _that = this;
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function(@JsonKey(name: 'id')  int? id, @JsonKey(name: 'key')  String? key, @JsonKey(name: 'letter')  String? letter, @JsonKey(name: 'name')  String? name, @JsonKey(name: 'pronunciation')  String? pronunciation, @JsonKey(name: 'description')  String? description, @JsonKey(name: 'makhraj_image')  String? makhrajImage, @JsonKey(name: 'makhraj_description')  String? makhrajDescription, @JsonKey(name: 'draw_video')  String? drawVideo, @JsonKey(name: 'main_audio')  String? mainAudio, @JsonKey(name: 'forms')  Form? forms, @JsonKey(name: 'syllables')  List<Syllable>? syllables)  $default,) {final _that = this;
 switch (_that) {
 case _Letter():
-return $default(_that.id,_that.letter,_that.name,_that.pronunciation,_that.description,_that.makhrajImage,_that.makhrajDescription,_that.drawVideo,_that.mainAudio,_that.forms,_that.variants);case _:
+return $default(_that.id,_that.key,_that.letter,_that.name,_that.pronunciation,_that.description,_that.makhrajImage,_that.makhrajDescription,_that.drawVideo,_that.mainAudio,_that.forms,_that.syllables);case _:
   throw StateError('Unexpected subclass');
 
 }
@@ -222,10 +223,10 @@ return $default(_that.id,_that.letter,_that.name,_that.pronunciation,_that.descr
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function(@JsonKey(name: 'id')  String? id, @JsonKey(name: 'letter')  String? letter, @JsonKey(name: 'name')  String? name, @JsonKey(name: 'pronunciation')  String? pronunciation, @JsonKey(name: 'description')  String? description, @JsonKey(name: 'makhraj_image')  String? makhrajImage, @JsonKey(name: 'makhraj_description')  String? makhrajDescription, @JsonKey(name: 'draw_video')  String? drawVideo, @JsonKey(name: 'main_audio')  String? mainAudio, @JsonKey(name: 'forms')  Forms? forms, @JsonKey(name: 'variants')  List<Variants>? variants)?  $default,) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function(@JsonKey(name: 'id')  int? id, @JsonKey(name: 'key')  String? key, @JsonKey(name: 'letter')  String? letter, @JsonKey(name: 'name')  String? name, @JsonKey(name: 'pronunciation')  String? pronunciation, @JsonKey(name: 'description')  String? description, @JsonKey(name: 'makhraj_image')  String? makhrajImage, @JsonKey(name: 'makhraj_description')  String? makhrajDescription, @JsonKey(name: 'draw_video')  String? drawVideo, @JsonKey(name: 'main_audio')  String? mainAudio, @JsonKey(name: 'forms')  Form? forms, @JsonKey(name: 'syllables')  List<Syllable>? syllables)?  $default,) {final _that = this;
 switch (_that) {
 case _Letter() when $default != null:
-return $default(_that.id,_that.letter,_that.name,_that.pronunciation,_that.description,_that.makhrajImage,_that.makhrajDescription,_that.drawVideo,_that.mainAudio,_that.forms,_that.variants);case _:
+return $default(_that.id,_that.key,_that.letter,_that.name,_that.pronunciation,_that.description,_that.makhrajImage,_that.makhrajDescription,_that.drawVideo,_that.mainAudio,_that.forms,_that.syllables);case _:
   return null;
 
 }
@@ -237,10 +238,11 @@ return $default(_that.id,_that.letter,_that.name,_that.pronunciation,_that.descr
 @JsonSerializable()
 
 class _Letter with DiagnosticableTreeMixin implements Letter {
-  const _Letter({@JsonKey(name: 'id') this.id, @JsonKey(name: 'letter') this.letter, @JsonKey(name: 'name') this.name, @JsonKey(name: 'pronunciation') this.pronunciation, @JsonKey(name: 'description') this.description, @JsonKey(name: 'makhraj_image') this.makhrajImage, @JsonKey(name: 'makhraj_description') this.makhrajDescription, @JsonKey(name: 'draw_video') this.drawVideo, @JsonKey(name: 'main_audio') this.mainAudio, @JsonKey(name: 'forms') this.forms, @JsonKey(name: 'variants') final  List<Variants>? variants}): _variants = variants;
+  const _Letter({@JsonKey(name: 'id') this.id, @JsonKey(name: 'key') this.key, @JsonKey(name: 'letter') this.letter, @JsonKey(name: 'name') this.name, @JsonKey(name: 'pronunciation') this.pronunciation, @JsonKey(name: 'description') this.description, @JsonKey(name: 'makhraj_image') this.makhrajImage, @JsonKey(name: 'makhraj_description') this.makhrajDescription, @JsonKey(name: 'draw_video') this.drawVideo, @JsonKey(name: 'main_audio') this.mainAudio, @JsonKey(name: 'forms') this.forms, @JsonKey(name: 'syllables') final  List<Syllable>? syllables}): _syllables = syllables;
   factory _Letter.fromJson(Map<String, dynamic> json) => _$LetterFromJson(json);
 
-@override@JsonKey(name: 'id') final  String? id;
+@override@JsonKey(name: 'id') final  int? id;
+@override@JsonKey(name: 'key') final  String? key;
 @override@JsonKey(name: 'letter') final  String? letter;
 @override@JsonKey(name: 'name') final  String? name;
 @override@JsonKey(name: 'pronunciation') final  String? pronunciation;
@@ -249,12 +251,12 @@ class _Letter with DiagnosticableTreeMixin implements Letter {
 @override@JsonKey(name: 'makhraj_description') final  String? makhrajDescription;
 @override@JsonKey(name: 'draw_video') final  String? drawVideo;
 @override@JsonKey(name: 'main_audio') final  String? mainAudio;
-@override@JsonKey(name: 'forms') final  Forms? forms;
- final  List<Variants>? _variants;
-@override@JsonKey(name: 'variants') List<Variants>? get variants {
-  final value = _variants;
+@override@JsonKey(name: 'forms') final  Form? forms;
+ final  List<Syllable>? _syllables;
+@override@JsonKey(name: 'syllables') List<Syllable>? get syllables {
+  final value = _syllables;
   if (value == null) return null;
-  if (_variants is EqualUnmodifiableListView) return _variants;
+  if (_syllables is EqualUnmodifiableListView) return _syllables;
   // ignore: implicit_dynamic_type
   return EqualUnmodifiableListView(value);
 }
@@ -274,21 +276,21 @@ Map<String, dynamic> toJson() {
 void debugFillProperties(DiagnosticPropertiesBuilder properties) {
   properties
     ..add(DiagnosticsProperty('type', 'Letter'))
-    ..add(DiagnosticsProperty('id', id))..add(DiagnosticsProperty('letter', letter))..add(DiagnosticsProperty('name', name))..add(DiagnosticsProperty('pronunciation', pronunciation))..add(DiagnosticsProperty('description', description))..add(DiagnosticsProperty('makhrajImage', makhrajImage))..add(DiagnosticsProperty('makhrajDescription', makhrajDescription))..add(DiagnosticsProperty('drawVideo', drawVideo))..add(DiagnosticsProperty('mainAudio', mainAudio))..add(DiagnosticsProperty('forms', forms))..add(DiagnosticsProperty('variants', variants));
+    ..add(DiagnosticsProperty('id', id))..add(DiagnosticsProperty('key', key))..add(DiagnosticsProperty('letter', letter))..add(DiagnosticsProperty('name', name))..add(DiagnosticsProperty('pronunciation', pronunciation))..add(DiagnosticsProperty('description', description))..add(DiagnosticsProperty('makhrajImage', makhrajImage))..add(DiagnosticsProperty('makhrajDescription', makhrajDescription))..add(DiagnosticsProperty('drawVideo', drawVideo))..add(DiagnosticsProperty('mainAudio', mainAudio))..add(DiagnosticsProperty('forms', forms))..add(DiagnosticsProperty('syllables', syllables));
 }
 
 @override
 bool operator ==(Object other) {
-  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Letter&&(identical(other.id, id) || other.id == id)&&(identical(other.letter, letter) || other.letter == letter)&&(identical(other.name, name) || other.name == name)&&(identical(other.pronunciation, pronunciation) || other.pronunciation == pronunciation)&&(identical(other.description, description) || other.description == description)&&(identical(other.makhrajImage, makhrajImage) || other.makhrajImage == makhrajImage)&&(identical(other.makhrajDescription, makhrajDescription) || other.makhrajDescription == makhrajDescription)&&(identical(other.drawVideo, drawVideo) || other.drawVideo == drawVideo)&&(identical(other.mainAudio, mainAudio) || other.mainAudio == mainAudio)&&(identical(other.forms, forms) || other.forms == forms)&&const DeepCollectionEquality().equals(other._variants, _variants));
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _Letter&&(identical(other.id, id) || other.id == id)&&(identical(other.key, key) || other.key == key)&&(identical(other.letter, letter) || other.letter == letter)&&(identical(other.name, name) || other.name == name)&&(identical(other.pronunciation, pronunciation) || other.pronunciation == pronunciation)&&(identical(other.description, description) || other.description == description)&&(identical(other.makhrajImage, makhrajImage) || other.makhrajImage == makhrajImage)&&(identical(other.makhrajDescription, makhrajDescription) || other.makhrajDescription == makhrajDescription)&&(identical(other.drawVideo, drawVideo) || other.drawVideo == drawVideo)&&(identical(other.mainAudio, mainAudio) || other.mainAudio == mainAudio)&&(identical(other.forms, forms) || other.forms == forms)&&const DeepCollectionEquality().equals(other._syllables, _syllables));
 }
 
 @JsonKey(includeFromJson: false, includeToJson: false)
 @override
-int get hashCode => Object.hash(runtimeType,id,letter,name,pronunciation,description,makhrajImage,makhrajDescription,drawVideo,mainAudio,forms,const DeepCollectionEquality().hash(_variants));
+int get hashCode => Object.hash(runtimeType,id,key,letter,name,pronunciation,description,makhrajImage,makhrajDescription,drawVideo,mainAudio,forms,const DeepCollectionEquality().hash(_syllables));
 
 @override
 String toString({ DiagnosticLevel minLevel = DiagnosticLevel.info }) {
-  return 'Letter(id: $id, letter: $letter, name: $name, pronunciation: $pronunciation, description: $description, makhrajImage: $makhrajImage, makhrajDescription: $makhrajDescription, drawVideo: $drawVideo, mainAudio: $mainAudio, forms: $forms, variants: $variants)';
+  return 'Letter(id: $id, key: $key, letter: $letter, name: $name, pronunciation: $pronunciation, description: $description, makhrajImage: $makhrajImage, makhrajDescription: $makhrajDescription, drawVideo: $drawVideo, mainAudio: $mainAudio, forms: $forms, syllables: $syllables)';
 }
 
 
@@ -299,11 +301,11 @@ abstract mixin class _$LetterCopyWith<$Res> implements $LetterCopyWith<$Res> {
   factory _$LetterCopyWith(_Letter value, $Res Function(_Letter) _then) = __$LetterCopyWithImpl;
 @override @useResult
 $Res call({
-@JsonKey(name: 'id') String? id,@JsonKey(name: 'letter') String? letter,@JsonKey(name: 'name') String? name,@JsonKey(name: 'pronunciation') String? pronunciation,@JsonKey(name: 'description') String? description,@JsonKey(name: 'makhraj_image') String? makhrajImage,@JsonKey(name: 'makhraj_description') String? makhrajDescription,@JsonKey(name: 'draw_video') String? drawVideo,@JsonKey(name: 'main_audio') String? mainAudio,@JsonKey(name: 'forms') Forms? forms,@JsonKey(name: 'variants') List<Variants>? variants
+@JsonKey(name: 'id') int? id,@JsonKey(name: 'key') String? key,@JsonKey(name: 'letter') String? letter,@JsonKey(name: 'name') String? name,@JsonKey(name: 'pronunciation') String? pronunciation,@JsonKey(name: 'description') String? description,@JsonKey(name: 'makhraj_image') String? makhrajImage,@JsonKey(name: 'makhraj_description') String? makhrajDescription,@JsonKey(name: 'draw_video') String? drawVideo,@JsonKey(name: 'main_audio') String? mainAudio,@JsonKey(name: 'forms') Form? forms,@JsonKey(name: 'syllables') List<Syllable>? syllables
 });
 
 
-@override $FormsCopyWith<$Res>? get forms;
+@override $FormCopyWith<$Res>? get forms;
 
 }
 /// @nodoc
@@ -316,9 +318,10 @@ class __$LetterCopyWithImpl<$Res>
 
 /// Create a copy of Letter
 /// with the given fields replaced by the non-null parameter values.
-@override @pragma('vm:prefer-inline') $Res call({Object? id = freezed,Object? letter = freezed,Object? name = freezed,Object? pronunciation = freezed,Object? description = freezed,Object? makhrajImage = freezed,Object? makhrajDescription = freezed,Object? drawVideo = freezed,Object? mainAudio = freezed,Object? forms = freezed,Object? variants = freezed,}) {
+@override @pragma('vm:prefer-inline') $Res call({Object? id = freezed,Object? key = freezed,Object? letter = freezed,Object? name = freezed,Object? pronunciation = freezed,Object? description = freezed,Object? makhrajImage = freezed,Object? makhrajDescription = freezed,Object? drawVideo = freezed,Object? mainAudio = freezed,Object? forms = freezed,Object? syllables = freezed,}) {
   return _then(_Letter(
 id: freezed == id ? _self.id : id // ignore: cast_nullable_to_non_nullable
+as int?,key: freezed == key ? _self.key : key // ignore: cast_nullable_to_non_nullable
 as String?,letter: freezed == letter ? _self.letter : letter // ignore: cast_nullable_to_non_nullable
 as String?,name: freezed == name ? _self.name : name // ignore: cast_nullable_to_non_nullable
 as String?,pronunciation: freezed == pronunciation ? _self.pronunciation : pronunciation // ignore: cast_nullable_to_non_nullable
@@ -328,8 +331,8 @@ as String?,makhrajDescription: freezed == makhrajDescription ? _self.makhrajDesc
 as String?,drawVideo: freezed == drawVideo ? _self.drawVideo : drawVideo // ignore: cast_nullable_to_non_nullable
 as String?,mainAudio: freezed == mainAudio ? _self.mainAudio : mainAudio // ignore: cast_nullable_to_non_nullable
 as String?,forms: freezed == forms ? _self.forms : forms // ignore: cast_nullable_to_non_nullable
-as Forms?,variants: freezed == variants ? _self._variants : variants // ignore: cast_nullable_to_non_nullable
-as List<Variants>?,
+as Form?,syllables: freezed == syllables ? _self._syllables : syllables // ignore: cast_nullable_to_non_nullable
+as List<Syllable>?,
   ));
 }
 
@@ -337,12 +340,12 @@ as List<Variants>?,
 /// with the given fields replaced by the non-null parameter values.
 @override
 @pragma('vm:prefer-inline')
-$FormsCopyWith<$Res>? get forms {
+$FormCopyWith<$Res>? get forms {
     if (_self.forms == null) {
     return null;
   }
 
-  return $FormsCopyWith<$Res>(_self.forms!, (value) {
+  return $FormCopyWith<$Res>(_self.forms!, (value) {
     return _then(_self.copyWith(forms: value));
   });
 }

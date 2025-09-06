@@ -38,12 +38,13 @@ class LocaleKeys {
   static const formFinal = 'formFinal';
   static const mainAudioTitle = 'mainAudioTitle';
   static const mainAudioSubtitle = 'mainAudioSubtitle';
-  static const variantRecordingTitle = 'variantRecordingTitle';
-  static const variantRecordingSubtitle = 'variantRecordingSubtitle';
-  static const variantNoRecordingYet = 'variantNoRecordingYet';
-  static const variantSubmitButton = 'variantSubmitButton';
-  static const variantDeleteButton = 'variantDeleteButton';
-  static const variantPronunciationHintTitle = 'variantPronunciationHintTitle';
+  static const syllableRecordingTitle = 'syllableRecordingTitle';
+  static const syllableRecordingSubtitle = 'syllableRecordingSubtitle';
+  static const syllableNoRecordingYet = 'syllableNoRecordingYet';
+  static const syllableSubmitButton = 'syllableSubmitButton';
+  static const syllableDeleteButton = 'syllableDeleteButton';
+  static const syllablePronunciationHintTitle =
+      'syllablePronunciationHintTitle';
   static const dialogSuccessTitle = 'dialogSuccessTitle';
   static const dialogSuccessSubtitle = 'dialogSuccessSubtitle';
   static const dialogSuccessButton = 'dialogSuccessButton';
@@ -82,12 +83,12 @@ class Locales {
     'formFinal': 'نهاية الكلمة',
     'mainAudioTitle': 'الاستماع إلى الحرف',
     'mainAudioSubtitle': 'اضغط على زر التشغيل لسماع نطق الحرف بشكل صحيح',
-    'variantRecordingTitle': 'تدرب على النطق',
-    'variantRecordingSubtitle': 'استمع للمثال وسجل نُطقك الخاص',
-    'variantNoRecordingYet': 'لم يتم التسجيل بعد، اضغط على الميكروفون للبدء',
-    'variantSubmitButton': 'تحقق',
-    'variantDeleteButton': 'حذف',
-    'variantPronunciationHintTitle': 'تلميحة للنطق',
+    'syllableRecordingTitle': 'تدرب على النطق',
+    'syllableRecordingSubtitle': 'استمع للمثال وسجل نُطقك الخاص',
+    'syllableNoRecordingYet': 'لم يتم التسجيل بعد، اضغط على الميكروفون للبدء',
+    'syllableSubmitButton': 'تحقق',
+    'syllableDeleteButton': 'حذف',
+    'syllablePronunciationHintTitle': 'تلميحة للنطق',
     'dialogSuccessTitle': 'أحسنت!',
     'dialogSuccessSubtitle': 'تم نطق الحرف بشكل صحيح، استمر!',
     'dialogSuccessButton': 'متابعة',
@@ -126,14 +127,14 @@ class Locales {
     'mainAudioTitle': 'Listen to the Letter',
     'mainAudioSubtitle':
         'Tap the play button to hear the correct pronunciation',
-    'variantRecordingTitle': 'Pronounce the Variant',
-    'variantRecordingSubtitle':
+    'syllableRecordingTitle': 'Pronounce the Variant',
+    'syllableRecordingSubtitle':
         'Listen to the example and record your own pronunciation',
-    'variantNoRecordingYet':
+    'syllableNoRecordingYet':
         'No recording yet. Tap the mic to start recording.',
-    'variantSubmitButton': 'Submit',
-    'variantDeleteButton': 'Delete',
-    'variantPronunciationHintTitle': 'Pronunciation Hint',
+    'syllableSubmitButton': 'Submit',
+    'syllableDeleteButton': 'Delete',
+    'syllablePronunciationHintTitle': 'Pronunciation Hint',
     'dialogSuccessTitle': 'Great Job!',
     'dialogSuccessSubtitle': 'The letter was pronounced correctly. Keep going!',
     'dialogSuccessButton': 'Continue',

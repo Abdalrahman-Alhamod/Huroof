@@ -3,23 +3,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:huroof/app/data/model/syllable.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:get/get_utils/get_utils.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
 import 'package:huroof/generated/locales.g.dart';
 
-import '../../../../data/model/variants.dart';
+class SyllableAudioStep extends StatefulWidget {
+  final Syllable syllable;
 
-class VariantAudioStep extends StatefulWidget {
-  final Variants variant;
-
-  const VariantAudioStep({super.key, required this.variant});
+  const SyllableAudioStep({super.key, required this.syllable});
 
   @override
-  State<VariantAudioStep> createState() => _VariantAudioStepState();
+  State<SyllableAudioStep> createState() => _SyllableAudioStepState();
 }
 
-class _VariantAudioStepState extends State<VariantAudioStep> {
+class _SyllableAudioStepState extends State<SyllableAudioStep> {
   late final PlayerController _playerController;
   String? _localPath;
 
@@ -137,7 +136,7 @@ class _VariantAudioStepState extends State<VariantAudioStep> {
               children: [
                 SizedBox(height: 20.h),
                 Text(
-                  widget.variant.text!,
+                  widget.syllable.text!,
                   style: AppTextStyles.s68_bold.primaryColor,
                 ),
                 SizedBox(height: 24.h),

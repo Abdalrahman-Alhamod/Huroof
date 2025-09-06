@@ -1,19 +1,19 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'forms.dart';
+part of 'form.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
 // **************************************************************************
 
-_Forms _$FormsFromJson(Map<String, dynamic> json) => _Forms(
+_Form _$FormFromJson(Map<String, dynamic> json) => _Form(
   isolated: json['isolated'] as String?,
   initial: json['initial'] as String?,
   medial: json['medial'] as String?,
   finalProperty: json['final'] as String?,
 );
 
-Map<String, dynamic> _$FormsToJson(_Forms instance) => <String, dynamic>{
+Map<String, dynamic> _$FormToJson(_Form instance) => <String, dynamic>{
   'isolated': instance.isolated,
   'initial': instance.initial,
   'medial': instance.medial,

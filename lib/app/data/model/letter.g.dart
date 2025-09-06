@@ -7,7 +7,8 @@ part of 'letter.dart';
 // **************************************************************************
 
 _Letter _$LetterFromJson(Map<String, dynamic> json) => _Letter(
-  id: json['id'] as String?,
+  id: (json['id'] as num?)?.toInt(),
+  key: json['key'] as String?,
   letter: json['letter'] as String?,
   name: json['name'] as String?,
   pronunciation: json['pronunciation'] as String?,
@@ -19,15 +20,16 @@ _Letter _$LetterFromJson(Map<String, dynamic> json) => _Letter(
   forms:
       json['forms'] == null
           ? null
-          : Forms.fromJson(json['forms'] as Map<String, dynamic>),
-  variants:
-      (json['variants'] as List<dynamic>?)
-          ?.map((e) => Variants.fromJson(e as Map<String, dynamic>))
+          : Form.fromJson(json['forms'] as Map<String, dynamic>),
+  syllables:
+      (json['syllables'] as List<dynamic>?)
+          ?.map((e) => Syllable.fromJson(e as Map<String, dynamic>))
           .toList(),
 );
 
 Map<String, dynamic> _$LetterToJson(_Letter instance) => <String, dynamic>{
   'id': instance.id,
+  'key': instance.key,
   'letter': instance.letter,
   'name': instance.name,
   'pronunciation': instance.pronunciation,
@@ -37,5 +39,5 @@ Map<String, dynamic> _$LetterToJson(_Letter instance) => <String, dynamic>{
   'draw_video': instance.drawVideo,
   'main_audio': instance.mainAudio,
   'forms': instance.forms?.toJson(),
-  'variants': instance.variants?.map((e) => e.toJson()).toList(),
+  'syllables': instance.syllables?.map((e) => e.toJson()).toList(),
 };

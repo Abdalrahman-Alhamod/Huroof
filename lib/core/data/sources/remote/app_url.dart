@@ -9,6 +9,11 @@ abstract final class AppUrl {
   static final _api = "${baseServ}api/";
   static final storage = "${baseServ}storage/";
 
+  // ----------------------------- Letters -----------------------------
+  static final listLetters = "${_api}letters";
+  static String letterDetails(String letterKey) => "$listLetters/$letterKey";
+  static String submit(String letterKey,String syllableKey) => "${letterDetails(letterKey)}/$syllableKey/submit";
+
   // ----------------------------- Files -----------------------------
   static final uploadFile = "${_api}upload-file";
 
