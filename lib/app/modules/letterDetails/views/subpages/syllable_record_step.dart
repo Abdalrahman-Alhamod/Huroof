@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
-import 'package:audio_waveforms/audio_waveforms.dart';
+import 'package:audio_waveforms/audio_waveforms.dart'; // keep for Player + playback waveform
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:huroof/app/data/model/syllable.dart';
@@ -12,6 +12,9 @@ import 'package:huroof/core/utils/imports_manager.dart';
 import 'package:huroof/generated/locales.g.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:uuid/uuid.dart';
+
+// NEW
+import 'package:record/record.dart';
 
 import '../../../../../core/functions/show_custom_snackbar.dart';
 import '../../../../../core/utils/logger.dart';
@@ -28,7 +31,11 @@ class SyllableRecordStep extends StatefulWidget {
 
 class _SyllableRecordStepState extends State<SyllableRecordStep> {
   late final PlayerController _playerController;
-  late final RecorderController _recorderController;
+
+  // NEW — record package
+  final AudioRecorder _wavRecorder = AudioRecorder();
+  StreamSubscription<Amplitude>? _ampSub;
+
   late final StreamSubscription<void> _playerCompletionSubscription;
 
   bool _isRecording = false;
@@ -36,26 +43,16 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
   bool _isProcessing = false;
   final Rx<String?> _recordedVoicePath = Rx(null);
 
+  // live meter state
+  double _db = -160; // dBFS
+
   @override
   void initState() {
     super.initState();
     _playerController = PlayerController();
-    _recorderController =
-        RecorderController() // ANDROID — pick modern, high quality encoder & container
-          ..androidEncoder = AndroidEncoder.aac
-          ..androidOutputFormat = AndroidOutputFormat.mpeg4
-          // iOS — high quality AAC
-          ..iosEncoder = IosEncoder.kAudioFormatMPEG4AAC
-          // Common tuning
-          ..sampleRate =
-              48000 // 48 kHz (fallback to 44100 if device can’t)
-          ..bitRate =
-              256000 // ~256 kbps
-              ;
     _playerCompletionSubscription = _playerController.onPlayerStateChanged
-        .listen((_) {
-          setState(() {});
-        });
+        .listen((_) => setState(() {}));
+
     ever(_recordedVoicePath, (path) {
       Get.find<LetterDetailsController>().recordedVoicePath = path;
     });
@@ -77,12 +74,11 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
   }
 
   Future<void> _startRecording() async {
-    // Prevent Multiple Clicks
     if (_isProcessing) return;
     _isProcessing = true;
 
     try {
-      // Check Permessions
+      // Permissions
       final ok = await _requestPermissions();
       if (!ok) return;
 
@@ -90,78 +86,98 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
       if (_isRecordingCompleted) _deleteRecording();
 
       final dir = await getApplicationDocumentsDirectory();
-      _recordedVoicePath.value =
-          '${dir.path}/recording_${const Uuid().v4()}.mp3';
+      final path = '${dir.path}/recording_${const Uuid().v4()}.wav';
+      _recordedVoicePath.value = path;
 
-      await _recorderController.record(path: _recordedVoicePath.value);
-    } catch (error) {
+      // Configure WAV (PCM16) with good defaults
+      final cfg = RecordConfig(
+        encoder: AudioEncoder.wav, // PCM16 WAV
+        sampleRate: 48000, // 48 kHz (fallback handled by plugin)
+        numChannels: 1, // mono voice
+        bitRate: 256000, // ignored for PCM16 but safe to set
+      );
+
+      // Start recording
+      await _wavRecorder.start(cfg, path: path);
+
+      // Subscribe to amplitude for a lightweight level meter
+      unawaited(_ampSub?.cancel());
+      _ampSub = _wavRecorder
+          .onAmplitudeChanged(const Duration(milliseconds: 80))
+          .listen((amp) {
+            setState(() => _db = amp.current); // dBFS (approx)
+          });
+
+      setState(() {
+        _isRecording = true;
+        _isRecordingCompleted = false;
+      });
+    } catch (e) {
       logger.print(
-        'Error While Starting Recording $error',
+        'Error While Starting WAV Recording $e',
         title: 'Recording Widget',
         color: PrintColor.red,
       );
     } finally {
-      setState(() {
-        if (_recorderController.hasPermission) {
-          _isRecording = true;
-        }
-      });
       _isProcessing = false;
     }
   }
 
   Future<void> _stopRecording() async {
     try {
-      _recorderController.reset();
+      // Stop and get final path
+      final path = await _wavRecorder.stop();
+      unawaited(_ampSub?.cancel());
+      _ampSub = null;
 
-      _recordedVoicePath.value = await _recorderController.stop(false);
-      logger.print(
-        'Recorded Path ${_recordedVoicePath.value}',
-        title: 'Recording Widget',
-        color: PrintColor.cyan,
-      );
-      // prepare playback once
-      if (_recordedVoicePath.value != null) {
+      if (path != null) {
+        _recordedVoicePath.value = path;
+        logger.print(
+          'Recorded WAV Path $path',
+          title: 'Recording Widget',
+          color: PrintColor.cyan,
+        );
+
+        // prepare playback once (AudioFileWaveforms works for WAV too)
         unawaited(
           _playerController.preparePlayer(
-            path: _recordedVoicePath.value!,
-            // waveform extraction has no effect on audio fidelity,
-            // but chooses the visual resolution for your chart:
+            path: path,
             shouldExtractWaveform: true,
-            noOfSamples: 300, // higher resolution waveform
+            noOfSamples: 300,
             volume: 1.0,
           ),
         );
       }
-    } catch (error) {
+    } catch (e) {
       logger.print(
-        'Error While Stopping Recording $error',
+        'Error While Stopping WAV Recording $e',
         title: 'Recording Widget',
         color: PrintColor.red,
       );
     } finally {
       setState(() {
-        if (_recorderController.hasPermission) {
-          _isRecording = false;
-          _isRecordingCompleted = true;
-        }
+        _isRecording = false;
+        _isRecordingCompleted = true;
       });
     }
   }
 
   void _deleteRecording() async {
     try {
+      unawaited(_ampSub?.cancel());
+      _ampSub = null;
+      await _wavRecorder.cancel(); // ensures temp file is cleaned if any
+
       if (_recordedVoicePath.value != null) {
         final file = File(_recordedVoicePath.value!);
         if (file.existsSync()) file.deleteSync();
       }
-      // stop playback if playing
       if (_playerController.playerState.isPlaying) {
         unawaited(_playerController.stopPlayer());
       }
-    } catch (error) {
+    } catch (e) {
       logger.print(
-        'Error While Deleting Recording $error',
+        'Error While Deleting Recording $e',
         title: 'Recording Widget',
         color: PrintColor.red,
       );
@@ -175,15 +191,14 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
 
   Future<void> _togglePlayback() async {
     if (!_isRecordingCompleted || _recordedVoicePath.value == null) return;
-
     try {
       _playerController.playerState.isPlaying
           ? await _playerController.pausePlayer()
           : await _playerController.startPlayer();
       await _playerController.setFinishMode(finishMode: FinishMode.pause);
-    } catch (error) {
+    } catch (e) {
       logger.print(
-        'Error While Playing Or Pausing Recording $error',
+        'Error While Playing Or Pausing Recording $e',
         title: 'Recording Widget',
         color: PrintColor.red,
       );
@@ -208,20 +223,17 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
       await showValidationDialog(
         context: context,
         result: submitResponse.result!,
-        isSuccess: submitResponse.result! > 0.6,
-        onRetry: () {
-          _deleteRecording();
-        },
-        onSuccess: () {
-          Get.find<LetterDetailsController>().nextStep();
-        },
+        isSuccess: submitResponse.result! > 60,
+        onRetry: () => _deleteRecording(),
+        onSuccess: () => Get.find<LetterDetailsController>().nextStep(),
       );
     });
   }
 
   @override
   void dispose() {
-    _recorderController.dispose();
+    _ampSub?.cancel();
+    _wavRecorder.dispose();
     _playerController.dispose();
     _playerCompletionSubscription.cancel();
     super.dispose();
@@ -229,6 +241,10 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
 
   @override
   Widget build(BuildContext context) {
+    final level = _db.isFinite ? _db : -160;
+    // normalize -60..0 dB -> 0..1
+    final norm = (level.clamp(-60, 0) + 60) / 60;
+
     return SingleChildScrollView(
       child: Column(
         children: [
@@ -274,6 +290,7 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
 
           SizedBox(height: 20.h),
 
+          // Main card
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 20.w),
             child: Container(
@@ -347,6 +364,10 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
                       ),
                     ),
                   ),
+
+                  // Small live level bar while recording (since full live waveform is not available with `record`)
+                  SizedBox(height: 16.h),
+                  if (_isRecording) _LevelMeter(norm: norm),
                 ],
               ),
             ),
@@ -354,7 +375,7 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
 
           SizedBox(height: 24.h),
 
-          /// Bottom: Recorded Waveform
+          /// Bottom: Recorded Waveform (playback)
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 20.w),
             child: Container(
@@ -373,15 +394,10 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
               ),
               child:
                   _isRecording
-                      ? AudioWaveforms(
-                        size: Size(double.infinity, 60.h),
-                        recorderController: _recorderController,
-                        waveStyle: const WaveStyle(
-                          waveColor: AppColors.primary,
-                          extendWaveform: true,
-                          showMiddleLine: false,
-                          spacing: 6.0,
-                          scaleFactor: 50,
+                      ? Center(
+                        child: Text(
+                          'Recording WAV • ${(_db.isFinite ? level.toStringAsFixed(0) : '-∞')} dB',
+                          style: AppTextStyles.s14_medium.darkGreyColor,
                         ),
                       )
                       : _isRecordingCompleted
@@ -401,6 +417,7 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
                         child: Text(
                           LocaleKeys.syllableNoRecordingYet.tr,
                           style: AppTextStyles.s14_medium.darkGreyColor,
+                          textAlign: TextAlign.center,
                         ),
                       ),
             ),
@@ -408,7 +425,7 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
 
           SizedBox(height: 12.h),
 
-          /// Submit Button
+          /// Submit / Delete
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -448,6 +465,34 @@ class _SyllableRecordStepState extends State<SyllableRecordStep> {
             ],
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _LevelMeter extends StatelessWidget {
+  final double norm; // 0..1
+  const _LevelMeter({required this.norm});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 10,
+      width: double.infinity,
+      decoration: BoxDecoration(
+        color: Colors.black12,
+        borderRadius: BorderRadius.circular(999),
+      ),
+      alignment: Alignment.centerLeft,
+      child: FractionallySizedBox(
+        widthFactor: norm.clamp(0.02, 1.0),
+        child: Container(
+          height: 10,
+          decoration: BoxDecoration(
+            color: AppColors.primary,
+            borderRadius: BorderRadius.circular(999),
+          ),
+        ),
       ),
     );
   }

@@ -62,6 +62,7 @@ class LetterFormsStep extends StatelessWidget {
               Text(
                 LocaleKeys.formsSubtitle.tr,
                 style: AppTextStyles.s16_medium.darkGreyColor,
+                 textAlign: TextAlign.center,
               ),
             ],
           ),
@@ -97,6 +98,7 @@ class LetterFormsStep extends StatelessWidget {
                     Text(
                       item.key,
                       style: AppTextStyles.s16_medium.darkGreyColor,
+                     
                     ),
                     Text(
                       item.value,

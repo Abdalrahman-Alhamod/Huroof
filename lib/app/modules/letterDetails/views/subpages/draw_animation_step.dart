@@ -45,26 +45,53 @@ class DrawAnimationStep extends StatelessWidget {
               Text(
                 LocaleKeys.drawLetterSubtitle.tr,
                 style: AppTextStyles.s16_medium.darkGreyColor,
+                textAlign: TextAlign.center,
               ),
             ],
           ),
         ),
         Spacer(),
-        Container(
-          width: double.infinity,
-          padding: EdgeInsets.all(16.sp),
-          decoration: BoxDecoration(
-            color: AppColors.white,
-            borderRadius: BorderRadius.circular(24.r),
-            border: Border.all(color: AppColors.primary),
-          ),
-          child: Center(
-            child: CustomYoutubePlayer(
-              url: letter.drawVideo!,
-              aspectRatio: 0.8,
+        Flexible(
+          flex: 15,
+          child: Container(
+            width: double.infinity,
+            padding: EdgeInsets.all(16.sp),
+            decoration: BoxDecoration(
+              color: AppColors.white,
+              borderRadius: BorderRadius.circular(24.r),
+              border: Border.all(color: AppColors.primary),
+            ),
+            child: LayoutBuilder(
+              builder: (context, constraints) {
+                // Pick your target aspect; keep 0.8 if that’s your draw video’s native ratio.
+                // Or use classic 16:9 => const ar = 16 / 9;
+                const ar = 1.0;
+
+                final maxW = constraints.maxWidth;
+                final maxH = constraints.maxHeight;
+
+                // Fit rectangle with aspect `ar` into (maxW x maxH)
+                final fittedH = maxW / ar;
+                final useWidth = fittedH <= maxH;
+                final width = useWidth ? maxW : maxH * ar;
+                final height = useWidth ? fittedH : maxH;
+
+                return Center(
+                  child: SizedBox(
+                    width: width,
+                    height: height,
+                    child: CustomYoutubePlayer(
+                      url: letter.drawVideo!,
+                      aspectRatio:
+                          ar, // pass the same ratio we used for fitting
+                    ),
+                  ),
+                );
+              },
             ),
           ),
         ),
+
         Spacer(),
       ],
     );

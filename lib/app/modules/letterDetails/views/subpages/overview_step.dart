@@ -48,7 +48,7 @@ class OverviewStep extends StatelessWidget {
         ),
 
         Expanded(
-          flex: 5,
+          flex: 4,
           child: Container(
             width: double.infinity,
             padding: EdgeInsets.symmetric(vertical: 32.h, horizontal: 16.w),
@@ -76,7 +76,7 @@ class OverviewStep extends StatelessWidget {
                 Text(
                   letter.letter!,
                   style: AppTextStyles.s68_bold.whiteColor.copyWith(
-                    fontSize: 90,
+                    fontSize: 86.sp,
                     fontFamily: AppFonts.Amiri,
                   ),
                 ),

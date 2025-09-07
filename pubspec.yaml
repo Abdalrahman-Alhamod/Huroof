@@ -49,6 +49,7 @@ dependencies:
   flutter_screenutil: ^5.9.3
   # --- Storage ---
   get_storage: ^2.1.1
+  record: ^6.1.1
 
 
 dev_dependencies:

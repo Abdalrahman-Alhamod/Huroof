@@ -93,10 +93,23 @@ class ValidationDialog extends StatelessWidget {
                 backgroundColor: track,
                 progressColor: accent,
                 circularStrokeCap: CircularStrokeCap.round,
-                center: Text(
-                  '$percentInt%',
-                  style: AppTextStyles.s24_bold.copyWith(color: accent),
+                center: TweenAnimationBuilder<double>(
+                  tween: Tween(begin: 0, end: percent * 100),
+                  duration: const Duration(milliseconds: 800),
+                  curve: Curves.easeOutCubic,
+                  builder: (context, value, _) {
+                    final v = value.clamp(0, 100).toInt();
+                    return AnimatedScale(
+                      scale: 1.0 + (value / 1000), // subtle pop while counting
+                      duration: const Duration(milliseconds: 200),
+                      child: Text(
+                        '$v%',
+                        style: AppTextStyles.s24_bold.copyWith(color: accent),
+                      ),
+                    );
+                  },
                 ),
+                animationDuration: 800,
               ),
             ),
 

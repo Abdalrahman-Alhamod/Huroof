@@ -52,7 +52,6 @@ class LetterDetailsController extends GetxController with StateMixin<Letter> {
               syllalbleKey: syllable.key!,
               audioPath: recordedVoicePath!,
               onSendProgress: (sent, total) {
-                print("Sent $sent Total $total");
                 progress.value = sent.toDouble() / total.toDouble();
               },
             ),

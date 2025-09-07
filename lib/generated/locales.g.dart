@@ -105,8 +105,7 @@ class Locales {
   static const en = {
     'Hello': 'Hello',
     'letsLearnLetters': 'Let\'s learn the letters!',
-    'chooseLetterToStart':
-        'Choose a letter and let\'s begin the learning journey',
+    'chooseLetterToStart': 'Choose a letter and let\'s begin the journey',
     'letterLearningTitle': 'Letter Learning',
     'stepLabel': 'Step',
     'ofLabel': 'of',
