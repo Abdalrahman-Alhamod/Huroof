@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_utils/get_utils.dart';
 import 'package:huroof/app/data/model/letter.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
+import 'package:huroof/core/widgets/custom_network_image.dart';
 import 'package:huroof/generated/locales.g.dart';
 
 class MakhrajStep extends StatelessWidget {
@@ -62,7 +63,10 @@ class MakhrajStep extends StatelessWidget {
               border: Border.all(color: AppColors.primary),
             ),
             child: Center(
-              child: Image.asset(letter.makhrajImage!, fit: BoxFit.contain),
+              child: CustomNetworkImage(
+                url: letter.makhrajImage,
+                fit: BoxFit.contain,
+              ),
             ),
           ),
         ),

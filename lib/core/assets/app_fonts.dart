@@ -6,4 +6,6 @@ abstract final class AppFonts {
   AppFonts._();
 
   static const Amiri = 'Amiri';
+  static const Inter = 'Inter';
+  static const Tajawal = 'Tajawal';
 }

@@ -37,7 +37,12 @@ class LetterTile extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text(letter.letter!, style: AppTextStyles.s48_bold.primaryColor),
+            Text(
+              letter.letter!,
+              style: AppTextStyles.s48_bold.primaryColor.copyWith(
+                fontFamily: AppFonts.Amiri,
+              ),
+            ),
             const SizedBox(height: 8),
             Text(letter.name!, style: AppTextStyles.s16_medium.blackColor),
           ],

@@ -51,6 +51,9 @@ class LocaleKeys {
   static const dialogFailTitle = 'dialogFailTitle';
   static const dialogFailSubtitle = 'dialogFailSubtitle';
   static const dialogFailButton = 'dialogFailButton';
+  static const error = 'error';
+  static const unexpectedError = 'unexpectedError';
+  static const uploading = 'uploading';
 }
 
 class Locales {
@@ -95,6 +98,9 @@ class Locales {
     'dialogFailTitle': 'حاول مرة أخرى',
     'dialogFailSubtitle': 'النطق غير صحيح، يرجى المحاولة مرة أخرى.',
     'dialogFailButton': 'إعادة المحاولة',
+    'error': 'خطأ',
+    'unexpectedError': 'خطأ غير متوقع',
+    'uploading': 'جاري رفع الملفات...',
   };
   static const en = {
     'Hello': 'Hello',
@@ -141,5 +147,8 @@ class Locales {
     'dialogFailTitle': 'Try Again',
     'dialogFailSubtitle': 'The pronunciation was incorrect. Please try again.',
     'dialogFailButton': 'Retry',
+    'error': 'Error',
+    'unexpectedError': 'Understand Error',
+    'uploading': 'Uploading files...',
   };
 }

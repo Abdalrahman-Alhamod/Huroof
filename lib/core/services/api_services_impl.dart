@@ -5,6 +5,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 
 import 'package:get/get_state_manager/get_state_manager.dart';
+import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:get/instance_manager.dart';
 import 'package:http/http.dart' as http;
 
@@ -20,7 +21,7 @@ Future<void> setHeaders() async {
   _headers = {
     "Accept": Headers.jsonContentType,
     "Accept-Timezone": DateTime.now().timeZoneName,
-    "Accept-Language": Get.find<StorageService>().languageCode,
+    "Accept-Language": Get.locale?.languageCode,
     "Authorization": "Bearer ${Get.find<StorageService>().apiToken}",
   };
 }

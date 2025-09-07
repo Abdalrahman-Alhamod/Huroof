@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:huroof/generated/locales.g.dart';
 
-import '../utils/imports_manager.dart';
+import '../../../../../core/utils/imports_manager.dart';
 
 class UploadProgressDialog extends StatelessWidget {
   final RxDouble progress;

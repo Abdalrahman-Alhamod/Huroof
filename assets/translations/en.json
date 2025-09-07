@@ -37,5 +37,8 @@
   "dialogSuccessButton": "Continue",
   "dialogFailTitle": "Try Again",
   "dialogFailSubtitle": "The pronunciation was incorrect. Please try again.",
-  "dialogFailButton": "Retry"
+  "dialogFailButton": "Retry",
+  "error": "Error",
+  "unexpectedError": "Understand Error",
+  "uploading": "Uploading files..."
 }

@@ -2,9 +2,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:huroof/app/data/model/letter.dart';
 import 'package:huroof/app/modules/home/controllers/home_controller.dart';
 import 'package:huroof/core/utils/imports_manager.dart';
+import 'package:huroof/core/widgets/custom_error_widget.dart';
 import 'package:huroof/generated/locales.g.dart';
+import 'package:skeletonizer/skeletonizer.dart';
 
 import 'widgets/letter_grid.dart';
 
@@ -14,7 +17,6 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: AppColors.surface,
       appBar: AppBar(
         backgroundColor: AppColors.primary,
         foregroundColor: AppColors.primary,
@@ -48,14 +50,35 @@ class HomeView extends GetView<HomeController> {
               onPressed: () {
                 final newLocale = Get.isEnglish ? AppLocales.ar : AppLocales.en;
                 Get.updateLocale(newLocale);
-                controller.loadLetters();
+                controller.fetchLetters();
               },
               icon: Icon(Icons.language, color: AppColors.white, size: 40.sp),
             ),
           ),
         ],
       ),
-      body: Padding(padding: EdgeInsets.all(16.0.w), child: const LetterGrid()),
+      body: RefreshIndicator(
+        onRefresh: () async {
+          controller.fetchLetters();
+        },
+        child: Padding(
+          padding: EdgeInsets.all(16.0.w),
+          child: Center(
+            child: controller.obx(
+              (letters) => LetterGrid(letters: letters!),
+              onLoading: Skeletonizer(
+                child: LetterGrid(
+                  letters: List.generate(
+                    10,
+                    (_) => Letter(letter: 'L', name: 'Name'),
+                  ),
+                ),
+              ),
+              onError: (error) => CustomErrorWidget(errMessage: error),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

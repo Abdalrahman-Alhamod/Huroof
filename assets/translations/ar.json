@@ -37,5 +37,8 @@
   "dialogSuccessButton": "متابعة",
   "dialogFailTitle": "حاول مرة أخرى",
   "dialogFailSubtitle": "النطق غير صحيح، يرجى المحاولة مرة أخرى.",
-  "dialogFailButton": "إعادة المحاولة"
+  "dialogFailButton": "إعادة المحاولة",
+  "error": "خطأ",
+  "unexpectedError": "خطأ غير متوقع",
+  "uploading": "جاري رفع الملفات..."
 }

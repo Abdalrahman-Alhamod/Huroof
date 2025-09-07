@@ -25,7 +25,7 @@ abstract final class AppTheme {
     ),
     // scaffoldBackgroundColor is okay but can be removed if relying on surface roles
     scaffoldBackgroundColor: AppColors.surface,
-    fontFamily: AppFonts.Amiri,
+    fontFamily: Get.isEnglish ? AppFonts.Inter : AppFonts.Tajawal,
     brightness: Brightness.light,
     useMaterial3: true,
   );

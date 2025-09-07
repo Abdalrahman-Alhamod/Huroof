@@ -1,4 +1,6 @@
 import 'package:get/get.dart';
+import 'package:huroof/app/modules/home/middleware/home_middlware.dart';
+import 'package:huroof/app/modules/letterDetails/middleware/letter_details_middlware.dart';
 
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
@@ -24,11 +26,13 @@ class AppPages {
       name: _Paths.HOME,
       page: () => const HomeView(),
       binding: HomeBinding(),
+      middlewares: [HomeMiddlware()],
     ),
     GetPage(
       name: _Paths.LETTER_DETAILS,
       page: () => const LetterDetailsView(),
       binding: LetterDetailsBinding(),
+      middlewares: [LetterDetailsMiddlware()],
     ),
   ];
 }

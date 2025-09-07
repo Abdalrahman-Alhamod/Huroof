@@ -77,6 +77,7 @@ class OverviewStep extends StatelessWidget {
                   letter.letter!,
                   style: AppTextStyles.s68_bold.whiteColor.copyWith(
                     fontSize: 90,
+                    fontFamily: AppFonts.Amiri,
                   ),
                 ),
                 SizedBox(height: 20.h),

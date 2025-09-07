@@ -53,7 +53,7 @@ class LetterFormsStep extends StatelessWidget {
                     SizedBox(width: 6.w),
                     Text(
                       LocaleKeys.formsTitle.tr,
-                      style: AppTextStyles.s14_regular.primaryColor,
+                      style: AppTextStyles.s14_regular.primaryColor.copyWith(),
                     ),
                   ],
                 ),
@@ -100,7 +100,9 @@ class LetterFormsStep extends StatelessWidget {
                     ),
                     Text(
                       item.value,
-                      style: AppTextStyles.s40_bold.primaryColor,
+                      style: AppTextStyles.s40_bold.primaryColor.copyWith(
+                        fontFamily: AppFonts.Amiri,
+                      ),
                     ),
                   ],
                 ),
